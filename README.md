@@ -1,6 +1,7 @@
 # WhiteSur-gtk-theme-cinnamon
-MacOS Big Sur like theme for Cinnamon desktops
-<h1 align="center"> WhiteSur GTK Theme for Cinnamon Desktops</h1>
+<h1 align="center"> WhiteSur GTK Theme for Cinnamon Desktops  
+  
+  (Nord Color Scheme)</h1>
 <p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/macbook.png"/> </p>
 
 <br>
@@ -9,7 +10,7 @@ MacOS Big Sur like theme for Cinnamon desktops
 
 ## Installation is easy!
 
-Just copy the files to Cinnamon's themes directory. For example in ~/.themes or /usr/share/themes
+Just copy the files to Cinnamon's themes directory. For example in  ~/.themes  or  /usr/share/themes
 
 </details>
 
