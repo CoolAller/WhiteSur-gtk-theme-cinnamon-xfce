@@ -26,6 +26,3 @@ Nord ColorScheme themes, right or left placement of Nemo or Nautilus titlebutton
   <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/download-button.svg"/>
 </a> </p>
 <br>
-
-## Technical details and getting involved
-Please go read [CONTRIBUTING.md](.github/CONTRIBUTING.md) for more info
