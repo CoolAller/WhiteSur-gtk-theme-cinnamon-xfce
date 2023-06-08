@@ -1,4 +1,4 @@
-<h1 align="center"> WhiteSur GTK Theme for Cinnamon Desktops  
+<h1 align="center"> WhiteSur GTK Theme for Cinnamon Desktop  
   
   (Nord Color Scheme)</h1>
 <p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/macbook.png"/> </p>
