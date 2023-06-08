@@ -1,4 +1,3 @@
-# WhiteSur-gtk-theme-cinnamon
 <h1 align="center"> WhiteSur GTK Theme for Cinnamon Desktops  
   
   (Nord Color Scheme)</h1>
