@@ -9,7 +9,9 @@
 
 ## Installation is easy!
 
-Just copy the files to Cinnamon's themes directory. For example in  ~/.themes  or  /usr/share/themes
+Just copy the Whitesur theme files to the Cinnamon theme directory:  ~/.themes  or  /usr/share/themes
+
+To install Whitesur Icon Theme Light-Dark for Cinnamon, extract the archive to directory:  ~/.icons  or  /usr/share/icons
 
 </details>
 
