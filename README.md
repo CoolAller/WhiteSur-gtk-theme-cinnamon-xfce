@@ -46,13 +46,13 @@ Usage:  `./install.sh`  **[OPTIONS...]**
 
 > For more information, run: `./install.sh --help`
 
-![alt](alt-version.png?raw=true)
+<p align="center"> <img src="https://raw.githubusercontent.com/vinceliuice/WhiteSur-icon-theme/master/alt-version.png"/> </p>
 
-![bold](bold-size.png?raw=true)
+<p align="center"> <img src="https://raw.githubusercontent.com/vinceliuice/WhiteSur-icon-theme/master/bold-size.png"/> </p>
 
 > Bold version suggested use in `High resolution display` like 4k display with 200% scale!
 
 ## Preview
-![1](preview.png)
-![2](preview01.png)
+<p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-icon-theme/blob/master/preview.png"/> </p>
+<p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-icon-theme/blob/master/preview01.png"/> </p>
 
