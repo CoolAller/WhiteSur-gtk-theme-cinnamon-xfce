@@ -25,7 +25,7 @@ Nord ColorScheme themes, right or left placement of Nemo or Nautilus titlebutton
 </a> </p>
 <br>
 
-To install Whitesur Icon Theme Light-Dark for Cinnamon, launch ./install.sh
+To install Whitesur Icon Theme for Cinnamon, launch ./install.sh
 
 Usage:  `./install.sh`  **[OPTIONS...]**
 
