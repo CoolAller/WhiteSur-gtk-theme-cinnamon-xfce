@@ -56,7 +56,7 @@ Usage:  `./install.sh`  **[OPTIONS...]**
 <p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-icon-theme/blob/master/preview.png"/> </p>
 <p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-icon-theme/blob/master/preview01.png"/> </p>
 
-## Links to original themes pages
+## Links to original theme pages
 WhiteSur-icon-theme: https://github.com/vinceliuice/WhiteSur-gtk-theme  
 WhiteSur-gtk-theme: https://github.com/vinceliuice/WhiteSur-gtk-theme
 
