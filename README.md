@@ -7,13 +7,13 @@
 <p align="center"> <b> A macOS BigSur-like theme for your GTK apps </b> </p>
 <br>
 
-## Installation is easy!
+## Installation:
 
 Just copy the Whitesur theme files to the Cinnamon theme directory:  ~/.themes  or  /usr/share/themes
 
 ## Features of this theme:
 
-Nord ColorScheme themes, right or left placement of Nemo or Nautilus titlebuttons, laptop size, nautilus-style "Glassy".
+The theme is adapted for Cinnamon-based desktops. Nord Color Scheme themes, right or left placement of Nemo or Nautilus titlebuttons, laptop size, nautilus-style "Glassy".
 
 ### WhiteSur Wallpapers
 <p align="center"> <a href="https://github.com/vinceliuice/WhiteSur-wallpapers">
