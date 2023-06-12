@@ -57,7 +57,7 @@ Usage:  `./install.sh`  **[OPTIONS...]**
 <p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-icon-theme/blob/master/preview01.png"/> </p>
 
 ## Links to original theme for Gnome-based desktops
-WhiteSur-icon-theme: https://github.com/vinceliuice/WhiteSur-gtk-theme  
+WhiteSur-icon-theme: https://github.com/vinceliuice/WhiteSur-icon-theme  
 WhiteSur-gtk-theme: https://github.com/vinceliuice/WhiteSur-gtk-theme
 
 
