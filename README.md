@@ -35,7 +35,7 @@ To install Whitesur Icon Theme for Cinnamon, launch ./install.sh
 
 ## Usage:
 
-Usage:  `./install.sh`  **[OPTIONS...]**
+Run in the terminal:  `./install.sh`  **[OPTIONS...]**
 
 |  OPTIONS:           | |
 |:--------------------|:-------------|
