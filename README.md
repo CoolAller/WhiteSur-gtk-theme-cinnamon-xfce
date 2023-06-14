@@ -11,7 +11,7 @@
 
 Just copy the Whitesur theme files to the Cinnamon theme directory:  ~/.themes  or  /usr/share/themes
 
-## Features of this theme:
+## Features of the WhiteSur GTK theme:
 
 The theme is adapted for Cinnamon-based desktops. Numerous bug fixes and improvements over the original theme. Nord Color Scheme themes, right or left placement of Nemo or Nautilus titlebuttons, laptop size, nautilus-style "Glassy".
 
@@ -24,6 +24,12 @@ The theme is adapted for Cinnamon-based desktops. Numerous bug fixes and improve
   <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/download-button.svg"/>
 </a> </p>
 <br>
+
+## Features of the WhiteSur Icon theme:
+
+Fixed bugs, added some missing icons, added sizes for places icons 16x16, 22x22, 24x24 (for now only for blue and green themes, but the theme will be updated).
+
+## Installation:
 
 To install Whitesur Icon Theme for Cinnamon, launch ./install.sh
 
