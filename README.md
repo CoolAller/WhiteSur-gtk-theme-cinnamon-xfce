@@ -13,7 +13,7 @@ Just copy the Whitesur theme files to the Cinnamon theme directory:  ~/.themes  
 
 ## Features of this theme:
 
-The theme is adapted for Cinnamon-based desktops. Nord Color Scheme themes, right or left placement of Nemo or Nautilus titlebuttons, laptop size, nautilus-style "Glassy".
+The theme is adapted for Cinnamon-based desktops. Numerous bug fixes and improvements over the original theme. Nord Color Scheme themes, right or left placement of Nemo or Nautilus titlebuttons, laptop size, nautilus-style "Glassy".
 
 ### WhiteSur Wallpapers
 <p align="center"> <a href="https://github.com/vinceliuice/WhiteSur-wallpapers">
