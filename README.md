@@ -27,15 +27,11 @@ Just copy the Whitesur theme files to the Cinnamon theme directory:  ~/.themes  
 
 ## Features of the WhiteSur Icon theme:
 
-Fixed bugs, added some missing icons, added sizes for places icons 16x16, 22x22, 24x24 (for now only for blue and green themes, but the theme will be updated).
+Added some missing icons, added sizes for places icons 16x16, 22x22, 24x24 (for now only for blue and green themes, but the theme will be updated).
 
 ## Installation:
 
-To install Whitesur Icon Theme for Cinnamon, launch ./install.sh
-
-## Usage:
-
-Run in the terminal:  `./install.sh`  **[OPTIONS...]**
+To install Whitesur Icon Theme for Cinnamon, run in the terminal:  `./install.sh`  **[OPTIONS...]**
 
 |  OPTIONS:           | |
 |:--------------------|:-------------|
