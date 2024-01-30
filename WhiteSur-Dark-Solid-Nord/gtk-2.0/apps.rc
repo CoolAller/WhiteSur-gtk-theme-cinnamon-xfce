@@ -40,7 +40,7 @@ style "entry_border" {
       function = SHADOW
       state = NORMAL
       detail = "entry"
-      file = "assets/entry-border-bg.png"
+      file = "assets/entry-border-bg.svg"
       border = {6, 6, 6, 6}
       stretch = TRUE
     }
@@ -49,7 +49,7 @@ style "entry_border" {
       function = SHADOW
       state = ACTIVE
       detail = "entry"
-      file = "assets/entry-border-active-bg.png"
+      file = "assets/entry-border-active-bg.svg"
       border = {6, 6, 6, 6}
       stretch = TRUE
     }
@@ -58,20 +58,20 @@ style "entry_border" {
       function = FLAT_BOX
       state    = ACTIVE
       detail   = "entry_bg"
-      file     = "assets/null.png"
+      file     = "assets/null.svg"
     }
 
     image {
       function = FLAT_BOX
       state    = INSENSITIVE
       detail   = "entry_bg"
-      file     = "assets/null.png"
+      file     = "assets/null.svg"
     }
 
     image {
       function = FLAT_BOX
       detail   = "entry_bg"
-      file     = "assets/null.png"
+      file     = "assets/null.svg"
     }
   }
 }
@@ -85,7 +85,7 @@ style "combobox_entry_border" = "combobox_entry" {
       detail = "entry"
       state = NORMAL
       shadow = IN
-      file = "assets/combo-entry-border.png"
+      file = "assets/combo-entry-border.svg"
       border = { 4, 4, 12, 12 }
       stretch = TRUE
       direction = LTR
@@ -95,7 +95,7 @@ style "combobox_entry_border" = "combobox_entry" {
       function = SHADOW
       detail = "entry"
       state = ACTIVE
-      file = "assets/combo-entry-border-focus.png"
+      file = "assets/combo-entry-border-focus.svg"
       border = { 4, 4, 12, 12 }
       stretch = TRUE
       direction = LTR
@@ -106,7 +106,7 @@ style "combobox_entry_border" = "combobox_entry" {
       detail = "entry"
       state = NORMAL
       shadow = IN
-      file = "assets/combo-entry-border-rtl.png"
+      file = "assets/combo-entry-border-rtl.svg"
       border = { 4, 4, 12, 12 }
       stretch = TRUE
       direction = RTL
@@ -116,7 +116,7 @@ style "combobox_entry_border" = "combobox_entry" {
       function = SHADOW
       detail = "entry"
       state = ACTIVE
-      file = "assets/combo-entry-border-focus-rtl.png"
+      file = "assets/combo-entry-border-focus-rtl.svg"
       border = { 4, 4, 12, 12 }
       stretch = TRUE
       direction = RTL
@@ -126,13 +126,13 @@ style "combobox_entry_border" = "combobox_entry" {
       function = FLAT_BOX
       state    = INSENSITIVE
       detail   = "entry_bg"
-      file     = "assets/null.png"
+      file     = "assets/null.svg"
     }
 
     image {
       function = FLAT_BOX
       detail   = "entry_bg"
-      file     = "assets/null.png"
+      file     = "assets/null.svg"
     }
   }
 }

@@ -21,7 +21,7 @@ style "theme-panel" {
   engine "pixmap" {
     image {
       function = SHADOW
-      file     = "assets/null.png"
+      file     = "assets/null.svg"
       border   = { 0, 0, 0, 0 }
       stretch  = TRUE
     }
@@ -56,28 +56,28 @@ style "panelbuttons" {
     image {
       function = BOX
       state    = NORMAL
-      file     = "assets/null.png"
+      file     = "assets/null.svg"
       border   = { 0, 0, 0, 2 }
       stretch  = TRUE
     }
     image {
       function = BOX
       state    = ACTIVE
-      file     = "assets/pathbar_button_active.png"
+      file     = "assets/pathbar_button_active.svg"
       border   = { 0, 0, 0, 2 }
       stretch  = TRUE
     }
     image {
       function = BOX
       state    = PRELIGHT
-      file     = "assets/pathbar_button_prelight.png"
+      file     = "assets/pathbar_button_prelight.svg"
       border   = { 0, 0, 0, 2 }
       stretch  = TRUE
     }
     image {
       function = BOX
       state    = INSENSITIVE
-      file     = "assets/null.png"
+      file     = "assets/null.svg"
       border   = { 0, 0, 0, 2 }
       stretch  = TRUE
     }

@@ -113,7 +113,7 @@ style "default" {
       recolorable = TRUE
       state = NORMAL
       shadow = OUT
-      overlay_file = "assets/checkbox-unchecked.png"
+      overlay_file = "assets/checkbox-unchecked.svg"
       overlay_stretch = FALSE
     }
 
@@ -122,7 +122,7 @@ style "default" {
       recolorable = TRUE
       state = PRELIGHT
       shadow = OUT
-      overlay_file = "assets/checkbox-unchecked.png"
+      overlay_file = "assets/checkbox-unchecked.svg"
       overlay_stretch = FALSE
     }
 
@@ -131,7 +131,7 @@ style "default" {
       recolorable = TRUE
       state = ACTIVE
       shadow = OUT
-      overlay_file = "assets/checkbox-unchecked.png"
+      overlay_file = "assets/checkbox-unchecked.svg"
       overlay_stretch = FALSE
     }
 
@@ -140,7 +140,7 @@ style "default" {
       recolorable = TRUE
       state = SELECTED
       shadow = OUT
-      overlay_file = "assets/checkbox-unchecked.png"
+      overlay_file = "assets/checkbox-unchecked.svg"
       overlay_stretch = FALSE
     }
 
@@ -149,7 +149,7 @@ style "default" {
       recolorable = TRUE
       state = INSENSITIVE
       shadow = OUT
-      overlay_file = "assets/checkbox-unchecked-insensitive.png"
+      overlay_file = "assets/checkbox-unchecked-insensitive.svg"
       overlay_stretch = FALSE
     }
 
@@ -158,7 +158,7 @@ style "default" {
       recolorable = TRUE
       state = NORMAL
       shadow = IN
-      overlay_file = "assets/checkbox-checked.png"
+      overlay_file = "assets/checkbox-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -167,7 +167,7 @@ style "default" {
       recolorable = TRUE
       state = PRELIGHT
       shadow = IN
-      overlay_file = "assets/checkbox-checked.png"
+      overlay_file = "assets/checkbox-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -176,7 +176,7 @@ style "default" {
       recolorable = TRUE
       state = ACTIVE
       shadow = IN
-      overlay_file = "assets/checkbox-checked.png"
+      overlay_file = "assets/checkbox-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -185,7 +185,7 @@ style "default" {
       recolorable = TRUE
       state = SELECTED
       shadow = IN
-      overlay_file = "assets/checkbox-checked.png"
+      overlay_file = "assets/checkbox-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -194,7 +194,7 @@ style "default" {
       recolorable = TRUE
       state = INSENSITIVE
       shadow = IN
-      overlay_file = "assets/checkbox-checked-insensitive.png"
+      overlay_file = "assets/checkbox-checked-insensitive.svg"
       overlay_stretch = FALSE
     }
 
@@ -204,7 +204,7 @@ style "default" {
       function = OPTION
       state = NORMAL
       shadow = OUT
-      overlay_file = "assets/radio-unchecked.png"
+      overlay_file = "assets/radio-unchecked.svg"
       overlay_stretch = FALSE
     }
 
@@ -212,7 +212,7 @@ style "default" {
       function = OPTION
       state = PRELIGHT
       shadow = OUT
-      overlay_file = "assets/radio-unchecked.png"
+      overlay_file = "assets/radio-unchecked.svg"
       overlay_stretch = FALSE
     }
 
@@ -220,7 +220,7 @@ style "default" {
       function = OPTION
       state = ACTIVE
       shadow = OUT
-      overlay_file = "assets/radio-unchecked.png"
+      overlay_file = "assets/radio-unchecked.svg"
       overlay_stretch = FALSE
     }
 
@@ -228,7 +228,7 @@ style "default" {
       function = OPTION
       state = SELECTED
       shadow = OUT
-      overlay_file = "assets/radio-unchecked.png"
+      overlay_file = "assets/radio-unchecked.svg"
       overlay_stretch = FALSE
     }
 
@@ -236,7 +236,7 @@ style "default" {
       function = OPTION
       state = INSENSITIVE
       shadow = OUT
-      overlay_file = "assets/radio-unchecked-insensitive.png"
+      overlay_file = "assets/radio-unchecked-insensitive.svg"
       overlay_stretch = FALSE
     }
 
@@ -244,7 +244,7 @@ style "default" {
       function = OPTION
       state = NORMAL
       shadow = IN
-      overlay_file = "assets/radio-checked.png"
+      overlay_file = "assets/radio-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -252,7 +252,7 @@ style "default" {
       function = OPTION
       state = PRELIGHT
       shadow = IN
-      overlay_file = "assets/radio-checked.png"
+      overlay_file = "assets/radio-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -260,7 +260,7 @@ style "default" {
       function = OPTION
       state = ACTIVE
       shadow = IN
-      overlay_file = "assets/radio-checked.png"
+      overlay_file = "assets/radio-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -268,7 +268,7 @@ style "default" {
       function = OPTION
       state = SELECTED
       shadow = IN
-      overlay_file = "assets/radio-checked.png"
+      overlay_file = "assets/radio-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -276,7 +276,7 @@ style "default" {
       function = OPTION
       state = INSENSITIVE
       shadow = IN
-      overlay_file = "assets/radio-checked-insensitive.png"
+      overlay_file = "assets/radio-checked-insensitive.svg"
       overlay_stretch = FALSE
     }
 
@@ -284,7 +284,7 @@ style "default" {
 
     image {
       function = ARROW
-      overlay_file = "assets/arrow-up.png"
+      overlay_file = "assets/arrow-up.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = UP
@@ -293,7 +293,7 @@ style "default" {
     image {
       function = ARROW
       state = PRELIGHT
-      overlay_file = "assets/arrow-up-prelight.png"
+      overlay_file = "assets/arrow-up-prelight.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = UP
@@ -302,7 +302,7 @@ style "default" {
     image {
       function = ARROW
       state = ACTIVE
-      overlay_file = "assets/arrow-up-prelight.png"
+      overlay_file = "assets/arrow-up-prelight.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = UP
@@ -311,7 +311,7 @@ style "default" {
     image {
       function = ARROW
       state = INSENSITIVE
-      overlay_file = "assets/arrow-up-insens.png"
+      overlay_file = "assets/arrow-up-insens.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = UP
@@ -320,7 +320,7 @@ style "default" {
     image {
       function = ARROW
       state = NORMAL
-      overlay_file = "assets/arrow-down.png"
+      overlay_file = "assets/arrow-down.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = DOWN
@@ -329,7 +329,7 @@ style "default" {
     image {
       function = ARROW
       state = PRELIGHT
-      overlay_file = "assets/arrow-down-prelight.png"
+      overlay_file = "assets/arrow-down-prelight.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = DOWN
@@ -338,7 +338,7 @@ style "default" {
     image {
       function = ARROW
       state = ACTIVE
-      overlay_file = "assets/arrow-down-prelight.png"
+      overlay_file = "assets/arrow-down-prelight.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = DOWN
@@ -347,7 +347,7 @@ style "default" {
     image {
       function = ARROW
       state = INSENSITIVE
-      overlay_file = "assets/arrow-down-insens.png"
+      overlay_file = "assets/arrow-down-insens.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = DOWN
@@ -355,7 +355,7 @@ style "default" {
 
     image {
       function = ARROW
-      overlay_file = "assets/arrow-left.png"
+      overlay_file = "assets/arrow-left.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = LEFT
@@ -364,7 +364,7 @@ style "default" {
     image {
       function = ARROW
       state= PRELIGHT
-      overlay_file = "assets/arrow-left-prelight.png"
+      overlay_file = "assets/arrow-left-prelight.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = LEFT
@@ -373,7 +373,7 @@ style "default" {
     image {
       function = ARROW
       state = ACTIVE
-      overlay_file = "assets/arrow-left-prelight.png"
+      overlay_file = "assets/arrow-left-prelight.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = LEFT
@@ -382,7 +382,7 @@ style "default" {
     image {
       function = ARROW
       state = INSENSITIVE
-      overlay_file = "assets/arrow-left-insens.png"
+      overlay_file = "assets/arrow-left-insens.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = LEFT
@@ -390,7 +390,7 @@ style "default" {
 
     image {
       function = ARROW
-      overlay_file = "assets/arrow-right.png"
+      overlay_file = "assets/arrow-right.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = RIGHT
@@ -399,7 +399,7 @@ style "default" {
     image {
       function = ARROW
       state = PRELIGHT
-      overlay_file = "assets/arrow-right-prelight.png"
+      overlay_file = "assets/arrow-right-prelight.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = RIGHT
@@ -408,7 +408,7 @@ style "default" {
     image {
       function = ARROW
       state = ACTIVE
-      overlay_file = "assets/arrow-right-prelight.png"
+      overlay_file = "assets/arrow-right-prelight.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = RIGHT
@@ -417,7 +417,7 @@ style "default" {
     image {
       function = ARROW
       state = INSENSITIVE
-      overlay_file = "assets/arrow-right-insens.png"
+      overlay_file = "assets/arrow-right-insens.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = RIGHT
@@ -428,14 +428,14 @@ style "default" {
     image {
       function = TAB
       state = INSENSITIVE
-      overlay_file = "assets/arrow-down-insens.png"
+      overlay_file = "assets/arrow-down-insens.svg"
       overlay_stretch = FALSE
     }
 
     image {
       function = TAB
       state = NORMAL
-      overlay_file = "assets/arrow-down.png"
+      overlay_file = "assets/arrow-down.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
     }
@@ -443,7 +443,7 @@ style "default" {
     image {
       function = TAB
       state = PRELIGHT
-      overlay_file = "assets/arrow-down-prelight.png"
+      overlay_file = "assets/arrow-down-prelight.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
     }
@@ -452,14 +452,14 @@ style "default" {
 
     image {
       function = VLINE
-      file = "assets/border.png"
+      file = "assets/border.svg"
       border = { 1, 0, 0, 0 }
       stretch = TRUE
     }
 
     image {
       function = HLINE
-      file = "assets/border.png"
+      file = "assets/border.svg"
       border = { 0, 0, 1, 0 }
       stretch = TRUE
     }
@@ -468,7 +468,7 @@ style "default" {
 
     image {
       function = FOCUS
-      file = "assets/null.png"
+      file = "assets/null.svg"
       border = { 1, 1, 1, 1 }
       stretch = TRUE
     }
@@ -477,14 +477,14 @@ style "default" {
 
     image {
       function = HANDLE
-      overlay_file = "assets/handle-h.png"
+      overlay_file = "assets/handle-h.svg"
       overlay_stretch = FALSE
       orientation = HORIZONTAL
     }
 
     image {
       function = HANDLE
-      overlay_file = "assets/handle-v.png"
+      overlay_file = "assets/handle-v.svg"
       overlay_stretch = FALSE
       orientation = VERTICAL
     }
@@ -494,32 +494,32 @@ style "default" {
     image {
       function = EXPANDER
       expander_style = COLLAPSED
-      file = "assets/plus.png"
+      file = "assets/plus.svg"
     }
 
     image {
       function = EXPANDER
       expander_style = EXPANDED
-      file = "assets/minus.png"
+      file = "assets/minus.svg"
     }
 
     image {
       function = EXPANDER
       expander_style = SEMI_EXPANDED
-      file = "assets/minus.png"
+      file = "assets/minus.svg"
     }
 
     image {
       function = EXPANDER
       expander_style = SEMI_COLLAPSED
-      file = "assets/plus.png"
+      file = "assets/plus.svg"
     }
 
     image {
       function = RESIZE_GRIP
       state = NORMAL
       detail = "statusbar"
-      overlay_file = "assets/null.png"
+      overlay_file = "assets/null.svg"
       overlay_border = { 0,0,0,0 }
       overlay_stretch = FALSE
     }
@@ -528,7 +528,7 @@ style "default" {
 
     image {
       function = SHADOW_GAP
-      file = "assets/null.png"
+      file = "assets/null.svg"
       border = { 4, 4, 4, 4 }
       stretch = TRUE
     }
@@ -557,7 +557,7 @@ style "scrollbar" {
     image {
       function = BOX
       detail = "trough"
-      file = "assets/trough-scrollbar-horiz.png"
+      file = "assets/trough-scrollbar-horiz.svg"
       border = { 2, 2, 3, 3 }
       stretch = TRUE
       orientation = HORIZONTAL
@@ -566,7 +566,7 @@ style "scrollbar" {
     image {
       function = BOX
       detail = "trough"
-      file = "assets/trough-scrollbar-vert.png"
+      file = "assets/trough-scrollbar-vert.svg"
       border = { 3, 3, 2, 2 }
       stretch = TRUE
       orientation = VERTICAL
@@ -574,7 +574,7 @@ style "scrollbar" {
 
     image {
       function = ARROW
-      overlay_file = "assets/null.png"
+      overlay_file = "assets/null.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = UP
@@ -582,7 +582,7 @@ style "scrollbar" {
 
     image {
       function = ARROW
-      overlay_file = "assets/null.png"
+      overlay_file = "assets/null.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = DOWN
@@ -590,7 +590,7 @@ style "scrollbar" {
 
     image {
       function = ARROW
-      overlay_file = "assets/null.png"
+      overlay_file = "assets/null.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = LEFT
@@ -598,7 +598,7 @@ style "scrollbar" {
 
     image {
       function = ARROW
-      overlay_file = "assets/null.png"
+      overlay_file = "assets/null.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = RIGHT
@@ -609,7 +609,7 @@ style "scrollbar" {
     image {
       function = SLIDER
       state = NORMAL
-      file = "assets/slider-horiz.png"
+      file = "assets/slider-horiz.svg"
       border = { 5, 5, 3, 3 }
       stretch = TRUE
       orientation = HORIZONTAL
@@ -618,7 +618,7 @@ style "scrollbar" {
     image {
       function = SLIDER
       state = ACTIVE
-      file = "assets/slider-horiz-active.png"
+      file = "assets/slider-horiz-active.svg"
       border = { 5, 5, 3, 3 }
       stretch = TRUE
       orientation = HORIZONTAL
@@ -627,7 +627,7 @@ style "scrollbar" {
     image {
       function = SLIDER
       state = PRELIGHT
-      file = "assets/slider-horiz-prelight.png"
+      file = "assets/slider-horiz-prelight.svg"
       border = { 5, 5, 3, 3 }
       stretch = TRUE
       orientation = HORIZONTAL
@@ -636,7 +636,7 @@ style "scrollbar" {
     image {
       function = SLIDER
       state = INSENSITIVE
-      file = "assets/slider-horiz-insens.png"
+      file = "assets/slider-horiz-insens.svg"
       border = { 5, 5, 3, 3 }
       stretch = TRUE
       orientation = HORIZONTAL
@@ -647,7 +647,7 @@ style "scrollbar" {
     image {
       function = SLIDER
       state = NORMAL
-      file = "assets/slider-vert.png"
+      file = "assets/slider-vert.svg"
       border = { 3, 3, 5, 5 }
       stretch = TRUE
       orientation = VERTICAL
@@ -656,7 +656,7 @@ style "scrollbar" {
     image {
       function = SLIDER
       state = ACTIVE
-      file = "assets/slider-vert-active.png"
+      file = "assets/slider-vert-active.svg"
       border = { 3, 3, 5, 5 }
       stretch = TRUE
       orientation = VERTICAL
@@ -665,7 +665,7 @@ style "scrollbar" {
     image {
       function = SLIDER
       state = PRELIGHT
-      file = "assets/slider-vert-prelight.png"
+      file = "assets/slider-vert-prelight.svg"
       border = { 3, 3, 5, 5 }
       stretch = TRUE
       orientation = VERTICAL
@@ -674,7 +674,7 @@ style "scrollbar" {
     image {
       function = SLIDER
       state = INSENSITIVE
-      file = "assets/slider-vert-insens.png"
+      file = "assets/slider-vert-insens.svg"
       border = { 3, 3, 5, 5 }
       stretch = TRUE
       orientation = VERTICAL
@@ -702,7 +702,7 @@ style "menu_framed_box" {
   engine "pixmap" {
     image {
       function = BOX
-      file     = "assets/frame.png"
+      file     = "assets/frame.svg"
       border   = { 1, 1, 2, 1 }
       stretch  = TRUE
     }
@@ -735,7 +735,7 @@ style "menu_item" {
     image {
       function = BOX
       state = PRELIGHT
-      file = "assets/menuitem.png"
+      file = "assets/menuitem.svg"
       border = { 1, 0, 1, 0 }
       stretch = TRUE
     }
@@ -745,7 +745,7 @@ style "menu_item" {
     image {
       function = BOX
       detail = "trough-lower"
-      file = "assets/trough-horizontal.png"
+      file = "assets/trough-horizontal.svg"
       border = { 8, 8, 0, 0 }
       stretch = TRUE
       orientation = HORIZONTAL
@@ -754,10 +754,10 @@ style "menu_item" {
     image {
       function = SLIDER
       state = PRELIGHT
-      file = "assets/null.png"
+      file = "assets/null.svg"
       border = { 0, 0, 0, 0 }
       stretch = TRUE
-      overlay_file = "assets/slider.png"
+      overlay_file = "assets/slider.svg"
       overlay_stretch = FALSE
       orientation = HORIZONTAL
     }
@@ -769,7 +769,7 @@ style "menu_item" {
       recolorable = TRUE
       state = NORMAL
       shadow = OUT
-      overlay_file = "assets/menu-checkbox-unchecked.png"
+      overlay_file = "assets/menu-checkbox-unchecked.svg"
       overlay_stretch = FALSE
     }
 
@@ -778,7 +778,7 @@ style "menu_item" {
       recolorable = TRUE
       state = PRELIGHT
       shadow = OUT
-      overlay_file = "assets/menu-checkbox-unchecked.png"
+      overlay_file = "assets/menu-checkbox-unchecked.svg"
       overlay_stretch = FALSE
     }
 
@@ -787,7 +787,7 @@ style "menu_item" {
       recolorable = TRUE
       state = ACTIVE
       shadow = OUT
-      overlay_file = "assets/menu-checkbox-unchecked.png"
+      overlay_file = "assets/menu-checkbox-unchecked.svg"
       overlay_stretch = FALSE
     }
 
@@ -796,7 +796,7 @@ style "menu_item" {
       recolorable = TRUE
       state = INSENSITIVE
       shadow = OUT
-      overlay_file = "assets/menu-checkbox-unchecked-insensitive.png"
+      overlay_file = "assets/menu-checkbox-unchecked-insensitive.svg"
       overlay_stretch = FALSE
     }
 
@@ -805,7 +805,7 @@ style "menu_item" {
       recolorable = TRUE
       state = NORMAL
       shadow = IN
-      overlay_file = "assets/menu-checkbox-checked.png"
+      overlay_file = "assets/menu-checkbox-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -814,7 +814,7 @@ style "menu_item" {
       recolorable = TRUE
       state = PRELIGHT
       shadow = IN
-      overlay_file = "assets/menu-checkbox-checked.png"
+      overlay_file = "assets/menu-checkbox-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -823,7 +823,7 @@ style "menu_item" {
       recolorable = TRUE
       state = ACTIVE
       shadow = IN
-      overlay_file = "assets/menu-checkbox-checked.png"
+      overlay_file = "assets/menu-checkbox-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -832,7 +832,7 @@ style "menu_item" {
       recolorable = TRUE
       state = INSENSITIVE
       shadow = IN
-      overlay_file = "assets/menu-checkbox-checked-insensitive.png"
+      overlay_file = "assets/menu-checkbox-checked-insensitive.svg"
       overlay_stretch = FALSE
     }
 
@@ -842,7 +842,7 @@ style "menu_item" {
       function = OPTION
       state = NORMAL
       shadow = OUT
-      overlay_file = "assets/menu-radio-unchecked.png"
+      overlay_file = "assets/menu-radio-unchecked.svg"
       overlay_stretch = FALSE
     }
 
@@ -850,7 +850,7 @@ style "menu_item" {
       function = OPTION
       state = PRELIGHT
       shadow = OUT
-      overlay_file = "assets/menu-radio-unchecked.png"
+      overlay_file = "assets/menu-radio-unchecked.svg"
       overlay_stretch = FALSE
     }
 
@@ -858,7 +858,7 @@ style "menu_item" {
       function = OPTION
       state = ACTIVE
       shadow = OUT
-      overlay_file = "assets/menu-radio-unchecked.png"
+      overlay_file = "assets/menu-radio-unchecked.svg"
       overlay_stretch = FALSE
     }
 
@@ -866,7 +866,7 @@ style "menu_item" {
       function = OPTION
       state = INSENSITIVE
       shadow = OUT
-      overlay_file = "assets/menu-radio-unchecked-insensitive.png"
+      overlay_file = "assets/menu-radio-unchecked-insensitive.svg"
       overlay_stretch = FALSE
     }
 
@@ -874,7 +874,7 @@ style "menu_item" {
       function = OPTION
       state = NORMAL
       shadow = IN
-      overlay_file = "assets/menu-radio-checked.png"
+      overlay_file = "assets/menu-radio-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -882,7 +882,7 @@ style "menu_item" {
       function = OPTION
       state = PRELIGHT
       shadow = IN
-      overlay_file = "assets/menu-radio-checked.png"
+      overlay_file = "assets/menu-radio-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -890,7 +890,7 @@ style "menu_item" {
       function = OPTION
       state = ACTIVE
       shadow = IN
-      overlay_file = "assets/menu-radio-checked.png"
+      overlay_file = "assets/menu-radio-checked.svg"
       overlay_stretch = FALSE
     }
 
@@ -898,13 +898,13 @@ style "menu_item" {
       function = OPTION
       state = INSENSITIVE
       shadow = IN
-      overlay_file = "assets/menu-radio-checked-insensitive.png"
+      overlay_file = "assets/menu-radio-checked-insensitive.svg"
       overlay_stretch = FALSE
     }
 
     image {
       function = SHADOW # This fixes boxy Qt menu items
-      file = "assets/null.png"
+      file = "assets/null.svg"
       border = { 4, 4, 4, 4 }
       stretch = TRUE
     }
@@ -914,7 +914,7 @@ style "menu_item" {
     image {
       function = ARROW
       state = NORMAL
-      overlay_file = "assets/menu-arrow.png"
+      overlay_file = "assets/menu-arrow.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = RIGHT
@@ -923,7 +923,7 @@ style "menu_item" {
     image {
       function = ARROW
       state = PRELIGHT
-      overlay_file = "assets/menu-arrow-prelight.png"
+      overlay_file = "assets/menu-arrow-prelight.svg"
       overlay_border = { 0, 0, 0, 0 }
       overlay_stretch = FALSE
       arrow_direction = RIGHT
@@ -933,14 +933,14 @@ style "menu_item" {
       function = BOX
       state    = PRELIGHT
       detail   = "menu_scroll_arrow_up"
-      file     = "assets/border.png"
+      file     = "assets/border.svg"
       border   = {0, 0, 1, 0}
     }
 
     image {
       function = BOX
       detail   = "menu_scroll_arrow_up"
-      file     = "assets/border.png"
+      file     = "assets/border.svg"
       border   = {0, 0, 1, 0}
     }
 
@@ -948,14 +948,14 @@ style "menu_item" {
       function = BOX
       state    = PRELIGHT
       detail   = "menu_scroll_arrow_down"
-      file     = "assets/border.png"
+      file     = "assets/border.svg"
       border   = {1, 0, 0, 0}
     }
 
     image {
       function = BOX
       detail   = "menu_scroll_arrow_down"
-      file     = "assets/border.png"
+      file     = "assets/border.svg"
       border   = {1, 0, 0, 0}
     }
   }
@@ -972,7 +972,7 @@ style "button" {
     image {
       function = BOX
       state = NORMAL
-      file = "assets/button.png"
+      file = "assets/button.svg"
       border = {6, 6, 6, 6}
       stretch = TRUE
     }
@@ -981,7 +981,7 @@ style "button" {
       function = BOX
       state    = PRELIGHT
       shadow   = OUT
-      file     = "assets/button-hover.png"
+      file     = "assets/button-hover.svg"
       border = {6, 6, 6, 6}
       stretch  = TRUE
     }
@@ -991,7 +991,7 @@ style "button" {
       function = BOX
       state    = PRELIGHT
       shadow   = IN
-      file     = "assets/button-active-hover.png"
+      file     = "assets/button-active-hover.svg"
       border = {6, 6, 6, 6}
       stretch  = TRUE
     }
@@ -999,7 +999,7 @@ style "button" {
     image {
       function = BOX
       state = ACTIVE
-      file = "assets/button-active.png"
+      file = "assets/button-active.svg"
       border = {6, 6, 6, 6}
       stretch = TRUE
     }
@@ -1007,7 +1007,7 @@ style "button" {
     image {
       function = BOX
       state = INSENSITIVE
-      file = "assets/button-insensitive.png"
+      file = "assets/button-insensitive.svg"
       border = {6, 6, 6, 6}
       stretch = TRUE
     }
@@ -1023,7 +1023,7 @@ style "toolbar_button" {
       function = BOX
       state    = PRELIGHT
       shadow   = IN
-      file     = "assets/toolbar-button-active-hover.png"
+      file     = "assets/toolbar-button-active-hover.svg"
       border   = {6, 6, 6, 6}
       stretch  = TRUE
     }
@@ -1031,7 +1031,7 @@ style "toolbar_button" {
     image {
       function = BOX
       state = ACTIVE
-      file = "assets/toolbar-button-active.png"
+      file = "assets/toolbar-button-active.svg"
       border = {6, 6, 6, 6}
       stretch = TRUE
     }
@@ -1076,7 +1076,7 @@ style "entry" {
       function = SHADOW
       state = NORMAL
       detail = "entry"
-      file = "assets/entry-bg.png"
+      file = "assets/entry-bg.svg"
       border = {6, 6, 6, 6}
       stretch = TRUE
     }
@@ -1085,7 +1085,7 @@ style "entry" {
       function = SHADOW
       state = ACTIVE
       detail = "entry"
-      file = "assets/entry-active-bg.png"
+      file = "assets/entry-active-bg.svg"
       border = {6, 6, 6, 6}
       stretch = TRUE
     }
@@ -1094,7 +1094,7 @@ style "entry" {
       function = SHADOW
       state = INSENSITIVE
       detail = "entry"
-      file = "assets/entry-disabled-bg.png"
+      file = "assets/entry-disabled-bg.svg"
       border = {6, 6, 6, 6}
       stretch = TRUE
     }
@@ -1103,20 +1103,20 @@ style "entry" {
       function = FLAT_BOX
       state    = ACTIVE
       detail   = "entry_bg"
-      file     = "assets/entry-background.png"
+      file     = "assets/entry-background.svg"
     }
 
     image {
       function = FLAT_BOX
       state    = INSENSITIVE
       detail   = "entry_bg"
-      file     = "assets/entry-background-disabled.png"
+      file     = "assets/entry-background-disabled.svg"
     }
 
     image {
       function = FLAT_BOX
       detail   = "entry_bg"
-      file     = "assets/entry-background.png"
+      file     = "assets/entry-background.svg"
     }
   }
 }
@@ -1129,7 +1129,7 @@ style "notebook_entry" {
       function = SHADOW
       state = NORMAL
       detail = "entry"
-      file = "assets/entry-notebook.png"
+      file = "assets/entry-notebook.svg"
       border = {6, 6, 6, 6}
       stretch = TRUE
     }
@@ -1138,7 +1138,7 @@ style "notebook_entry" {
       function = SHADOW
       state = ACTIVE
       detail = "entry"
-      file = "assets/entry-active-notebook.png"
+      file = "assets/entry-active-notebook.svg"
       border = {6, 6, 6, 6}
       stretch = TRUE
     }
@@ -1147,7 +1147,7 @@ style "notebook_entry" {
       function = SHADOW
       state = INSENSITIVE
       detail = "entry"
-      file = "assets/entry-disabled-notebook.png"
+      file = "assets/entry-disabled-notebook.svg"
       border = {6, 6, 6, 6}
       stretch = TRUE
     }
@@ -1186,7 +1186,7 @@ style "combobox_entry" {
       detail = "entry"
       state = NORMAL
       shadow = IN
-      file = "assets/combo-entry.png"
+      file = "assets/combo-entry.svg"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = LTR
@@ -1197,7 +1197,7 @@ style "combobox_entry" {
       detail = "entry"
       state = INSENSITIVE
       shadow = IN
-      file = "assets/combo-entry-insensitive.png"
+      file = "assets/combo-entry-insensitive.svg"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = LTR
@@ -1207,7 +1207,7 @@ style "combobox_entry" {
       function = SHADOW
       detail = "entry"
       state = ACTIVE
-      file = "assets/combo-entry-focus.png"
+      file = "assets/combo-entry-focus.svg"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = LTR
@@ -1220,7 +1220,7 @@ style "combobox_entry" {
       detail = "entry"
       state = NORMAL
       shadow = IN
-      file = "assets/combo-entry-rtl.png"
+      file = "assets/combo-entry-rtl.svg"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = RTL
@@ -1231,7 +1231,7 @@ style "combobox_entry" {
       detail = "entry"
       state = INSENSITIVE
       shadow = IN
-      file = "assets/combo-entry-insensitive-rtl.png"
+      file = "assets/combo-entry-insensitive-rtl.svg"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = RTL
@@ -1241,7 +1241,7 @@ style "combobox_entry" {
       function = SHADOW
       detail = "entry"
       state = ACTIVE
-      file = "assets/combo-entry-focus-rtl.png"
+      file = "assets/combo-entry-focus-rtl.svg"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = RTL
@@ -1260,7 +1260,7 @@ style "notebook_combobox_entry" {
       detail = "entry"
       state = NORMAL
       shadow = IN
-      file = "assets/combo-entry-notebook.png"
+      file = "assets/combo-entry-notebook.svg"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = LTR
@@ -1271,7 +1271,7 @@ style "notebook_combobox_entry" {
       detail = "entry"
       state = INSENSITIVE
       shadow = IN
-      file = "assets/combo-entry-insensitive-notebook.png"
+      file = "assets/combo-entry-insensitive-notebook.svg"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = LTR
@@ -1281,7 +1281,7 @@ style "notebook_combobox_entry" {
       function = SHADOW
       detail = "entry"
       state = ACTIVE
-      file = "assets/combo-entry-focus-notebook.png"
+      file = "assets/combo-entry-focus-notebook.svg"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = LTR
@@ -1294,7 +1294,7 @@ style "notebook_combobox_entry" {
       detail = "entry"
       state = NORMAL
       shadow = IN
-      file = "assets/combo-entry-notebook-rtl.png"
+      file = "assets/combo-entry-notebook-rtl.svg"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = RTL
@@ -1305,7 +1305,7 @@ style "notebook_combobox_entry" {
       detail = "entry"
       state = INSENSITIVE
       shadow = IN
-      file = "assets/combo-entry-insensitive-notebook-rtl.png"
+      file = "assets/combo-entry-insensitive-notebook-rtl.svg"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = RTL
@@ -1315,7 +1315,7 @@ style "notebook_combobox_entry" {
       function = SHADOW
       detail = "entry"
       state = ACTIVE
-      file = "assets/combo-entry-focus-notebook-rtl.png"
+      file = "assets/combo-entry-focus-notebook-rtl.svg"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = RTL
@@ -1336,7 +1336,7 @@ style "combobox_entry_button" {
     image {
       function = BOX
       state = NORMAL
-      file = "assets/combo-entry-button.png"
+      file = "assets/combo-entry-button.svg"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = LTR
@@ -1345,7 +1345,7 @@ style "combobox_entry_button" {
     image {
       function = BOX
       state = PRELIGHT
-      file = "assets/combo-entry-button.png"
+      file = "assets/combo-entry-button.svg"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = LTR
@@ -1354,7 +1354,7 @@ style "combobox_entry_button" {
     image {
       function = BOX
       state = INSENSITIVE
-      file = "assets/combo-entry-button-insensitive.png"
+      file = "assets/combo-entry-button-insensitive.svg"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = LTR
@@ -1363,7 +1363,7 @@ style "combobox_entry_button" {
     image {
       function = BOX
       state = ACTIVE
-      file = "assets/combo-entry-button-active.png"
+      file = "assets/combo-entry-button-active.svg"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = LTR
@@ -1373,7 +1373,7 @@ style "combobox_entry_button" {
     image {
       function = BOX
       state = NORMAL
-      file = "assets/combo-entry-button-rtl.png"
+      file = "assets/combo-entry-button-rtl.svg"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = RTL
@@ -1382,7 +1382,7 @@ style "combobox_entry_button" {
     image {
       function = BOX
       state = PRELIGHT
-      file = "assets/combo-entry-button-rtl.png"
+      file = "assets/combo-entry-button-rtl.svg"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = RTL
@@ -1391,7 +1391,7 @@ style "combobox_entry_button" {
     image {
       function = BOX
       state = INSENSITIVE
-      file = "assets/combo-entry-button-insensitive-rtl.png"
+      file = "assets/combo-entry-button-insensitive-rtl.svg"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = RTL
@@ -1400,7 +1400,7 @@ style "combobox_entry_button" {
     image {
       function = BOX
       state = ACTIVE
-      file = "assets/combo-entry-button-active-rtl.png"
+      file = "assets/combo-entry-button-active-rtl.svg"
       border = { 4, 4, 5, 4 }
       stretch = TRUE
       direction = RTL
@@ -1427,10 +1427,10 @@ style "spinbutton" {
       function = BOX
       state = NORMAL
       detail = "spinbutton_up"
-      file = "assets/up-background.png"
+      file = "assets/up-background.svg"
       border = { 1, 4, 5, 0 }
       stretch = TRUE
-      overlay_file = "assets/arrow-up-small.png"
+      overlay_file = "assets/arrow-up-small.svg"
       overlay_stretch = FALSE
       direction = LTR
     }
@@ -1439,10 +1439,10 @@ style "spinbutton" {
       function = BOX
       state = PRELIGHT
       detail = "spinbutton_up"
-      file = "assets/up-background.png"
+      file = "assets/up-background.svg"
       border = { 1, 4, 5, 0 }
       stretch = TRUE
-      overlay_file = "assets/arrow-up-small-prelight.png"
+      overlay_file = "assets/arrow-up-small-prelight.svg"
       overlay_stretch = FALSE
       direction = LTR
     }
@@ -1451,10 +1451,10 @@ style "spinbutton" {
       function = BOX
       state = INSENSITIVE
       detail = "spinbutton_up"
-      file = "assets/up-background-disable.png"
+      file = "assets/up-background-disable.svg"
       border = { 1, 4, 5, 0 }
       stretch = TRUE
-      overlay_file = "assets/arrow-up-small-insens.png"
+      overlay_file = "assets/arrow-up-small-insens.svg"
       overlay_stretch = FALSE
       direction = LTR
     }
@@ -1463,10 +1463,10 @@ style "spinbutton" {
       function = BOX
       state = ACTIVE
       detail = "spinbutton_up"
-      file = "assets/up-background.png"
+      file = "assets/up-background.svg"
       border = { 1, 4, 5, 0 }
       stretch = TRUE
-      overlay_file = "assets/arrow-up-small-prelight.png"
+      overlay_file = "assets/arrow-up-small-prelight.svg"
       overlay_stretch = FALSE
       direction = LTR
     }
@@ -1477,10 +1477,10 @@ style "spinbutton" {
       function = BOX
       state = NORMAL
       detail = "spinbutton_up"
-      file = "assets/up-background-rtl.png"
+      file = "assets/up-background-rtl.svg"
       border = { 4, 1, 5, 0 }
       stretch = TRUE
-      overlay_file = "assets/arrow-up-small.png"
+      overlay_file = "assets/arrow-up-small.svg"
       overlay_stretch = FALSE
       direction = RTL
     }
@@ -1489,10 +1489,10 @@ style "spinbutton" {
       function = BOX
       state = PRELIGHT
       detail = "spinbutton_up"
-      file = "assets/up-background-rtl.png"
+      file = "assets/up-background-rtl.svg"
       border = { 4, 1, 5, 0 }
       stretch = TRUE
-      overlay_file = "assets/arrow-up-small-prelight.png"
+      overlay_file = "assets/arrow-up-small-prelight.svg"
       overlay_stretch = FALSE
       direction = RTL
     }
@@ -1501,10 +1501,10 @@ style "spinbutton" {
       function = BOX
       state = INSENSITIVE
       detail = "spinbutton_up"
-      file = "assets/up-background-disable-rtl.png"
+      file = "assets/up-background-disable-rtl.svg"
       border = { 4, 1, 5, 0 }
       stretch = TRUE
-      overlay_file = "assets/arrow-up-small-insens.png"
+      overlay_file = "assets/arrow-up-small-insens.svg"
       overlay_stretch = FALSE
       direction = RTL
     }
@@ -1513,10 +1513,10 @@ style "spinbutton" {
       function = BOX
       state = ACTIVE
       detail = "spinbutton_up"
-      file = "assets/up-background-rtl.png"
+      file = "assets/up-background-rtl.svg"
       border = { 4, 1, 5, 0 }
       stretch	= TRUE
-      overlay_file = "assets/arrow-up-small-prelight.png"
+      overlay_file = "assets/arrow-up-small-prelight.svg"
       overlay_stretch	= FALSE
       direction = RTL
     }
@@ -1527,10 +1527,10 @@ style "spinbutton" {
       function = BOX
       state = NORMAL
       detail = "spinbutton_down"
-      file = "assets/down-background.png"
+      file = "assets/down-background.svg"
       border = { 1, 4, 1, 4 }
       stretch = TRUE
-      overlay_file = "assets/arrow-down-small.png"
+      overlay_file = "assets/arrow-down-small.svg"
       overlay_stretch = FALSE
       direction = LTR
     }
@@ -1539,10 +1539,10 @@ style "spinbutton" {
       function = BOX
       state = PRELIGHT
       detail = "spinbutton_down"
-      file = "assets/down-background.png"
+      file = "assets/down-background.svg"
       border = { 1, 4, 1, 4 }
       stretch = TRUE
-      overlay_file = "assets/arrow-down-small-prelight.png"
+      overlay_file = "assets/arrow-down-small-prelight.svg"
       overlay_stretch = FALSE
       direction = LTR
     }
@@ -1551,10 +1551,10 @@ style "spinbutton" {
       function = BOX
       state = INSENSITIVE
       detail = "spinbutton_down"
-      file = "assets/down-background-disable.png"
+      file = "assets/down-background-disable.svg"
       border = { 1, 4, 1, 4 }
       stretch = TRUE
-      overlay_file = "assets/arrow-down-small-insens.png"
+      overlay_file = "assets/arrow-down-small-insens.svg"
       overlay_stretch = FALSE
       direction = LTR
     }
@@ -1563,10 +1563,10 @@ style "spinbutton" {
       function = BOX
       state = ACTIVE
       detail = "spinbutton_down"
-      file = "assets/down-background.png"
+      file = "assets/down-background.svg"
       border = { 1, 4, 1, 4 }
       stretch = TRUE
-      overlay_file = "assets/arrow-down-small-prelight.png"
+      overlay_file = "assets/arrow-down-small-prelight.svg"
       overlay_stretch = FALSE
       direction = LTR
     }
@@ -1577,10 +1577,10 @@ style "spinbutton" {
       function = BOX
       state = NORMAL
       detail = "spinbutton_down"
-      file = "assets/down-background-rtl.png"
+      file = "assets/down-background-rtl.svg"
       border = { 4, 1, 1, 4 }
       stretch = TRUE
-      overlay_file = "assets/arrow-down-small.png"
+      overlay_file = "assets/arrow-down-small.svg"
       overlay_stretch = FALSE
       direction = RTL
     }
@@ -1589,10 +1589,10 @@ style "spinbutton" {
       function = BOX
       state = PRELIGHT
       detail = "spinbutton_down"
-      file = "assets/down-background-rtl.png"
+      file = "assets/down-background-rtl.svg"
       border = { 4, 1, 1, 4 }
       stretch = TRUE
-      overlay_file = "assets/arrow-down-small-prelight.png"
+      overlay_file = "assets/arrow-down-small-prelight.svg"
       overlay_stretch = FALSE
       direction = RTL
     }
@@ -1601,10 +1601,10 @@ style "spinbutton" {
       function = BOX
       state = INSENSITIVE
       detail = "spinbutton_down"
-      file = "assets/down-background-disable-rtl.png"
+      file = "assets/down-background-disable-rtl.svg"
       border = { 4, 1, 1, 4 }
       stretch = TRUE
-      overlay_file = "assets/arrow-down-small-insens.png"
+      overlay_file = "assets/arrow-down-small-insens.svg"
       overlay_stretch = FALSE
       direction = RTL
     }
@@ -1613,10 +1613,10 @@ style "spinbutton" {
       function = BOX
       state = ACTIVE
       detail = "spinbutton_down"
-      file = "assets/down-background-rtl.png"
+      file = "assets/down-background-rtl.svg"
       border = { 4, 1, 1, 4 }
       stretch = TRUE
-      overlay_file = "assets/arrow-down-small-prelight.png"
+      overlay_file = "assets/arrow-down-small-prelight.svg"
       overlay_stretch = FALSE
       direction = RTL
     }
@@ -1645,7 +1645,7 @@ style "gimp_spin_scale" {
       function = BOX
       state = NORMAL
       detail = "spinbutton_up"
-      overlay_file = "assets/arrow-up-small.png"
+      overlay_file = "assets/arrow-up-small.svg"
       overlay_stretch = FALSE
     }
 
@@ -1653,7 +1653,7 @@ style "gimp_spin_scale" {
       function = BOX
       state = PRELIGHT
       detail = "spinbutton_up"
-      overlay_file = "assets/arrow-up-small-prelight.png"
+      overlay_file = "assets/arrow-up-small-prelight.svg"
       overlay_stretch = FALSE
     }
 
@@ -1661,7 +1661,7 @@ style "gimp_spin_scale" {
       function = BOX
       state = ACTIVE
       detail = "spinbutton_up"
-      overlay_file = "assets/arrow-up-small-prelight.png"
+      overlay_file = "assets/arrow-up-small-prelight.svg"
       overlay_stretch = FALSE
     }
 
@@ -1669,7 +1669,7 @@ style "gimp_spin_scale" {
       function = BOX
       state = INSENSITIVE
       detail = "spinbutton_up"
-      overlay_file = "assets/arrow-up-small-insens.png"
+      overlay_file = "assets/arrow-up-small-insens.svg"
       overlay_stretch = FALSE
     }
 
@@ -1677,7 +1677,7 @@ style "gimp_spin_scale" {
       function = BOX
       state = NORMAL
       detail = "spinbutton_down"
-      overlay_file = "assets/arrow-down-small.png"
+      overlay_file = "assets/arrow-down-small.svg"
       overlay_stretch = FALSE
     }
 
@@ -1685,7 +1685,7 @@ style "gimp_spin_scale" {
       function = BOX
       state = PRELIGHT
       detail = "spinbutton_down"
-      overlay_file = "assets/arrow-down-small-prelight.png"
+      overlay_file = "assets/arrow-down-small-prelight.svg"
       overlay_stretch = FALSE
     }
 
@@ -1693,7 +1693,7 @@ style "gimp_spin_scale" {
       function = BOX
       state = ACTIVE
       detail = "spinbutton_down"
-      overlay_file = "assets/arrow-down-small-prelight.png"
+      overlay_file = "assets/arrow-down-small-prelight.svg"
       overlay_stretch = FALSE
     }
 
@@ -1701,7 +1701,7 @@ style "gimp_spin_scale" {
       function = BOX
       state = INSENSITIVE
       detail = "spinbutton_down"
-      overlay_file = "assets/arrow-down-small-insens.png"
+      overlay_file = "assets/arrow-down-small-insens.svg"
       overlay_stretch = FALSE
     }
   }
@@ -1717,7 +1717,7 @@ style "notebook" {
     image {
       function = EXTENSION
       state = ACTIVE
-      file = "assets/null.png"
+      file = "assets/null.svg"
       border = { 0,0,0,0 }
       stretch = TRUE
       gap_side = TOP
@@ -1726,7 +1726,7 @@ style "notebook" {
     image {
       function = EXTENSION
       state = ACTIVE
-      file = "assets/null.png"
+      file = "assets/null.svg"
       border = { 0,0,0,0 }
       stretch = TRUE
       gap_side = BOTTOM
@@ -1735,7 +1735,7 @@ style "notebook" {
     image {
       function = EXTENSION
       state = ACTIVE
-      file = "assets/null.png"
+      file = "assets/null.svg"
       border = { 0,0,0,0 }
       stretch = TRUE
       gap_side = RIGHT
@@ -1744,7 +1744,7 @@ style "notebook" {
     image {
       function = EXTENSION
       state = ACTIVE
-      file = "assets/null.png"
+      file = "assets/null.svg"
       border = { 0,0,0,0 }
       stretch = TRUE
       gap_side = LEFT
@@ -1752,7 +1752,7 @@ style "notebook" {
 
     image {
       function = EXTENSION
-      file = "assets/tab-top-active.png"
+      file = "assets/tab-top-active.svg"
       border = { 3,3,3,3 }
       stretch = TRUE
       gap_side = BOTTOM
@@ -1760,7 +1760,7 @@ style "notebook" {
 
     image {
       function = EXTENSION
-      file = "assets/tab-bottom-active.png"
+      file = "assets/tab-bottom-active.svg"
       border = { 3,3,3,3 }
       stretch = TRUE
       gap_side = TOP
@@ -1768,7 +1768,7 @@ style "notebook" {
 
     image {
       function = EXTENSION
-      file = "assets/tab-left-active.png"
+      file = "assets/tab-left-active.svg"
       border = { 3,3,3,3 }
       stretch = TRUE
       gap_side = RIGHT
@@ -1776,7 +1776,7 @@ style "notebook" {
 
     image {
       function = EXTENSION
-      file = "assets/tab-right-active.png"
+      file = "assets/tab-right-active.svg"
       border = { 3,3,3,3 }
       stretch = TRUE
       gap_side = LEFT
@@ -1786,40 +1786,40 @@ style "notebook" {
 
     image {
       function = BOX_GAP
-      file = "assets/notebook.png"
+      file = "assets/notebook.svg"
       border = { 4, 4, 4, 4 }
       stretch = TRUE
-      gap_file = "assets/notebook-gap-horiz.png"
+      gap_file = "assets/notebook-gap-horiz.svg"
       gap_border = { 1, 1, 0, 0 }
       gap_side = TOP
     }
 
     image {
       function = BOX_GAP
-      file = "assets/notebook.png"
+      file = "assets/notebook.svg"
       border = { 4, 4, 4, 4 }
       stretch = TRUE
-      gap_file = "assets/notebook-gap-horiz.png"
+      gap_file = "assets/notebook-gap-horiz.svg"
       gap_border = { 1, 1, 0, 0 }
       gap_side = BOTTOM
     }
 
     image {
       function = BOX_GAP
-      file = "assets/notebook.png"
+      file = "assets/notebook.svg"
       border = { 4, 4, 4, 4 }
       stretch = TRUE
-      gap_file = "assets/notebook-gap-vert.png"
+      gap_file = "assets/notebook-gap-vert.svg"
       gap_border = { 0, 0, 1, 1 }
       gap_side = LEFT
     }
 
     image {
       function = BOX_GAP
-      file = "assets/notebook.png"
+      file = "assets/notebook.svg"
       border = { 4, 4, 4, 4 }
       stretch = TRUE
-      gap_file = "assets/notebook-gap-vert.png"
+      gap_file = "assets/notebook-gap-vert.svg"
       gap_border = { 0, 0, 1, 1 }
       gap_side = RIGHT
     }
@@ -1828,7 +1828,7 @@ style "notebook" {
 
     image {
       function = BOX
-      file = "assets/notebook.png"
+      file = "assets/notebook.svg"
       border = { 4, 4, 4, 4 }
       stretch = TRUE
     }
@@ -1841,7 +1841,7 @@ style "handlebox" {
 
     image {
     function = BOX
-    file = "assets/null.png"
+    file = "assets/null.svg"
     border = { 4, 4, 4, 4 }
     stretch = TRUE
     detail = "handlebox_bin"
@@ -1850,7 +1850,7 @@ style "handlebox" {
 
     image {
     function = BOX
-    file = "assets/null.png"
+    file = "assets/null.svg"
     border = { 4, 4, 4, 4 }
     stretch = TRUE
     detail = "handlebox_bin"
@@ -1888,7 +1888,7 @@ style "range" {
     image {
       function = BOX
       detail = "trough-upper"
-      file = "assets/trough-horizontal.png"
+      file = "assets/trough-horizontal.svg"
       border = { 8, 8, 0, 0 }
       stretch = TRUE
       orientation = HORIZONTAL
@@ -1897,7 +1897,7 @@ style "range" {
     image {
       function = BOX
       detail = "trough-lower"
-      file = "assets/trough-horizontal-active.png"
+      file = "assets/trough-horizontal-active.svg"
       border = { 8, 8, 0, 0 }
       stretch = TRUE
       orientation = HORIZONTAL
@@ -1906,7 +1906,7 @@ style "range" {
     image {
       function = BOX
       detail = "trough-upper"
-      file = "assets/trough-vertical.png"
+      file = "assets/trough-vertical.svg"
       border = { 0, 0, 8, 8 }
       stretch = TRUE
       orientation = VERTICAL
@@ -1915,7 +1915,7 @@ style "range" {
     image {
       function = BOX
       detail = "trough-lower"
-      file = "assets/trough-vertical-active.png"
+      file = "assets/trough-vertical-active.svg"
       border = { 0, 0, 8, 8 }
       stretch = TRUE
       orientation = VERTICAL
@@ -1926,10 +1926,10 @@ style "range" {
     image {
       function = SLIDER
       state = NORMAL
-      file = "assets/null.png"
+      file = "assets/null.svg"
       border = { 0, 0, 0, 0 }
       stretch = TRUE
-      overlay_file = "assets/slider.png"
+      overlay_file = "assets/slider.svg"
       overlay_stretch = FALSE
       orientation = HORIZONTAL
     }
@@ -1937,10 +1937,10 @@ style "range" {
     image {
       function = SLIDER
       state = PRELIGHT
-      file = "assets/null.png"
+      file = "assets/null.svg"
       border = { 0, 0, 0, 0 }
       stretch = TRUE
-      overlay_file = "assets/slider-prelight.png"
+      overlay_file = "assets/slider-prelight.svg"
       overlay_stretch = FALSE
       orientation = HORIZONTAL
     }
@@ -1948,10 +1948,10 @@ style "range" {
     image {
       function = SLIDER
       state = INSENSITIVE
-      file = "assets/null.png"
+      file = "assets/null.svg"
       border = { 0, 0, 0, 0 }
       stretch = TRUE
-      overlay_file = "assets/slider-insensitive.png"
+      overlay_file = "assets/slider-insensitive.svg"
       overlay_stretch = FALSE
       orientation = HORIZONTAL
     }
@@ -1961,10 +1961,10 @@ style "range" {
     image {
       function = SLIDER
       state = NORMAL
-      file = "assets/null.png"
+      file = "assets/null.svg"
       border = { 0, 0, 0, 0 }
       stretch = TRUE
-      overlay_file = "assets/slider.png"
+      overlay_file = "assets/slider.svg"
       overlay_stretch = FALSE
       orientation = VERTICAL
     }
@@ -1972,10 +1972,10 @@ style "range" {
     image {
       function = SLIDER
       state = PRELIGHT
-      file = "assets/null.png"
+      file = "assets/null.svg"
       border = { 0, 0, 0, 0 }
       stretch = TRUE
-      overlay_file = "assets/slider-prelight.png"
+      overlay_file = "assets/slider-prelight.svg"
       overlay_stretch = FALSE
       orientation = VERTICAL
     }
@@ -1983,10 +1983,10 @@ style "range" {
     image {
       function = SLIDER
       state = INSENSITIVE
-      file = "assets/null.png"
+      file = "assets/null.svg"
       border = { 0, 0, 0, 0 }
       stretch = TRUE
-      overlay_file = "assets/slider-insensitive.png"
+      overlay_file = "assets/slider-insensitive.svg"
       overlay_stretch = FALSE
       orientation = VERTICAL
     }
@@ -1995,7 +1995,7 @@ style "range" {
 
     image {
       function = BOX
-      file = "assets/null.png"
+      file = "assets/null.svg"
       border = { 3, 3, 3, 3 }
       stretch = TRUE
     }
@@ -2015,7 +2015,7 @@ style "progressbar" {
     image {
       function = BOX
       detail = "trough"
-      file = "assets/trough-progressbar.png"
+      file = "assets/trough-progressbar.svg"
       border = { 4, 4, 4, 4 }
       stretch = TRUE
       orientation = HORIZONTAL
@@ -2024,7 +2024,7 @@ style "progressbar" {
     image {
       function = BOX
       detail = "bar"
-      file = "assets/progressbar.png"
+      file = "assets/progressbar.svg"
       stretch = TRUE
       border = { 3, 3, 3, 3 }
       orientation = HORIZONTAL
@@ -2033,7 +2033,7 @@ style "progressbar" {
     image {
       function = BOX
       detail = "trough"
-      file = "assets/trough-progressbar_v.png"
+      file = "assets/trough-progressbar_v.svg"
       border = { 4, 4, 4, 4 }
       stretch = TRUE
       orientation = VERTICAL
@@ -2042,7 +2042,7 @@ style "progressbar" {
     image {
       function = BOX
       detail = "bar"
-      file = "assets/progressbar_v.png"
+      file = "assets/progressbar_v.svg"
       stretch = TRUE
       border = { 3, 3, 3, 3 }
       orientation = VERTICAL
@@ -2057,7 +2057,7 @@ style "separator_menu_item" {
   engine "pixmap" {
     image {
       function = BOX
-      file     = "assets/menu-separator.png"
+      file     = "assets/menu-separator.svg"
       border   = {0, 0, 2, 0}
     }
   }
@@ -2073,7 +2073,7 @@ style "treeview_header" {
 
     image {
       function = BOX
-      file = "assets/tree_header.png"
+      file = "assets/tree_header.svg"
       border = { 1, 1, 1, 1 }
       stretch = TRUE
     }
@@ -2098,7 +2098,7 @@ style "scrolled_window" {
 
     image {
       function = SHADOW
-      file = "assets/frame.png"
+      file = "assets/frame.svg"
       border = { 5, 5, 5, 5 }
       stretch = TRUE
     }
@@ -2114,7 +2114,7 @@ style "frame" {
 
     image {
       function = SHADOW
-      file = "assets/frame.png"
+      file = "assets/frame.svg"
       border = { 1, 1, 1, 1 }
       stretch = TRUE
       shadow = IN
@@ -2122,19 +2122,19 @@ style "frame" {
 
     image {
       function = SHADOW_GAP
-      file = "assets/frame.png"
+      file = "assets/frame.svg"
       border = { 1, 1, 1, 1 }
       stretch = TRUE
-      gap_start_file = "assets/frame-gap-start.png"
+      gap_start_file = "assets/frame-gap-start.svg"
       gap_start_border = { 1, 0, 0, 0 }
-      gap_end_file = "assets/frame-gap-end.png"
+      gap_end_file = "assets/frame-gap-end.svg"
       gap_end_border = { 0, 1, 0, 0 }
       shadow = IN
     }
 
     image {
       function = SHADOW
-      file = "assets/frame.png"
+      file = "assets/frame.svg"
       border = { 1, 1, 1, 1 }
       stretch = TRUE
       shadow = OUT
@@ -2142,19 +2142,19 @@ style "frame" {
 
     image {
       function = SHADOW_GAP
-      file = "assets/frame.png"
+      file = "assets/frame.svg"
       border = { 1, 1, 1, 1 }
       stretch = TRUE
-      gap_start_file = "assets/frame-gap-start.png"
+      gap_start_file = "assets/frame-gap-start.svg"
       gap_start_border = { 1, 0, 0, 0 }
-      gap_end_file = "assets/frame-gap-end.png"
+      gap_end_file = "assets/frame-gap-end.svg"
       gap_end_border = { 0, 1, 0, 0 }
       shadow = OUT
     }
 
     image {
       function = SHADOW
-      file = "assets/frame.png"
+      file = "assets/frame.svg"
       border = { 1, 1, 1, 1 }
       stretch = TRUE
       shadow = ETCHED_IN
@@ -2162,19 +2162,19 @@ style "frame" {
 
     image {
       function = SHADOW_GAP
-      file = "assets/frame.png"
+      file = "assets/frame.svg"
       border = { 1, 1, 1, 1 }
       stretch = TRUE
-      gap_start_file = "assets/frame-gap-start.png"
+      gap_start_file = "assets/frame-gap-start.svg"
       gap_start_border = { 1, 0, 0, 0 }
-      gap_end_file = "assets/frame-gap-end.png"
+      gap_end_file = "assets/frame-gap-end.svg"
       gap_end_border = { 0, 1, 0, 0 }
       shadow = ETCHED_IN
     }
 
     image {
       function = SHADOW
-      file = "assets/frame.png"
+      file = "assets/frame.svg"
       border = { 1, 1, 1, 1 }
       stretch = TRUE
       shadow = ETCHED_OUT
@@ -2182,12 +2182,12 @@ style "frame" {
 
     image {
       function = SHADOW_GAP
-      file = "assets/frame.png"
+      file = "assets/frame.svg"
       border = { 1, 1, 1, 1 }
       stretch = TRUE
-      gap_start_file = "assets/frame-gap-start.png"
+      gap_start_file = "assets/frame-gap-start.svg"
       gap_start_border = { 1, 0, 0, 0 }
-      gap_end_file = "assets/frame-gap-end.png"
+      gap_end_file = "assets/frame-gap-end.svg"
       gap_end_border = { 0, 1, 0, 0 }
       shadow = ETCHED_OUT
     }
@@ -2211,21 +2211,21 @@ style "toolbar" {
 
     image {
       function = BOX
-      file  = "assets/toolbar.png"
+      file  = "assets/toolbar.svg"
       stretch  = TRUE
       border = { 1, 1, 1, 1 }
     }
 
     image {
       function = HANDLE
-      overlay_file = "assets/handle-h.png"
+      overlay_file = "assets/handle-h.svg"
       overlay_stretch = FALSE
       orientation = HORIZONTAL
     }
 
     image {
       function = HANDLE
-      overlay_file = "assets/handle-v.png"
+      overlay_file = "assets/handle-v.svg"
       overlay_stretch = FALSE
       orientation = VERTICAL
     }
@@ -2236,13 +2236,13 @@ style "toolbar" {
 
     image {
       function = VLINE
-      file     = "assets/border.png"
+      file     = "assets/border.svg"
       border   = {1, 0, 0, 0}
     }
 
     image {
       function = HLINE
-      file     = "assets/border.png"
+      file     = "assets/border.svg"
       border   = {0, 0, 1, 0}
     }
   }
@@ -2256,7 +2256,7 @@ style "toolbar_separator" {
   engine "pixmap" {
     image {
       function = BOX
-      file     = "assets/border.png"
+      file     = "assets/border.svg"
     }
   }
 }
@@ -2269,7 +2269,7 @@ style "inline_toolbar" {
 
     image {
       function = BOX
-      file = "assets/inline-toolbar.png"
+      file = "assets/inline-toolbar.svg"
       stretch = TRUE
       border = { 1, 1, 1, 1 }
     }
@@ -2379,7 +2379,7 @@ style "null" {
 
     image {
     function = BOX
-    file = "assets/null.png"
+    file = "assets/null.svg"
     stretch = TRUE
     }
   }

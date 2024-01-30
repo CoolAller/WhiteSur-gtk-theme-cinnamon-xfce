@@ -14,7 +14,7 @@ style "menubar" {
 
     image {
       function = BOX
-      file  = "assets/menubar.png"
+      file  = "assets/menubar.svg"
       stretch  = TRUE
       border = { 1, 1, 1, 1 }
     }
@@ -35,7 +35,7 @@ style "menubar-borderless" {
 
     image {
       function = BOX
-      file  = "assets/null.png"
+      file  = "assets/null.svg"
       stretch  = TRUE
       border = { 1, 1, 1, 1 }
     }
@@ -54,7 +54,7 @@ style "menubar_item" {
     image {
       function = BOX
       state = PRELIGHT
-      file = "assets/menubar_button.png"
+      file = "assets/menubar_button.svg"
       border = { 2, 2, 2, 2 }
       stretch = TRUE
     }
@@ -71,7 +71,7 @@ style "toolbar_entry" {
       function = SHADOW
       state = NORMAL
       detail = "entry"
-      file = "assets/entry-toolbar.png"
+      file = "assets/entry-toolbar.svg"
       border = {6, 6, 6, 6}
       stretch = TRUE
     }
@@ -80,7 +80,7 @@ style "toolbar_entry" {
       function = SHADOW
       state = ACTIVE
       detail = "entry"
-      file = "assets/entry-active-toolbar.png"
+      file = "assets/entry-active-toolbar.svg"
       border = {6, 6, 6, 6}
       stretch = TRUE
     }
@@ -89,7 +89,7 @@ style "toolbar_entry" {
       function = SHADOW
       state = INSENSITIVE
       detail = "entry"
-      file = "assets/entry-disabled-toolbar.png"
+      file = "assets/entry-disabled-toolbar.svg"
       border = {6, 6, 6, 6}
       stretch = TRUE
     }
@@ -98,20 +98,20 @@ style "toolbar_entry" {
       function = FLAT_BOX
       state    = ACTIVE
       detail   = "entry_bg"
-      file     = "assets/null.png"
+      file     = "assets/null.svg"
     }
 
     image {
       function = FLAT_BOX
       state    = INSENSITIVE
       detail   = "entry_bg"
-      file     = "assets/null.png"
+      file     = "assets/null.svg"
     }
 
     image {
       function = FLAT_BOX
       detail   = "entry_bg"
-      file     = "assets/null.png"
+      file     = "assets/null.svg"
     }
   }
 }
