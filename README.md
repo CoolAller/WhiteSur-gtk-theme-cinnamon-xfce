@@ -1,4 +1,4 @@
-<h1 align="center"> WhiteSur GTK Theme for Cinnamon Desktop  
+<h1 align="center"> WhiteSur GTK Theme for Cinnamon/XFCE Desktop  
   
   (Nord Color Scheme)</h1>
 <p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/macbook.png"/> </p>
@@ -9,7 +9,7 @@
 
 ## Features of the WhiteSur GTK theme:
 
-The theme is adapted for Cinnamon-based desktops. Numerous bug fixes and improvements over the original theme. Nord Color Scheme themes, right or left placement of Nemo or Nautilus titlebuttons, laptop size, nautilus-style "Glassy".
+The theme is adapted for Cinnamon/XFCE-based desktops. Numerous bug fixes and improvements over the original theme. Nord Color Scheme themes, right or left placement of Nemo or Nautilus titlebuttons, laptop size, nautilus-style "Glassy".
 
 ## Installation:
 
