@@ -5297,19 +5297,6 @@ decoration:backdrop {
   border-radius: 10px;
 }
 
-.ssd decoration {
-  margin: -6px;
-  border-radius: 12px 12px 0 0;
-}
-
-.ssd decoration, .ssd decoration.backdrop {
-  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.03), 0 0 0 1px rgba(0, 0, 0, 0.12);
-}
-
-.ssd decoration.maximized, .ssd decoration.tiled {
-  border-radius: 0;
-}
-
 .metacity decoration {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
