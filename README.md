@@ -62,6 +62,8 @@ To install Whitesur Icon Theme for Cinnamon, run in the terminal:  `./install.sh
 
 ## Links to original theme for Gnome-based desktops
 [WhiteSur-icon-theme](https://github.com/vinceliuice/WhiteSur-icon-theme)
+<br>
 [WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme)
+<br>
 
 
