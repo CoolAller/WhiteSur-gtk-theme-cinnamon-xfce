@@ -6,7 +6,7 @@
 <br>
 <p align="center"> <b> A macOS BigSur-like theme for your GTK apps </b> </p>
 <br>
-
+https://github.com/vinceliuice/WhiteSur-gtk-theme
 ## Features of the WhiteSur GTK theme:
 
 The theme is adapted for Cinnamon/XFCE-based desktops. Numerous bug fixes and improvements over the original theme. Nord Color Scheme themes, right or left placement of Nemo or Nautilus titlebuttons, laptop size, nautilus-style "Glassy".
@@ -76,5 +76,5 @@ To install Whitesur Icon Theme for Cinnamon, run in the terminal:  `./install.sh
 [WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme)
 <br>
 
-If you’d like to show your appreciation, please send your thanks to [Vinceliuice]([https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/master/README.md](https://github.com/vinceliuice/WhiteSur-gtk-theme).
+If you'd like to show your appreciation, please send your thanks to [Vinceliuice]([https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/master/README.md](https://github.com/vinceliuice/WhiteSur-gtk-theme).
 
