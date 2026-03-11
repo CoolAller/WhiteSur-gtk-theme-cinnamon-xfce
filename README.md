@@ -15,6 +15,16 @@ The theme is adapted for Cinnamon/XFCE-based desktops. Numerous bug fixes and im
 
 Just copy the Whitesur theme files to the Cinnamon theme directory:  ~/.themes  or  /usr/share/themes
 
+## Fix for libadwaita (not perfect)
+
+Since the release of `Gnome 43.0`, more and more built-in apps use `libadwaita` now, and libadwaita does not support custom themes, which means we cannot change the appearance of app using libadwaita through `gnome-tweaks` or `dconf-editor`. For users who love custom themes, it’s really sucks!
+
+Anyway if anybody who still want to custom themes we can only do this way:
+
+that is to use the `theme file` to overwrite the `gtk-4.0 configuration file`. The result is that only Fixed making all gtk4 apps use one theme and cannot be switched (even can not switch to dark mode) If you want to change a theme, you can only re-overwrite the `gtk-4.0 configuration file` with a new theme, I know this method is not perfect, But at the moment it is only possible to continue using themes for libadwaita's apps ...
+
+Just unpack gtk-4.0.tar.gz and copy the files into the configuration folder at $HOME/.config/gtk-4.0.
+
 ### WhiteSur Wallpapers
 <p align="center"> <a href="https://github.com/vinceliuice/WhiteSur-wallpapers">
   <img class="image" src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/wallpaper.gif"/>
