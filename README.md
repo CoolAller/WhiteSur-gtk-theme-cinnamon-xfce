@@ -17,7 +17,7 @@ Just copy the Whitesur theme files to the Cinnamon theme directory:  ~/.themes  
 
 ## Fix for libadwaita (not perfect)
 
-Since the release of `Gnome 43.0`, more and more built-in apps use `libadwaita` now, and libadwaita does not support custom themes, which means we cannot change the appearance of app using libadwaita through `gnome-tweaks` or `dconf-editor`. For users who love custom themes, it’s really sucks!
+Since the release of `Gnome 43.0`, more and more built-in apps use `libadwaita` now, and libadwaita does not support custom themes, which means we cannot change the appearance of app using libadwaita through `gnome-tweaks` or `dconf-editor`. For users who love custom themes, it's really sucks!
 
 Anyway if anybody who still want to custom themes we can only do this way:
 
