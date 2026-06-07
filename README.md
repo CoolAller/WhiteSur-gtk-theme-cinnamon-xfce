@@ -1,3 +1,5 @@
+I'm preparing an update to this theme for the latest versions of DE Cinnamon; I'll post it later. Thanks for your support!
+
 <h1 align="center"> WhiteSur GTK Theme for Cinnamon/XFCE Desktop  
   
   (Nord Color Scheme)</h1>
