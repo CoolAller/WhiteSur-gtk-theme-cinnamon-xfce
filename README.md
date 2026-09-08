@@ -15,11 +15,9 @@ The theme is adapted for Cinnamon/XFCE-based desktops. Some bug fixes and improv
 
 ## Installation:
 
-Just copy the Whitesur theme to the Cinnamon themes directory: /usr/share/themes. If you copy them to ~/.themes, some applications that require superuser password will be displayed incorrectly, and the styles of this theme will not be applied to them.
+Just copy the Whitesur theme to the Cinnamon themes directory: /usr/share/themes. If you copy it to ~/.themes, some applications that require superuser password will be displayed incorrectly, and the styles of this theme will not be applied to them.
 
-## Fix for libadwaita (not perfect)
-
-Fix for libadwaita.
+## Fix for libadwaita
 
 Since GNOME 43, more apps use libadwaita, which does not support custom themes. This means themes cannot be changed through GNOME Tweaks or dconf-editor.
 
