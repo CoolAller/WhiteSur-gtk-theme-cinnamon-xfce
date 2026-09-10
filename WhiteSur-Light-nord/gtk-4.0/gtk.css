@@ -568,7 +568,7 @@ spinbutton > text:disabled, .linked > entry:disabled:not(:only-child) {
 
 
 entry {
-  min-height: 24px;
+  min-height: 22px;
   border: none;
   padding: 2px 8px;
   border-radius: 6px;
