@@ -34,10 +34,10 @@
 	<distance name="bottom_height" value="1" />
 	<distance name="left_titlebar_edge" value="5" />
 	<distance name="right_titlebar_edge" value="5" />
-	<distance name="title_vertical_pad" value="4" />
+	<distance name="title_vertical_pad" value="0" />
 	<aspect_ratio name="button" value="1.0" />
-	<border name="title_border" left="4" right="4" top="4" bottom="4" />
-	<border name="button_border" left="0" right="0" top="4" bottom="4" />
+	<border name="title_border" left="4" right="4" top="7" bottom="7" />
+	<border name="button_border" left="4" right="4" top="7" bottom="7" />
 </frame_geometry>
 
 <!-- Unfocused window -->
@@ -47,19 +47,19 @@
 	<distance name="bottom_height" value="1" />
 	<distance name="left_titlebar_edge" value="5"/>
 	<distance name="right_titlebar_edge" value="5"/>
-	<distance name="title_vertical_pad" value="4" />
-	<border name="title_border" left="4" right="4" top="4" bottom="4" />
-	<border name="button_border" left="0" right="0" top="4" bottom="4" />
+	<distance name="title_vertical_pad" value="0" />
+	<border name="title_border" left="4" right="4" top="7" bottom="7" />
+	<border name="button_border" left="4" right="4" top="7" bottom="7" />
 </frame_geometry>
 
 <!-- Maximized window -->
 <frame_geometry name="max" title_scale="medium" parent="normal" rounded_top_left="false" rounded_top_right="false">
-	<distance name="left_width" value="0" />
-	<distance name="right_width" value="0" />
-	<distance name="bottom_height" value="0" />
-	<distance name="title_vertical_pad" value="4" />
-	<border name="title_border" left="4" right="4" top="4" bottom="4" />
-	<border name="button_border" left="0" right="0" top="4" bottom="4" />
+	<distance name="left_width" value="1" />
+	<distance name="right_width" value="1" />
+	<distance name="bottom_height" value="1" />
+	<distance name="title_vertical_pad" value="0" />
+	<border name="title_border" left="4" right="4" top="7" bottom="7" />
+	<border name="button_border" left="4" right="4" top="7" bottom="7" />
 </frame_geometry>
 
 <!-- Left tiled window -->
@@ -73,10 +73,10 @@
 </frame_geometry>
 
 <!-- Small window -->
-<frame_geometry name="small" title_scale="small" parent="normal" rounded_top_left="false" rounded_top_right="false">
-	<distance name="title_vertical_pad" value="4" />
-	<border name="title_border" left="4" right="4" top="0" bottom="0" />
-	<border name="button_border" left="0" right="0" top="0" bottom="0"  />
+<frame_geometry name="small" title_scale="medium" parent="normal" rounded_top_left="2" rounded_top_right="2">
+	<distance name="title_vertical_pad" value="0" />
+	<border name="title_border" left="4" right="4" top="7" bottom="7" />
+	<border name="button_border" left="4" right="4" top="7" bottom="7"  />
 </frame_geometry>
 
 <!-- Small unfocused window -->
@@ -110,12 +110,12 @@
 </frame_geometry>
 
 <!-- Modal -->
-<frame_geometry name="modal" title_scale="small" hide_buttons="true" rounded_top_left="false" rounded_top_right="false" parent="small">
-	<distance name="title_vertical_pad" value="5"/>
+<frame_geometry name="modal" title_scale="medium" rounded_top_left="2" rounded_top_right="2" parent="small">
+	<distance name="title_vertical_pad" value="0"/>
 </frame_geometry>
 
 <frame_geometry name="attached" title_scale="medium" hide_buttons="true" rounded_top_left="false" rounded_top_right="false" parent="normal">
-	<distance name="title_vertical_pad" value="8"/>
+	<distance name="title_vertical_pad" value="0"/>
 	<distance name="bottom_height" value="1"/>
 	<distance name="left_width" value="1"/>
 	<distance name="right_width" value="1"/>
@@ -126,13 +126,13 @@
 
 <!-- Title alignment -->
 <draw_ops name="title_focused">
-	<title x="(0 `max` ((width - title_width) / 2)) + 2"
+	<title x="(0 `max` ((width - title_width) / 2))"
                y="(0 `max` ((height - title_height) / 2))"
                color="C_title_focused" />
 </draw_ops>
 
 <draw_ops name="title_unfocused">
-	<title x="(0 `max` ((width - title_width) / 2)) + 2"
+	<title x="(0 `max` ((width - title_width) / 2))"
                y="(0 `max` ((height - title_height) / 2))"
                color="C_title_unfocused" />
 </draw_ops>
@@ -603,7 +603,7 @@
 	<button function="unstick" state="pressed"><draw_ops></draw_ops></button>
 </frame_style>
 
-<frame_style name="dialog_focused" geometry="nobuttons">
+<frame_style name="dialog_focused" geometry="normal">
 	<piece position="entire_background" draw_ops="entire_background_focused" />
 	<piece position="titlebar" draw_ops="rounded_titlebar_focused" />
 	<piece position="title" draw_ops="title_focused" />
@@ -637,7 +637,7 @@
 	<button function="unstick" state="pressed"><draw_ops></draw_ops></button>
 </frame_style>
 
-<frame_style name="dialog_unfocused" geometry="nobuttons">
+<frame_style name="dialog_unfocused" geometry="normal">
 	<piece position="entire_background" draw_ops="entire_background_unfocused" />
 	<piece position="titlebar" draw_ops="titlebar_fill_unfocused" />
 	<piece position="title" draw_ops="title_unfocused" />
