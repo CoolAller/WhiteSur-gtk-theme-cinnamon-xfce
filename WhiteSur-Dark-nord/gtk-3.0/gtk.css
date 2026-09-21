@@ -4541,16 +4541,17 @@ messagedialog .dialog-action-area {
   padding: 6px;
 }
 
+messagedialog .dialog-action-area button:not(:last-child) {
+  margin-right: 6px;
+}
+
 messagedialog .dialog-action-area button {
   min-height: 20px;
+  min-width: 18px;
   padding: 4px 8px;
   box-shadow: none;
   border-radius: 6px;
   border: none;
-}
-
-messagedialog .dialog-action-area button:not(:last-child) {
-  margin-right: 6px;
 }
 
 messagedialog .dialog-action-area button:not(.suggested-action):not(.destructive-action) {
