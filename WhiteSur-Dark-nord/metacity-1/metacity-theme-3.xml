@@ -63,7 +63,7 @@
 <frame_geometry name="small_unfocused" parent="small">
 </frame_geometry>
 
-<frame_geometry name="nobuttons" hide_buttons="true" parent="normal" />
+<frame_geometry name="nobuttons" hide_buttons="false" parent="normal" />
 
 <frame_geometry name="border" has_title="false" rounded_top_left="8" rounded_top_right="8" parent="normal">
 	<distance name="left_width" value="1" />
