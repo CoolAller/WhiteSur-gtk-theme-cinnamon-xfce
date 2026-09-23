@@ -183,33 +183,51 @@
 </draw_ops>
 
 <draw_ops name="rounded_border_focused">
-  <line color="C_border_focused" x1="12" y1="0" x2="width-13" y2="0" />
-  <line color="C_border_focused" x1="0" y1="height-1" x2="width-1" y2="height-1" />
-  <line color="C_border_focused" x1="0" y1="12" x2="0" y2="height-2" />
-  <line color="C_border_focused" x1="width-1" y1="12" x2="width-1" y2="height-2" />
-  <arc color="C_border_focused" x="0" y="0" width="25" height="25"  start_angle="270" extent_angle="90" />
-  <arc color="C_border_focused" x="width-26" y="0" width="25" height="25"  start_angle="0" extent_angle="90" />
-  <!-- double arcs for darker borders -->
-  <arc color="C_border_focused" x="0" y="0" width="25" height="25"  start_angle="270" extent_angle="90" />
-  <arc color="C_border_focused" x="width-26" y="0" width="25" height="25"  start_angle="0" extent_angle="90" />
-  <line color="C_highlight" x1="13" y1="1" x2="width - 14" y2="1"/>
-  <arc color="C_highlight" x="0" y="1" width="25" height="25" start_angle="270" extent_angle="90"/>
-  <arc color="C_highlight" x="width - 26" y="1" width="25" height="25" start_angle="0" extent_angle="90"/>
+  <line color="C_border_focused"
+        x1="12" y1="0"
+        x2="width-13" y2="0" />
+
+  <line color="C_border_focused"
+        x1="0" y1="12"
+        x2="0" y2="height-2" />
+
+  <line color="C_border_focused"
+        x1="width-1" y1="12"
+        x2="width-1" y2="height-2" />
+
+  <arc color="C_border_focused"
+       x="0" y="0"
+       width="23" height="23"
+       start_angle="270" extent_angle="90" />
+
+  <arc color="C_border_focused"
+       x="width-24" y="0"
+       width="23" height="23"
+       start_angle="0" extent_angle="90" />
 </draw_ops>
 
 <draw_ops name="rounded_border_unfocused">
-  <line color="C_border_unfocused" x1="12" y1="0" x2="width-13" y2="0" />
-  <line color="C_border_unfocused" x1="0" y1="height-1" x2="width-1" y2="height-1" />
-  <line color="C_border_unfocused" x1="0" y1="12" x2="0" y2="height-2" />
-  <line color="C_border_unfocused" x1="width-1" y1="12" x2="width-1" y2="height-2" />
-  <arc color="C_border_unfocused" x="0" y="0" width="25" height="25"  start_angle="270" extent_angle="90" />
-  <arc color="C_border_unfocused" x="width-26" y="0" width="25" height="25"  start_angle="0" extent_angle="90" />
-  <!-- double arcs for darker borders -->
-  <arc color="C_border_unfocused" x="0" y="0" width="25" height="25"  start_angle="270" extent_angle="90" />
-  <arc color="C_border_unfocused" x="width-26" y="0" width="25" height="25"  start_angle="0" extent_angle="90" />
-  <line color="C_highlight" x1="13" y1="1" x2="width - 14" y2="1"/>
-  <arc color="C_highlight" x="0" y="1" width="25" height="25" start_angle="270" extent_angle="90"/>
-  <arc color="C_highlight" x="width - 26" y="1" width="25" height="25" start_angle="0" extent_angle="90"/>
+  <line color="C_border_unfocused"
+        x1="12" y1="0"
+        x2="width-13" y2="0" />
+
+  <line color="C_border_unfocused"
+        x1="0" y1="12"
+        x2="0" y2="height-2" />
+
+  <line color="C_border_unfocused"
+        x1="width-1" y1="12"
+        x2="width-1" y2="height-2" />
+
+  <arc color="C_border_unfocused"
+       x="0" y="0"
+       width="23" height="23"
+       start_angle="270" extent_angle="90" />
+
+  <arc color="C_border_unfocused"
+       x="width-24" y="0"
+       width="23" height="23"
+       start_angle="0" extent_angle="90" />
 </draw_ops>
 
 <draw_ops name="dialog_fill_background">
