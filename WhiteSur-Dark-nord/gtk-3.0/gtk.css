@@ -7470,8 +7470,7 @@ window.background > grid.vertical > box.vertical grid.math-buttons button {
 }
 
 window.background > grid.vertical > box.vertical > widget button:not(.suggested-action):active,
-window.background > grid.vertical > box.vertical > box.vertical > widget button:not(.suggested-action):active,
-window.background > grid.vertical > box.vertical grid.math-buttons button:not(.suggested-action):active {
+window.background > grid.vertical > box.vertical > box.vertical > widget button:not(.suggested-action):active {
   background-image: none;
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.25);
@@ -7479,8 +7478,7 @@ window.background > grid.vertical > box.vertical grid.math-buttons button:not(.s
 }
 
 window.background > grid.vertical > box.vertical > widget button:not(.suggested-action):checked,
-window.background > grid.vertical > box.vertical > box.vertical > widget button:not(.suggested-action):checked,
-window.background > grid.vertical > box.vertical grid.math-buttons button:not(.suggested-action):checked {
+window.background > grid.vertical > box.vertical > box.vertical > widget button:not(.suggested-action):checked {
   background-image: none;
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.35);
