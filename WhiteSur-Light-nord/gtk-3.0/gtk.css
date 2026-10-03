@@ -9021,6 +9021,18 @@ dialog.background > box.dialog-vbox > filechooser > actionbar > revealer > box >
   margin-bottom: 28px;
 }
 
+/* Fixed the styling of the combobox arrow for the GtkAppChooserButton widget in cinnamon-settings-daemon (the "automount" plugin): removable media action selection dialog (may result in a similar appearance in other applications if the selector matches exactly) */
+dialog.background > box.dialog-vbox.vertical > box.horizontal > box.vertical > combobox > box.horizontal.linked > button.combo > box.horizontal > arrow {
+  color: #5271ad;
+  background-color: transparent;
+  box-shadow: none;
+  -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
+}
+
+dialog.background > box.dialog-vbox.vertical > box.horizontal > box.vertical > combobox > box.horizontal.linked > button.combo > box.horizontal > arrow:backdrop {
+  color: rgba(43, 48, 59, 0.45);
+}
+
 treeview#ObjectsTreeView.view {
   transition: none;
 }
