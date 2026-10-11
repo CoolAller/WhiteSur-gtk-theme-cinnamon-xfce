@@ -8663,14 +8663,27 @@ dialog.about .main-page .app-version {
 
 window.about clamp button, dialog.about clamp button {
   color: #5271ad;
+  background-color: #f1f4f8;
+  border-color: rgba(0, 0, 0, 0.12);
+  background-clip: border-box;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.03), 0 1px 2px 0 rgba(0, 0, 0, 0.01);
 }
 
 window.about clamp button:focus:hover, dialog.about clamp button:focus:hover, window.about clamp button:hover, dialog.about clamp button:hover {
   color: #5271ad;
+  background-color: #e9f4f8;
+  border-color: rgba(0, 0, 0, 0.12);
+  background-clip: border-box;
+  box-shadow: none;
 }
 
 window.about clamp button:active, dialog.about clamp button:active, window.about clamp button:focus:hover:active, dialog.about clamp button:focus:hover:active {
   color: #f8f9fc;
+  background-color: #5271ad;
+  border-color: #5271ad;
+  background-clip: border-box;
+  box-shadow: none;
+  transition-duration: 300ms;
 }
 
 window.about .subpage > viewport > clamp > box,
