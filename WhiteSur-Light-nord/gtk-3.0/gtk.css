@@ -7573,11 +7573,11 @@ window.background > box.vertical > toolbar.primary-toolbar > toolitem > box.hori
 window.background > box.vertical > toolbar.primary-toolbar > toolitem > .linked > button:active:not(.toggle):not(.raised):not(.flat), window.background > box.vertical > toolbar.primary-toolbar > toolitem > .linked > button.image-button.raised:active, window.csd > box.vertical > box.vertical > toolbar.horizontal > toolitem > .linked > button:active,
 window.csd > box.vertical > box.vertical > toolbar.horizontal > toolitem > box.horizontal > button:active,
 window.solid-csd > box.vertical > box.vertical > toolbar.horizontal > toolitem > .linked > button:active,
-window.solid-csd > box.vertical > box.vertical > toolbar.horizontal > toolitem > box.horizontal > button:active, .sidebar-paned .inline-toolbar.horizontal.sidebar-toolbar button.image-button:active, window.background > box.vertical > toolbar.primary-toolbar > toolitem > box.horizontal:not(.linked) > button.toggle:checked,
+window.solid-csd > box.vertical > box.vertical > toolbar.horizontal > toolitem > box.horizontal > button:active, .sidebar-paned .inline-toolbar.horizontal.sidebar-toolbar button.image-button:active, window.background > box.vertical > toolbar.horizontal.primary-toolbar > toolitem > button.popup.raised.toggle:active, window.background > box.vertical > toolbar.primary-toolbar > toolitem > box.horizontal:not(.linked) > button.toggle:checked,
 window.background > box.vertical > toolbar.primary-toolbar > toolitem > .linked > button:checked:not(.toggle):not(.raised):not(.flat), window.background > box.vertical > toolbar.primary-toolbar > toolitem > .linked > button.image-button.raised:checked, window.csd > box.vertical > box.vertical > toolbar.horizontal > toolitem > .linked > button:checked,
 window.csd > box.vertical > box.vertical > toolbar.horizontal > toolitem > box.horizontal > button:checked,
 window.solid-csd > box.vertical > box.vertical > toolbar.horizontal > toolitem > .linked > button:checked,
-window.solid-csd > box.vertical > box.vertical > toolbar.horizontal > toolitem > box.horizontal > button:checked, .sidebar-paned .inline-toolbar.horizontal.sidebar-toolbar button.image-button:checked {
+window.solid-csd > box.vertical > box.vertical > toolbar.horizontal > toolitem > box.horizontal > button:checked, .sidebar-paned .inline-toolbar.horizontal.sidebar-toolbar button.image-button:checked, window.background > box.vertical > toolbar.horizontal.primary-toolbar > toolitem > button.popup.raised.toggle:checked {
   background-image: none;
   color: #090a0c;
   background-color: rgba(87, 100, 127, 0.12);
