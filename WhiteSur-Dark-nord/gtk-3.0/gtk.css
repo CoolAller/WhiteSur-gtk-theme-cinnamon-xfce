@@ -1288,7 +1288,6 @@ button.suggested-action:focus:active, button.suggested-action:focus:checked {
   background-color: #376bd5;
   background-image: none;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.15), inset 0 -1px rgba(255, 255, 255, 0.03);
-  border-radius: 6px;
   border-color: rgba(0, 0, 0, 0.15);
 }
 
@@ -2128,6 +2127,10 @@ headerbar entry.error selection, headerbar entry.error selection:focus {
   color: #c35b65;
 }
 
+/*******************************
+ * Button headerbar *
+ *******************************/
+
 headerbar button:not(.combo) {
   color: #f8f9fc;
   background-color: transparent;
@@ -2213,7 +2216,6 @@ headerbar button.suggested-action:focus {
   background-color: #3b6fd7;
   background-image: none;
   box-shadow: none;
-  border-radius: 6px;
   border-color: rgba(0, 0, 0, 0.15);
 }
 
@@ -2226,7 +2228,7 @@ headerbar button.suggested-action:focus:hover {
   border-color: #4878d8;
 }
 
-headerbar button.suggested-action:focus:active, button.suggested-action:focus:checked {
+headerbar button.suggested-action:focus:active, headerbar button.suggested-action:focus:checked {
   color: #ffffff;
   background-color: #376bd5;
   background-image: none;
@@ -4632,7 +4634,6 @@ messagedialog .dialog-action-area button.suggested-action:focus {
   background-image: none;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.15), inset 0 -1px rgba(255, 255, 255, 0.03);
   border-color: rgba(0, 0, 0, 0.15);
-  border-radius: 6px;
 }
 
 messagedialog .dialog-action-area button.suggested-action:focus:hover {

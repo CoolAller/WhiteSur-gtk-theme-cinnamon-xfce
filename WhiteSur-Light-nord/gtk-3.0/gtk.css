@@ -1278,7 +1278,6 @@ button.suggested-action:active, button.suggested-action:checked {
   background-color: #5271ad;
   background-image: none;
   box-shadow: none;
-  border-radius: 6px;
   border-color: #5271ad;
 }
 
@@ -1306,7 +1305,6 @@ button.suggested-action:focus:active, button.suggested-action:focus:checked {
   background-color: #5271ad;
   background-image: none;
   box-shadow: none;
-  border-radius: 6px;
   border-color: #5271ad;
 }
 
@@ -2150,7 +2148,7 @@ headerbar entry.error selection, headerbar entry.error selection:focus {
 }
 
 /*******************************
- * Button headerbar (titlebar) *
+ * Button headerbar *
  *******************************/
 
 headerbar button:not(.combo) {
@@ -2257,7 +2255,6 @@ headerbar button.suggested-action {
   background-color: #4c7bd9;
   background-image: none;
   box-shadow: none;
-  border-radius: 6px;
   border-color: rgba(0, 0, 0, 0.15);
 }
 
@@ -2275,7 +2272,6 @@ headerbar button.suggested-action:focus {
   background-color: #3b6fd7;
   background-image: none;
   box-shadow: none;
-  border-radius: 6px;
   border-color: rgba(0, 0, 0, 0.15);
 }
 
@@ -2288,13 +2284,12 @@ headerbar button.suggested-action:focus:hover {
   border-color: #4878d8;
 }
 
-headerbar button.suggested-action:focus:active, button.suggested-action:focus:checked {
+headerbar button.suggested-action:focus:active, headerbar button.suggested-action:focus:checked {
   background-clip: border-box;
   color: #ffffff;
   background-color: #5271ad;
   background-image: none;
   box-shadow: none;
-  border-radius: 6px;
   border-color: #5271ad;
 }
 
@@ -4760,9 +4755,9 @@ messagedialog .dialog-action-area button {
 messagedialog .dialog-action-area button:not(.suggested-action):not(.destructive-action) {
   color: #57647f;
   background-color: rgba(87, 100, 127, 0.1);
-  border-radius: 6px;
   box-shadow: none;
   border-color: rgba(0, 0, 0, 0.20);
+  border-radius: 6px;
 }
 
 messagedialog .dialog-action-area button:not(.suggested-action):not(.destructive-action):hover {
@@ -4770,7 +4765,6 @@ messagedialog .dialog-action-area button:not(.suggested-action):not(.destructive
   background-color: rgba(87, 100, 127, 0.15);
   background-image: none;
   box-shadow: none;
-  border-radius: 6px;
   border-color: rgba(0, 0, 0, 0.20);
 }
 
@@ -4778,7 +4772,6 @@ messagedialog .dialog-action-area button:not(.suggested-action):not(.destructive
   color: #535f79;
   background-color: rgba(87, 100, 127, 0.20);
   box-shadow: none;
-  border-radius: 6px;
   border-color: rgba(0, 0, 0, 0.15);
 }
 
@@ -4788,13 +4781,11 @@ messagedialog .dialog-action-area button:not(.suggested-action):not(.destructive
   border-color: rgba(0, 0, 0, 0.15);
   background-image: none;
   box-shadow: none;
-  border-radius: 6px;
 }
 
 messagedialog .dialog-action-area button:not(.suggested-action):not(.destructive-action):focus:hover:active, messagedialog .dialog-action-area button:not(.suggested-action):not(.destructive-action):focus:active, messagedialog .dialog-action-area button:not(.suggested-action):not(.destructive-action):focus:hover:checked, messagedialog .dialog-action-area button:not(.suggested-action):not(.destructive-action):focus:checked {
   color: #ffffff;
   background-color: #5271ad;
-  border-radius: 6px;
   border-color: rgba(0, 0, 0, 0.15);
   box-shadow: none;
 }
@@ -4802,7 +4793,6 @@ messagedialog .dialog-action-area button:not(.suggested-action):not(.destructive
 messagedialog .dialog-action-area button:not(.suggested-action):not(.destructive-action):active, messagedialog .dialog-action-area button:not(.suggested-action):not(.destructive-action):checked {
   color: #ffffff;
   background-color: #5271ad;
-  border-radius: 6px;
   border-color: rgba(0, 0, 0, 0.15);
   box-shadow: none;
 }
@@ -4847,7 +4837,6 @@ messagedialog .dialog-action-area button.suggested-action:focus:hover {
 messagedialog .dialog-action-area button.suggested-action:focus:hover:active, messagedialog .dialog-action-area button.suggested-action:focus:active, messagedialog .dialog-action-area button.suggested-action:focus:hover:checked, messagedialog .dialog-action-area button.suggested-action:focus:checked {
   color: #ffffff;
   background-color: #5271ad;
-  border-radius: 6px;
   border-color: rgba(0, 0, 0, 0.15);
   box-shadow: none;
 }
@@ -4855,7 +4844,6 @@ messagedialog .dialog-action-area button.suggested-action:focus:hover:active, me
 messagedialog .dialog-action-area button.suggested-action:active, messagedialog .dialog-action-area button.suggested-action:checked {
   color: #ffffff;
   background-color: #5271ad;
-  border-radius: 6px;
   border-color: rgba(0, 0, 0, 0.15);
   box-shadow: none;
 }
