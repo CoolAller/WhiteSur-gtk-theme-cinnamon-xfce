@@ -1239,12 +1239,12 @@ button.image-text-button.popup {
 }
 
 
-button.flat.image-button.text-button {
+button.flat.image-button {
   padding: 4px;
 }
 
 
-button.flat.image-button.text-button {
+button.flat.image-button {
   color: #57647f;
   border: none;
   background-color: transparent;
@@ -1252,7 +1252,7 @@ button.flat.image-button.text-button {
 }
 
 
-button.flat.image-button.text-button:hover {
+button.flat.image-button:hover {
   color: #535f79;
   background-color: alpha(mix(white,#5271ad,0.75),0.15);
   border: none;
@@ -1261,15 +1261,15 @@ button.flat.image-button.text-button:hover {
 }
 
 
-button.flat.image-button.text-button:hover:active, button.flat.image-button.text-button:hover:checked {
+button.flat.image-button:hover:active, button.flat.image-button:hover:checked {
   color: #535f79;
-  background-color: alpha(mix(white,#5271ad,0.75),0.20);
+  background-color: rgba(87, 100, 127, 0.20);
   background-image: none;
   border: none;
 }
 
 
-button.flat.image-button.text-button:focus {
+button.flat.image-button:focus {
   color: #57647f;
   border: none;
   background-color: transparent;
@@ -1277,18 +1277,18 @@ button.flat.image-button.text-button:focus {
 }
 
 
-button.flat.image-button.text-button:focus:hover {
+button.flat.image-button:focus:hover {
   color: #535f79;
-  background-color: alpha(mix(white,#5271ad,0.75),0.15);
+  background-color: rgba(87, 100, 127, 0.1);
   border: none;
   background-image: none;
   box-shadow: none;
 }
 
 
-button.flat.image-button.text-button:focus:hover:active, button.flat.image-button.text-button:focus:active, button.flat.image-button.text-button:focus:hover:checked, button.flat.image-button.text-button:focus:checked {
+button.flat.image-button:focus:hover:active, button.flat.image-button:focus:active, button.flat.image-button:focus:hover:checked, button.flat.image-button:focus:checked {
   color: #535f79;
-  background-color: alpha(mix(white,#5271ad,0.75),0.20);
+  background-color: rgba(87, 100, 127, 0.20);
   background-image: none;
   border: none;
 }
