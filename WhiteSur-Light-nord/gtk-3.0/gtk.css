@@ -875,6 +875,11 @@ stacksidebar row.needs-attention > label:dir(rtl), .stack-switcher > button.need
   background-position: left 3px, left 4px;
 }
 
+/* Fix for Remmina (bug in app's gui) */
+window.background > grid.horizontal > toolbar.vertical > toolbutton > button.flat.image-button {
+  padding: 4px; 
+}
+
 window.background.csd.unified > deck > grid > paned > .sidebar actionbar button, .nemo-window.background .toolbar > button, .raven .raven-header:not(.top) button.image-button, .budgie-panel.background button.flat.launcher, .budgie-popover.background button.budgie-menu-launcher, .budgie-popover.background > frame > box.vertical > box.vertical > box.horizontal > button.image-button.toggle, .budgie-popover.background.budgie-menu list.left-overlay-menu > row.activatable button.menuitem, GimpSpinScale > button, grid#CanvasGrid > button:not(.flat), .geary-main-window leaflet > leaflet > box.vertical > revealer > components-conversation-actions button, tabbox > tab button, notebook > header button.image-button, .background toolbar box:not(.linked) > button, .inline-toolbar toolbutton > button, button.flat {
   border: none;
   background-color: transparent;
@@ -1068,40 +1073,18 @@ button.text-button.image-button.popup {
   padding-left: 6px;
 }
 
-button.flat.image-button {
+button.flat.image-button.text-button {
   padding: 4px;
 }
 
-button.flat.image-button {
+button.flat.image-button.text-button {
   color: #57647f; /* #1e222a; */
   border: none;
   background-color: transparent;
   box-shadow: none;
 }
 
-button.flat.image-button:hover {
-  color: #535f79; /* #090a0c; */
-  background-color: alpha(mix(white,#5271ad,0.75),0.15); /* rgba(87, 100, 127, 0.1); */
-  border: none;
-  background-image: none;
-  box-shadow: none;
-}
-
-button.flat.image-button:hover:active, button.flat.image-button:hover:checked {
-  color: #535f79; /* #1e222a; */
-  background-color: rgba(87, 100, 127, 0.20);
-  background-image: none;
-  border: none;
-}
-
-button.flat.image-button:focus {
-  color: #57647f; /* #1e222a; */
-  border: none;
-  background-color: transparent;
-  box-shadow: none;
-}
-
-button.flat.image-button:focus:hover {
+button.flat.image-button.text-button:hover {
   color: #535f79; /* #090a0c; */
   background-color: rgba(87, 100, 127, 0.1);
   border: none;
@@ -1109,9 +1092,31 @@ button.flat.image-button:focus:hover {
   box-shadow: none;
 }
 
-button.flat.image-button:focus:hover:active, button.flat.image-button:focus:active, button.flat.image-button:focus:hover:checked, button.flat.image-button:focus:checked {
+button.flat.image-button.text-button:focus {
+  color: #57647f; /* #1e222a; */
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+button.flat.image-button.text-button:focus:hover {
+  color: #535f79; /* #090a0c; */
+  background-color: rgba(87, 100, 127, 0.1); /*alpha(mix(white,#5271ad,0.75),0.15); */
+  border: none;
+  background-image: none;
+  box-shadow: none;
+}
+
+button.flat.image-button.text-button:hover:active, button.flat.image-button.text-button:focus:hover:active, button.flat.image-button.text-button:focus:active, button.flat.image-button.text-button:active {
   color: #535f79; /* #1e222a; */
-  background-color: rgba(87, 100, 127, 0.20);
+  background-color: rgba(87, 100, 127, 0.20); /* alpha(mix(white,#5271ad,0.75),0.20); */
+  background-image: none;
+  border: none;
+}
+
+button.flat.image-button.text-button:hover:checked, button.flat.image-button.text-button:focus:hover:checked, button.flat.image-button.text-button:focus:checked, button.flat.image-button.text-button:checked {
+  color: #535f79; /* #1e222a; */
+  background-color: rgba(87, 100, 127, 0.15); /* alpha(mix(white,#5271ad,0.75),0.20); */
   background-image: none;
   border: none;
 }
