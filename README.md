@@ -37,7 +37,7 @@ Unpack gtk-4.0 (Light Nord).tar.gz or gtk-4.0 (Dark Nord).tar.gz and copy the fi
 
 ## Features of the WhiteSur Icon theme:
 
-Added some missing icons, added sizes for places icons 16x16, 22x22, 24x24 (for now only for blue and green themes, but the theme will be updated).
+Some icon sizes (16x16, 22x22, 24x24) have been added for the "places" category (used in Cinnamon, XFCE, etc).
 
 ## Installation:
 
