@@ -636,7 +636,21 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .panel-left .panel-status-button:hover, .panel-right .panel-button:hover,
 .panel-right .panel-status-button:hover {
   color: #d9dce3;
-  background-color: rgba(217, 220, 227, 0.1);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.panel-top .panel-button:checked,
+.panel-top .panel-status-button:checked, .panel-bottom .panel-button:checked,
+.panel-bottom .panel-status-button:checked, .panel-left .panel-button:checked,
+.panel-left .panel-status-button:checked, .panel-right .panel-button:checked,
+.panel-right .panel-status-button:checked,
+.panel-top .panel-button:checked:hover,
+.panel-top .panel-status-button:checked:hover, .panel-bottom .panel-button:checked:hover,
+.panel-bottom .panel-status-button:checked:hover, .panel-left .panel-button:checked:hover,
+.panel-left .panel-status-button:checked:hover, .panel-right .panel-button:checked:hover,
+.panel-right .panel-status-button:checked:hover {
+  color: #d9dce3;
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
 .panel-top .panel-button:active,
