@@ -184,7 +184,7 @@ stage {
   background-color: rgba(43, 48, 59, 0);
 }
 
-#menu-search-entry, .notification StEntry, .menu #notification StEntry, .popup-menu #notification StEntry, #notification StEntry {
+#menu-search-entry, .notification StEntry, .menu #notification StEntry, .popup-menu #notification StEntry, #notification StEntry, #appmenu-search-entry, #appmenu-search-entry {
   padding: 6px;
   caret-size: 1px;
   selection-background-color: #5271ad;
@@ -196,7 +196,7 @@ stage {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-#menu-search-entry:focus, .notification StEntry:focus, .menu #notification StEntry:focus, .popup-menu #notification StEntry:focus, #notification StEntry:focus, #menu-search-entry:hover, .notification StEntry:hover, .menu #notification StEntry:hover, .popup-menu #notification StEntry:hover, #notification StEntry:hover {
+#menu-search-entry:focus, .notification StEntry:focus, .menu #notification StEntry:focus, .popup-menu #notification StEntry:focus, #notification StEntry:focus, #menu-search-entry:hover, .notification StEntry:hover, .menu #notification StEntry:hover, .popup-menu #notification StEntry:hover, #notification StEntry:hover, #appmenu-search-entry:focus, #appmenu-search-entry:hover {
   color: #2b303b;
   border: 2px solid #5271ad !important;
   background-color: rgba(0, 0, 0, 0.05);
@@ -542,6 +542,135 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .nm-menu-item-icons {
   spacing: .5em;
+}
+
+/* ===================================================================
+ *  Menu applet (menu@cinnamon.org/applet.js)
+ *  Since Cinnamon 6.6
+ * ===================================================================*/
+
+.appmenu-sidebar {
+  background-color: transparent;
+  spacing: 5px;
+  box-shadow: none;
+  border-right-width: 1px;
+  border-color: rgba(212, 213, 214, 0.8);
+}
+
+.appmenu-system-button {
+  color: #535f79;
+  padding: 10px;
+  margin: 0 0 8px 0px;
+  border-radius: 6px;
+}
+
+.appmenu-system-button-lock:hover,
+.appmenu-system-button-logout:hover,
+.appmenu-system-button-shutdown:hover,
+.appmenu-sidebar .appmenu-system-button-lock:hover,
+.appmenu-sidebar .appmenu-system-button-logout:hover,
+.appmenu-sidebar .appmenu-system-button-shutdown:hover {
+  background-color: rgba(30, 34, 42, 0.1);
+  color: #49546b;
+}
+
+.appmenu-application-button-label:ltr {
+  padding-left: 5px;
+}
+
+.appmenu-application-button-label:rtl {
+  padding-right: 5px;
+}
+
+.appmenu-application-button-description {
+  font-size: 0.9em;
+  color: rgb(110, 110, 110);
+}
+
+.appmenu-application-button-description:ltr {
+  padding-left: 5px;
+}
+
+.appmenu-application-button-description:rtl {
+  padding-right: 5px;
+}
+
+.appmenu-sidebar-button {
+  padding: 4px 1em;
+}
+
+.appmenu-sidebar-button:hover {
+  background-color: rgba(30, 34, 42, 0.1);
+  border-radius: 4px;
+}
+
+.appmenu-application-button {
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 7px;
+  max-width: 10px;
+}
+
+.appmenu-application-button:highlighted {
+  /* This style is used in menu application buttons for applications which were newly installed */
+  font-weight: bold;
+}
+
+.appmenu-application-button-selected {
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 7px;
+  border-radius: 4px;
+  max-width: 10px;
+  background-color: rgba(30, 34, 42, 0.1);
+}
+
+.appmenu-application-button-selected:highlighted {
+  /* This style is used in menu application buttons for applications which were newly installed */
+  font-weight: bold;
+}
+
+.appmenu-category-button {
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 7px;
+}
+
+.appmenu-category-button-greyed {
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 7px;
+  color: rgba(100, 100, 100, 1);
+}
+
+.appmenu-category-button-selected {
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 7px;
+  background-color: rgba(30, 34, 42, 0.1);
+  border-radius: 4px;
+}
+
+.appmenu-category-button-label:ltr {
+  padding-left: 5px;
+}
+
+.appmenu-category-button-label:rtl {
+  padding-right: 5px;
+}
+
+.appmenu-search-entry-icon {
+  icon-size: 1em;
+  color: #1e222a;
+}
+
+#appmenu-search-entry StLabel.hint-text {
+  color: rgba(70, 70, 70, 0.3);
 }
 
 #panel {
@@ -1945,7 +2074,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .menu-search-entry-icon {
-  icon-size: 1em;
+  icon-size: 1.1em;
   color: #1e222a;
 }
 
@@ -2713,8 +2842,21 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   width: 32px;
   height: 32px;
   background-color: transparent;
+  color: #535f79;
   border: none;
   border-radius: 32px;
+}
+
+.user-icon StIcon {
+    border: 1px solid transparent;
+    border-radius: 99px;
+    padding: 14px; 
+}
+
+.user-icon StIcon.highlighted {
+    border: 1px solid rgba(83, 95, 121, 0.2);
+    border-radius: 99px;
+    padding: 14px; 
 }
 
 .user-label {
@@ -2722,6 +2864,12 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   font-size: 1em;
   font-weight: bold;
   margin: 0px;
+}
+
+.user-widget.vertical .user-widget-label {
+  color: #535f79;
+  text-align: center;
+  font-size: 1.1em; 
 }
 
 .desklet {
