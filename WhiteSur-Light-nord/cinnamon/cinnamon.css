@@ -670,8 +670,9 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   color: #1e222a;
 }
 
-#appmenu-search-entry StLabel.hint-text {
-  color: rgba(70, 70, 70, 0.3);
+#appmenu-search-entry StLabel.hint-text, #menu-search-entry StLabel.hint-text {
+  color: rgba(83, 95, 121, 0.5);
+  margin-left: 3px;
 }
 
 #panel {
@@ -1752,13 +1753,13 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .prompt-dialog-password-entry StLabel.hint-text {
-    padding-left: 3px;
-    color: rgba(83, 95, 121, 0.5);
+  color: rgba(83, 95, 121, 0.5);
+  margin-left: 3px;
 }
 
 .prompt-dialog-password-entry StIcon.peek-password {
-    icon-size: 16px;
-    color: rgba(83, 95, 121, 0.5);
+  color: rgba(83, 95, 121, 0.5);
+  icon-size: 16px;
 }
 
 .prompt-dialog-password-layout {
