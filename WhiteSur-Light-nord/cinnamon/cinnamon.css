@@ -159,24 +159,6 @@ stage {
   background-color: rgba(87, 100, 127, 0.25); /* #5271ad; */
 }
 
-.dialog-button:default:focus,
-.modal-dialog-button:default:focus {
-  color: white;
-  background-color: #3b6fd7;
-}
-
-.dialog-button:default:focus:hover,
-.modal-dialog-button:default:focus:hover {
-  color: white;
-  background-color: #618bdd;
-}
-
-.dialog-button:default:focus:hover:active, .dialog-button:default:focus:active,
-.modal-dialog-button:default:focus:hover:active, .modal-dialog-button:default:focus:active {
-  color: white;
-  background-color: #2c63d0;
-}
-
 .audio-device-selection-dialog .audio-selection-box .audio-selection-device:insensitive, .polkit-dialog-user-combo:insensitive, .dialog-button:insensitive,
 .modal-dialog-button:insensitive {
   text-shadow: none;
@@ -1614,6 +1596,24 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .modal-dialog-button:default:insensitive {
   background-color: rgba(76, 123, 217, 0.3);
   color: rgba(255, 255, 255, 0.3);
+}
+
+.dialog-button:default:focus,
+.modal-dialog-button:default:focus {
+  color: white;
+  background-color: #3b6fd7;
+}
+
+.dialog-button:default:focus:hover,
+.modal-dialog-button:default:focus:hover {
+  color: white;
+  background-color: #618bdd;
+}
+
+.dialog-button:default:focus:hover:active, .dialog-button:default:focus:active,
+.modal-dialog-button:default:focus:hover:active, .modal-dialog-button:default:focus:active {
+  color: white;
+  background-color: #2c63d0;
 }
 /*
 .dialog-content-box,
