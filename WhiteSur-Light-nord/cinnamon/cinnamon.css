@@ -1522,18 +1522,69 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .dialog-button:destructive-action,
 .modal-dialog-button:destructive-action {
+  background-clip: border-box;
+  color: #ffffff;
   background-color: #c35b65;
-  color: white;
+  background-image: none;
+  box-shadow: none;
+  border-color: #bb4550;
+  border-radius: 6px;
 }
 
 .dialog-button:destructive-action:hover,
 .modal-dialog-button:destructive-action:hover {
-  background-color: #ce7981;
+  background-clip: border-box;
+  color: #ffffff;
+  background-color: #ca6e77;
+  background-image: none;
+  box-shadow: none;
+  border-color: #c25761;
 }
 
-.dialog-button:destructive-action:active,
-.modal-dialog-button:destructive-action:active {
-  background-color: #b4424d;
+.dialog-button:destructive-action:checked,
+.modal-dialog-button:destructive-action:checked {
+  background-clip: border-box;
+  color: #ffffff;
+  background-color: #bc4853;
+  background-image: none;
+  box-shadow: none;
+  border-color: #a83e48;
+}
+
+.dialog-button:destructive-action:focus,
+.modal-dialog-button:destructive-action:focus {
+  background-clip: border-box;
+  color: #ffffff;
+  background-color: #c3515c;
+  background-image: none;
+  box-shadow: none;
+  border-color: #c25761;
+}
+
+.dialog-button:destructive-action:focus:hover,
+.modal-dialog-button:destructive-action:focus:hover {
+  background-clip: border-box;
+  color: #ffffff;
+  background-color: #ca6e77;
+  background-image: none;
+  box-shadow: none;
+  border-color: #c25761;
+}
+
+.dialog-button:destructive-action:focus:hover:active,
+.dialog-button:destructive-action:focus:active,
+.dialog-button:destructive-action:focus:hover:checked,
+.dialog-button:destructive-action:focus:checked,
+.modal-dialog-button:destructive-action:focus:hover:active,
+.modal-dialog-button:destructive-action:focus:active,
+.modal-dialog-button:destructive-action:focus:hover:checked,
+.modal-dialog-button:destructive-action:focus:checked {
+  background-clip: border-box;
+  color: #ffffff;
+  background-color: #bc4853;
+  background-image: none;
+  box-shadow: none;
+  border-color: #a83e48;
 }
 
 .dialog-button:destructive-action:insensitive,
