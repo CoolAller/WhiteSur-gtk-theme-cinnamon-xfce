@@ -540,9 +540,7 @@ iconview, iconview:hover, iconview:selected {
   border-radius: 6px;
 }
 
-XfdesktopIconView.view .rubberband, .content-view rubberband, treeview.view rubberband, flowbox rubberband,
-rubberband,
-.rubberband {
+rubberband, .content-view rubberband, treeview.view rubberband, flowbox rubberband, .rubberband {
   border: 1px solid #425a8a;
   background-color: rgba(66, 90, 138, 0.2);
 }
@@ -5727,7 +5725,187 @@ button.emoji-section:last-child {
   transition: none;
 }
 
-.xfce4-panel.background widget.tasklist > button.toggle, .xfce4-panel.background button, .xfce4-panel.background button.flat, .mate-panel-menu-bar button,
+/***************************
+ * xfce4-pulseaudio-plugin *
+ ***************************/
+
+#pulseaudio-button menu {
+  background-color: rgba(251, 252, 253, 0.96);
+  border-radius: 12px;
+  border: none;
+  box-shadow: none;
+}
+
+#pulseaudio-button menu .linked button {
+  color: #57647f;
+  min-width: 32px;
+  min-height: 32px;
+  padding: 4px;
+  border: none;
+  border-radius: 50%;
+  box-shadow: none;
+  background-image: none;
+  background-color: transparent;
+}
+
+#pulseaudio-button menu menuitem:hover .linked button {
+  color: white;
+}
+
+#pulseaudio-button menu .linked button:hover {
+  background-color: transparent;
+}
+
+#pulseaudio-button menu .linked button:active {
+  background-color: alpha(currentColor, 0.2);
+}
+
+#pulseaudio-button menu scale slider {
+  min-width: 15px;
+  min-height: 15px;
+  margin: -7px;
+  padding: 0;
+  background-image: none;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 100%;
+  background-clip: padding-box;
+}
+
+#pulseaudio-button menu scale.fine-tune slider {
+  margin: -4px;
+}
+
+#pulseaudio-button menu scale.fine-tune fill,
+#pulseaudio-button menu scale.fine-tune highlight,
+#pulseaudio-button menu scale.fine-tune trough {
+  border-radius: 5px;
+  -gtk-outline-radius: 7px;
+}
+
+#pulseaudio-button menu scale slider:hover {
+  background-color: white;
+  border-color: rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1),
+              0 2px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+#pulseaudio-button menu scale slider:active {
+  background-color: #ffffff;
+  border-color: rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.03),
+              0 1px 2px 0 rgba(0, 0, 0, 0.01);
+}
+
+#pulseaudio-button menu scale slider:disabled {
+  background-color: #f2f2f2;
+}
+
+/**************
+ * Volume OSD *
+ **************/
+
+#XfceNotifyWindow {
+  color: #57647f;
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(87, 100, 127, 0.26);
+  border-radius: 18px;
+  padding: 20px;
+}
+
+#XfceNotifyWindow:hover {
+  background-color: rgba(255, 255, 255, 0.86);
+}
+
+#XfceNotifyWindow label,
+#XfceNotifyWindow image {
+  color: #57647f;
+}
+
+/****************
+ * Volume level *
+ ****************/
+
+#XfceNotifyWindow progressbar {
+  min-width: 160px;
+  min-height: 6px;
+  border-radius: 3px;
+}
+
+#XfceNotifyWindow progressbar trough {
+  background-image: none;
+  background-color: rgba(87, 100, 127, 0.20);
+  border: none;
+  border-radius: 3px;
+  min-height: 6px;
+}
+
+#XfceNotifyWindow progressbar progress {
+  background-image: none;
+  background-color: #5271ad;
+  border: none;
+  border-radius: 3px;
+  min-height: 6px;
+}
+
+/***********************
+ * Xfce Notify buttons *
+ ***********************/
+
+#XfceNotifyWindow button label {
+  color: #57647f;
+}
+
+#XfceNotifyWindow button:hover label {
+  color: #535f79;
+}
+
+#XfceNotifyWindow button:active label {
+  color: #ffffff;
+}
+
+/***********************
+ * xfce4 panel buttons *
+ ***********************/
+.xfce4-panel.background button,
+.xfce4-panel.panel button {
+  color: #c9caca;
+  background: none;
+  border-radius: 6px;
+  border: none;
+  box-shadow: none;
+}
+
+.xfce4-panel.background button:hover,
+.xfce4-panel.panel button:hover {
+  color: #c9caca;
+  border: none;
+  background-color: transparent;
+  /* background-color: rgba(255, 255, 255, 0.15); */
+}
+
+.xfce4-panel.background button:active, 
+.xfce4-panel.panel button:active {
+  color: white;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.xfce4-panel.background button:checked,
+.xfce4-panel.panel button:checked {
+  color: white;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.xfce4-panel.background button:checked label,
+.xfce4-panel.panel button label,
+.xfce4-panel.panel button image {
+  color: inherit;
+}
+
+.xfce4-panel.background widget.tasklist > button.toggle, .xfce4-panel.background button.flat, .mate-panel-menu-bar button,
 .mate-panel-menu-bar #PanelApplet > button.toggle,
 .mate-panel-menu-bar #tasklist-button,
 panel-toplevel.background button,
@@ -5742,7 +5920,7 @@ window#ValaPanel.background button.flat.-panel-icon-button {
   box-shadow: none;
 }
 
-.xfce4-panel.background widget.tasklist > button.toggle:hover, .xfce4-panel.background button:hover, .mate-panel-menu-bar button:hover,
+.xfce4-panel.background widget.tasklist > button.toggle:hover, .mate-panel-menu-bar button:hover,
 .mate-panel-menu-bar #PanelApplet > button.toggle:hover,
 .mate-panel-menu-bar #tasklist-button:hover,
 panel-toplevel.background button:hover,
@@ -5754,7 +5932,7 @@ window#ValaPanel.background button.flat.-panel-icon-button:hover {
   background-color: rgba(255, 255, 255, 0.15);
 }
 
-.xfce4-panel.background widget.tasklist > button.toggle:checked, .xfce4-panel.background button:checked, .mate-panel-menu-bar button:checked,
+.xfce4-panel.background widget.tasklist > button.toggle:checked, .mate-panel-menu-bar button:checked,
 .mate-panel-menu-bar #PanelApplet > button.toggle:checked,
 .mate-panel-menu-bar #tasklist-button:checked,
 panel-toplevel.background button:checked,
@@ -5766,7 +5944,7 @@ window#ValaPanel.background button.flat.-panel-icon-button:checked {
   background-color: rgba(255, 255, 255, 0.25);
 }
 
-.xfce4-panel.background widget.tasklist > button.toggle:checked label, .xfce4-panel.background button:checked label, .mate-panel-menu-bar button:checked label,
+.xfce4-panel.background widget.tasklist > button.toggle:checked label, .mate-panel-menu-bar button:checked label,
 .mate-panel-menu-bar #PanelApplet > button.toggle:checked label,
 .mate-panel-menu-bar #tasklist-button:checked label,
 panel-toplevel.background button:checked label,
@@ -5784,7 +5962,7 @@ window#ValaPanel.background button.flat.-panel-icon-button:checked image {
   color: inherit;
 }
 
-.xfce4-panel.background widget.tasklist > button.toggle:active, .xfce4-panel.background button:active, .mate-panel-menu-bar button:active,
+.xfce4-panel.background widget.tasklist > button.toggle:active, .mate-panel-menu-bar button:active,
 .mate-panel-menu-bar #PanelApplet > button.toggle:active,
 .mate-panel-menu-bar #tasklist-button:active,
 panel-toplevel.background button:active,
@@ -11077,23 +11255,6 @@ window.budgie-switcher-window flowboxchild {
   font-weight: 400;
 }
 
-XfdesktopIconView.view {
-  border-radius: 6px;
-  background: transparent;
-  color: #ffffff;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.26), 0 1px 2px rgba(0, 0, 0, 0.32), 0 2px 3px rgba(0, 0, 0, 0.12);
-}
-
-XfdesktopIconView.view:active, XfdesktopIconView.view:checked {
-  background-color: #5271ad;
-  color: #ffffff;
-  text-shadow: none;
-}
-
-XfdesktopIconView.view .rubberband {
-  border-radius: 0;
-}
-
 window#whiskermenu-window {
   border-radius: 12px;
   background-color: transparent;
@@ -11111,6 +11272,10 @@ window#whiskermenu-window > frame > border {
   border: none;
   background-color: rgba(243, 244, 246, 0.95);
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.13), inset 0 0 0 1px #f3f4f7, 0 0 0 2px rgba(0, 0, 0, 0.03), 0 0 0 1px rgba(0, 0, 0, 0.12);
+}
+
+window#whiskermenu-window box.categories {
+  padding: 0px 18px 0px 9px;
 }
 
 window#whiskermenu-window box.categories > button.radio {
@@ -11155,33 +11320,39 @@ window#whiskermenu-window .title-area > .commands-area > button.flat.command-but
   color: #1e222a;
 }
 
-window.background.csd.thunar > grid.horizontal > paned.horizontal > scrolledwindow.frame.sidebar.shortcuts-pane {
-  border-bottom-left-radius: 12px;
-  background-color: rgba(238, 239, 242, 0.96);
+window.background.thunar > grid.horizontal > paned.horizontal > paned.horizontal > grid.horizontal > paned.horizontal > notebook treeview.view:selected {
+  color: #ffffff;
+  background-image: image(#5271ad);
 }
 
-window.background.csd.thunar > grid.horizontal > paned.horizontal > scrolledwindow.frame.sidebar.shortcuts-pane treeview.view:not(:hover):not(:selected) {
-  background-color: transparent;
+window.thunar > grid > toolbar > toolitem > widget > box > entry {
+  min-height: 28px;
+  padding: 0px 8px;
+  -gtk-icon-style: symbolic;
 }
 
-window.background.csd.thunar.maximized > grid.horizontal > paned.horizontal > scrolledwindow.frame.sidebar.shortcuts-pane, window.background.csd.thunar.tiled > grid.horizontal > paned.horizontal > scrolledwindow.frame.sidebar.shortcuts-pane, window.background.csd.thunar.fullscreen > grid.horizontal > paned.horizontal > scrolledwindow.frame.sidebar.shortcuts-pane {
-  border-bottom-left-radius: 0;
+window.thunar > grid.horizontal > paned.horizontal > box.vertical > scrolledwindow.frame.sidebar.shortcuts-pane > treeview.view {
+  -GtkTreeView-vertical-separator: 2;
 }
 
-window.thunar > grid.horizontal > paned.horizontal > scrolledwindow.frame.sidebar.shortcuts-pane {
+window.thunar > grid.horizontal > paned.horizontal > box.vertical > scrolledwindow.frame.sidebar > treeview.view {
+  -GtkTreeView-vertical-separator: 3;
+}
+
+window.thunar > grid.horizontal > paned.horizontal > box.vertical scrolledwindow.frame.sidebar {
   border-top: none;
   background-color: rgba(238, 239, 242, 0.96);
 }
 
-window.thunar > grid.horizontal > paned.horizontal > scrolledwindow.frame.sidebar.shortcuts-pane treeview.view {
+window.thunar > grid.horizontal > paned.horizontal > box.vertical > scrolledwindow.frame.sidebar treeview.view {
   background-color: rgba(238, 239, 242, 0.96);
 }
 
-window.thunar > grid.horizontal > paned.horizontal > scrolledwindow.frame.sidebar.shortcuts-pane treeview.view:hover {
+window.thunar > grid.horizontal > paned.horizontal > box.vertical > scrolledwindow.frame.sidebar treeview.view:hover {
   background-color: rgba(0, 0, 0, 0.08);
 }
 
-window.thunar > grid.horizontal > paned.horizontal > scrolledwindow.frame.sidebar.shortcuts-pane treeview.view:selected, window.thunar > grid.horizontal > paned.horizontal > scrolledwindow.frame.sidebar.shortcuts-pane treeview.view:selected:hover, window.thunar > grid.horizontal > paned.horizontal > scrolledwindow.frame.sidebar.shortcuts-pane treeview.view:active:hover {
+window.thunar > grid.horizontal > paned.horizontal > box.vertical > scrolledwindow.frame.sidebar treeview.view:selected, window.thunar > grid.horizontal > paned.horizontal > box.vertical > scrolledwindow.frame.sidebar treeview.view:selected:hover, window.thunar > grid.horizontal > paned.horizontal > box.vertical > scrolledwindow.frame.sidebar treeview.view:active:hover {
   color: #1e222a;
   background-color: alpha(currentColor,0.15);
 }
@@ -11190,121 +11361,128 @@ window.thunar > grid.horizontal > paned.horizontal > separator {
   background-image: image(mix(black,#fbfcfd,0.88));
 }
 
-window.thunar toolbar#location-toolbar {
+window.thunar > grid.horizontal > toolbar.horizontal {
   border-bottom: 1px solid mix(black,#fbfcfd,0.88);
 }
 
-window.thunar toolbar#location-toolbar button.path-bar-button,
-window.thunar toolbar#location-toolbar button.flat {
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button,
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button.toggle {
   color: #57647f;
   background-color: transparent;
   background-image: none;
   border: none;
   box-shadow: none;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 2px;
+  margin-right: 2px;
   border-radius: 6px;
   min-height: 28px;
 }
 
-window.thunar toolbar#location-toolbar button.path-bar-button:hover,
-window.thunar toolbar#location-toolbar button.flat:hover {
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button:hover,
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button.toggle:hover {
   color: #535f79;
   background-color: rgba(87, 100, 127, 0.1);
   background-image: none;
   box-shadow: none;
 }
 
-window.thunar toolbar#location-toolbar button.path-bar-button:checked,
-window.thunar toolbar#location-toolbar button.flat:checked {
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button:checked,
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button.toggle:checked {
   color: #57647f;
   background-color: rgba(87, 100, 127, 0.12);
   background-image: none;
   box-shadow: none;
 }
 
-window.thunar toolbar#location-toolbar button.path-bar-button:active,
-window.thunar toolbar#location-toolbar button.flat:active {
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button:active,
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button.toggle:active {
   color: #57647f;
   background-color: rgba(87, 100, 127, 0.25);
   background-image: none;
   box-shadow: none;
 }
 
-window.thunar toolbar#location-toolbar button.path-bar-button:disabled,
-window.thunar toolbar#location-toolbar button.flat:disabled {
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button:disabled,
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button.toggle:disabled {
   background-image: none;
   background-color: transparent;
   box-shadow: none;
 }
 
-window.thunar toolbar#location-toolbar button.path-bar-button:disabled label, window.thunar toolbar#location-toolbar button.path-bar-button:disabled,
-window.thunar toolbar#location-toolbar button.flat:disabled label,
-window.thunar toolbar#location-toolbar button.flat:disabled {
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button:disabled label,
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button:disabled image,
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button.toggle:disabled image label,
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button.toggle:disabled image {
   color: rgba(87, 100, 127, 0.35);
 }
 
-window.thunar toolbar#location-toolbar button.path-bar-button:disabled:active, window.thunar toolbar#location-toolbar button.path-bar-button:disabled:checked,
-window.thunar toolbar#location-toolbar button.flat:disabled:active,
-window.thunar toolbar#location-toolbar button.flat:disabled:checked {
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button:disabled:active,
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button:disabled:checked,
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button.toggle:disabled:active,
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button.toggle:disabled:checked {
   background-image: none;
   background-color: transparent;
   box-shadow: none;
 }
 
-window.thunar toolbar#location-toolbar button.path-bar-button:disabled:active label, window.thunar toolbar#location-toolbar button.path-bar-button:disabled:active, window.thunar toolbar#location-toolbar button.path-bar-button:disabled:checked label, window.thunar toolbar#location-toolbar button.path-bar-button:disabled:checked,
-window.thunar toolbar#location-toolbar button.flat:disabled:active label,
-window.thunar toolbar#location-toolbar button.flat:disabled:active,
-window.thunar toolbar#location-toolbar button.flat:disabled:checked label,
-window.thunar toolbar#location-toolbar button.flat:disabled:checked {
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button:disabled:active label,
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button:disabled:active,
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button:disabled:checked label,
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button:disabled:checked,
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button.toggle:disabled:active label,
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button.toggle:disabled:active,
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button.toggle:disabled:checked label,
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button.toggle:disabled:checked {
   color: rgba(87, 100, 127, 0.35);
 }
 
-window.thunar toolbar#location-toolbar > toolbutton#open-parent > button.image-button.flat:not(.toggle) {
-  margin-left: 10px;
+window.thunar > grid.horizontal > toolbar.horizontal > toolbutton button.image-button.flat:not(.toggle) {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-window.thunar toolbar#location-toolbar > toolbutton#open-home > button.image-button.flat:not(.toggle) {
-  margin-right: 10px;
+window.thunar > grid.horizontal > toolbar.horizontal > toolbutton button.image-button.flat.toggle {
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
-window.thunar toolbar#location-toolbar entry {
-  min-height: 22px;
+window.thunar > grid.horizontal > toolbar.horizontal > toolbutton > button.image-button.flat.toggle > image {
+  -gtk-icon-transform: scale(0.8);
 }
 
-window.thunar > grid > toolbar > toolitem > widget > box > entry {
-  min-height: 22px;
-  margin-left: 3px;
-  -gtk-icon-style: symbolic;
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > button.popup.toggle > box.horizontal > image {
+  -gtk-icon-transform: scale(0.8);
 }
 
-window.thunar notebook stack > scrolledwindow.frame.standard-view {
-  border-top-width: 0;
-  border-right-width: 0;
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > button.popup.toggle {
+  background: transparent;
+  margin-left: 2px;
+  margin-right: 2px;
+  border: none;
+  box-shadow: none;
 }
 
-window.thunar notebook header.top tab.reorderable-page > box > label {
-  min-height: 0;
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > button.popup.toggle:hover {
+  color: #090a0c;
+  background-color: rgba(87, 100, 127, 0.1);
+  background-image: none;
+  box-shadow: none;
+}
+
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > button.popup.toggle:active {
+  background-image: none;
+  color: #090a0c;
+  background-color: rgba(87, 100, 127, 0.25);
+}
+
+window.thunar > grid.horizontal > toolbar.horizontal > toolitem > button.popup.toggle:checked {
+  background-image: none;
+  color: #090a0c;
+  background-color: rgba(87, 100, 127, 0.15);
 }
 
 window.thunar .standard-view.frame {
   border: none;
-}
-
-window.thunar .standard-view.frame widget.view:selected {
-  background-color: rgba(30, 34, 42, 0.12);
-  color: #1e222a;
-  border-radius: 6px;
-}
-
-window.thunar paned paned paned > notebook.frame {
-  border: none;
-  border-radius: 0;
-}
-
-window.thunar paned paned paned > notebook.frame .standard-view.frame > widget.view {
-  border-radius: 0;
-  box-shadow: inset 0 0 0 3px #a9b8d6;
 }
 
 dialog.xfsm-logout-dialog {
@@ -12737,6 +12915,7 @@ UnityPanelWidget:backdrop,
 @define-color theme_base_color #fbfcfd;
 @define-color theme_text_color #1e222a;
 @define-color theme_selected_bg_color #5271ad;
+@define-color theme_unfocused_selected_bg_color #5271ad;
 @define-color theme_selected_fg_color #ffffff;
 @define-color bg_color #f3f4f6;
 @define-color fg_color #1e222a;
