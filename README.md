@@ -1,17 +1,17 @@
-## I'm working on updating this theme for the latest versions of the Cinnamon/XFCE desktop environment, so you may see occasional improvements. Thank you for your support!</h1>
+## I'm maintaining and updating this theme to ensure compatibility with the latest versions of the Cinnamon and XFCE desktop environments. You may occasionally notice improvements, fixes, and refinements. Thank you for your support!</h1>
 
-<h1 align="center"> WhiteSur GTK Theme for Cinnamon/XFCE Desktop
+<h1 align="center"> WhiteSur GTK Theme for Cinnamon and XFCE (Nord Color Scheme)
   
   (Nord Color Scheme)</h1>
 <p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/macbook.png"/> </p>
 
 <br>
-<p align="center"> <b> A macOS BigSur-like theme for your GTK apps </b> </p>
+<p align="center"> <b> A macOS Big Sur-inspired theme for your GTK apps </b> </p>
 <br>
 
 ## Features of the WhiteSur GTK theme:
 
-The theme is adapted for Cinnamon/XFCE-based desktops. Some bug fixes and improvements have been made compared to the original design theme. Nord Color Scheme themes, right or left placement of Nemo or Nautilus titlebuttons, laptop size, nautilus-style "Glassy".
+The theme has been specifically adapted for Cinnamon and XFCE desktop environments. It includes the Nord color scheme, support for both left- and right-aligned Nemo and Nautilus title buttons, optimized sizing for laptop displays, and a Nautilus-style "Glassy" appearance.
 
 ## Installation:
 
@@ -37,7 +37,7 @@ Unpack gtk-4.0 (Light Nord).tar.gz or gtk-4.0 (Dark Nord).tar.gz and copy the fi
 
 ## Features of the WhiteSur Icon theme:
 
-Some icon sizes (16x16, 22x22, 24x24) have been added for the "places" category (used in Cinnamon, XFCE, etc).
+Additional icon sizes (16×16, 22×22, and 24×24) have been added to the places category to improve compatibility with Cinnamon, XFCE, and other desktop environments.
 
 ## Installation:
 
@@ -64,11 +64,15 @@ To install Whitesur Icon Theme for Cinnamon, run in the terminal:  `./install.sh
 
 <p align="center"> <img src="https://raw.githubusercontent.com/vinceliuice/WhiteSur-icon-theme/master/bold-size.png"/> </p>
 
-> Bold version suggested use in `High resolution display` like 4k display with 200% scale!
+> The Bold version is recommended for `high-resolution displays`, such as 4K monitors using 200% display scaling.
 
 ## Preview
 <p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-icon-theme/blob/master/preview.png"/> </p>
 <p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-icon-theme/blob/master/preview01.png"/> </p>
+
+## Recommended Settings
+
+For the Whisker Menu (XFCE) to display correctly, open the Whisker Menu settings and enable Background opacity.
 
 ## Links to original theme for Gnome-based desktops
 [WhiteSur-icon-theme](https://github.com/vinceliuice/WhiteSur-icon-theme)
