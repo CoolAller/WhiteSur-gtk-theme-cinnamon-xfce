@@ -11062,10 +11062,6 @@ window.thunar > grid.horizontal > paned.horizontal > separator {
   background-image: image(mix(white,#252932,0.88));
 }
 
-window.thunar > grid.horizontal > toolbar.horizontal {
-  border-bottom: 1px solid mix(black,#2e3440,0.25);
-}
-
 window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button,
 window.thunar > grid.horizontal > toolbar.horizontal > toolitem > widget > widget.linked.path-bar button.location-button.path-bar-button.toggle {
   color: #f8f9fc;

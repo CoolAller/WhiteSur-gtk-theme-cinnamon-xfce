@@ -1,4 +1,4 @@
-## I'm working on updating this theme for the latest versions of the Cinnamon desktop environment, so you may see occasional improvements. Thank you for your support!</h1>
+## I'm working on updating this theme for the latest versions of the Cinnamon/XFCE desktop environment, so you may see occasional improvements. Thank you for your support!</h1>
 
 <h1 align="center"> WhiteSur GTK Theme for Cinnamon/XFCE Desktop
   
