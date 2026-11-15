@@ -885,30 +885,30 @@ window.background.csd.unified > deck > grid > paned > .sidebar actionbar button,
   background-clip: border-box;
 }
 
-window.background.csd.unified > deck > grid > paned > .sidebar actionbar button:hover, .nemo-window.background .toolbar > button:hover, .raven .raven-header:not(.top) button.image-button:hover, .budgie-panel.background button.flat.launcher:hover, .budgie-popover.background button.budgie-menu-launcher:hover, .budgie-popover.background > frame > box.vertical > box.vertical > box.horizontal > button.image-button.toggle:hover, .budgie-popover.background.budgie-menu list.left-overlay-menu > row.activatable button.menuitem:hover, GimpSpinScale > button:hover, grid#CanvasGrid > button:hover:not(.flat), .geary-main-window leaflet > leaflet > box.vertical > revealer > components-conversation-actions button:hover, tabbox > tab button:hover, notebook > header button.image-button:hover, .background toolbar box:not(.linked) > button:hover, .inline-toolbar toolbutton > button:hover, button.flat:hover, button.flat:focus:hover {
+window.background.csd.unified > deck > grid > paned > .sidebar actionbar button:hover, .nemo-window.background .toolbar > button:hover, .raven .raven-header:not(.top) button.image-button:hover, .budgie-panel.background button.flat.launcher:hover, .budgie-popover.background button.budgie-menu-launcher:hover, .budgie-popover.background > frame > box.vertical > box.vertical > box.horizontal > button.image-button.toggle:hover, .budgie-popover.background.budgie-menu list.left-overlay-menu > row.activatable button.menuitem:hover, GimpSpinScale > button:hover, grid#CanvasGrid > button:hover:not(.flat), .geary-main-window leaflet > leaflet > box.vertical > revealer > components-conversation-actions button:hover, tabbox > tab button:hover, notebook > header button.image-button:hover, .background toolbar box:not(.linked) > button:hover, .inline-toolbar toolbutton > button:hover {
   color: #090a0c;
   background-color: rgba(87, 100, 127, 0.1);
   background-image: none;
   box-shadow: none;
 }
 
-window.background.csd.unified > deck > grid > paned > .sidebar actionbar button:active, .nemo-window.background .toolbar > button:active, .raven .raven-header:not(.top) button.image-button:active, .budgie-panel.background button.flat.launcher:active, .budgie-popover.background button.budgie-menu-launcher:active, .budgie-popover.background > frame > box.vertical > box.vertical > box.horizontal > button.image-button.toggle:active, .budgie-popover.background.budgie-menu list.left-overlay-menu > row.activatable button.menuitem:active, GimpSpinScale > button:active, grid#CanvasGrid > button:active:not(.flat), .geary-main-window leaflet > leaflet > box.vertical > revealer > components-conversation-actions button:active, tabbox > tab button:active, notebook > header button.image-button:active, .background toolbar box:not(.linked) > button:active, .inline-toolbar toolbutton > button:active, button.flat:active, button.flat:focus:hover:active {
+window.background.csd.unified > deck > grid > paned > .sidebar actionbar button:active, .nemo-window.background .toolbar > button:active, .raven .raven-header:not(.top) button.image-button:active, .budgie-panel.background button.flat.launcher:active, .budgie-popover.background button.budgie-menu-launcher:active, .budgie-popover.background > frame > box.vertical > box.vertical > box.horizontal > button.image-button.toggle:active, .budgie-popover.background.budgie-menu list.left-overlay-menu > row.activatable button.menuitem:active, GimpSpinScale > button:active, grid#CanvasGrid > button:active:not(.flat), .geary-main-window leaflet > leaflet > box.vertical > revealer > components-conversation-actions button:active, tabbox > tab button:active, notebook > header button.image-button:active, .background toolbar box:not(.linked) > button:active, .inline-toolbar toolbutton > button:active {
   background-image: none;
   color: #090a0c;
   background-color: rgba(87, 100, 127, 0.25);
 }
 
-window.background.csd.unified > deck > grid > paned > .sidebar actionbar button:checked, .nemo-window.background .toolbar > button:checked, .raven .raven-header:not(.top) button.image-button:checked, .budgie-panel.background button.flat.launcher:checked, .budgie-popover.background button.budgie-menu-launcher:checked, .budgie-popover.background > frame > box.vertical > box.vertical > box.horizontal > button.image-button.toggle:checked, .budgie-popover.background.budgie-menu list.left-overlay-menu > row.activatable button.menuitem:checked, GimpSpinScale > button:checked, grid#CanvasGrid > button:checked:not(.flat), .geary-main-window leaflet > leaflet > box.vertical > revealer > components-conversation-actions button:checked, tabbox > tab button:checked, notebook > header button.image-button:checked, .background toolbar box:not(.linked) > button:checked, .inline-toolbar toolbutton > button:checked, button.flat:checked, button.flat:focus:checked {
+window.background.csd.unified > deck > grid > paned > .sidebar actionbar button:checked, .nemo-window.background .toolbar > button:checked, .raven .raven-header:not(.top) button.image-button:checked, .budgie-panel.background button.flat.launcher:checked, .budgie-popover.background button.budgie-menu-launcher:checked, .budgie-popover.background > frame > box.vertical > box.vertical > box.horizontal > button.image-button.toggle:checked, .budgie-popover.background.budgie-menu list.left-overlay-menu > row.activatable button.menuitem:checked, GimpSpinScale > button:checked, grid#CanvasGrid > button:checked:not(.flat), .geary-main-window leaflet > leaflet > box.vertical > revealer > components-conversation-actions button:checked, tabbox > tab button:checked, notebook > header button.image-button:checked, .background toolbar box:not(.linked) > button:checked, .inline-toolbar toolbutton > button:checked {
   background-image: none;
   color: #090a0c;
   background-color: rgba(87, 100, 127, 0.15);
 }
 
-window.background.csd.unified > deck > grid > paned > .sidebar actionbar button:disabled, .nemo-window.background .toolbar > button:disabled, .raven .raven-header:not(.top) button.image-button:disabled, .budgie-panel.background button.flat.launcher:disabled, .budgie-popover.background button.budgie-menu-launcher:disabled, .budgie-popover.background > frame > box.vertical > box.vertical > box.horizontal > button.image-button.toggle:disabled, .budgie-popover.background.budgie-menu list.left-overlay-menu > row.activatable button.menuitem:disabled, GimpSpinScale > button:disabled, grid#CanvasGrid > button:disabled:not(.flat), .geary-main-window leaflet > leaflet > box.vertical > revealer > components-conversation-actions button:disabled, tabbox > tab button:disabled, notebook > header button.image-button:disabled, .background toolbar box:not(.linked) > button:disabled, .inline-toolbar toolbutton > button:disabled, button.flat:disabled {
+window.background.csd.unified > deck > grid > paned > .sidebar actionbar button:disabled, .nemo-window.background .toolbar > button:disabled, .raven .raven-header:not(.top) button.image-button:disabled, .budgie-panel.background button.flat.launcher:disabled, .budgie-popover.background button.budgie-menu-launcher:disabled, .budgie-popover.background > frame > box.vertical > box.vertical > box.horizontal > button.image-button.toggle:disabled, .budgie-popover.background.budgie-menu list.left-overlay-menu > row.activatable button.menuitem:disabled, GimpSpinScale > button:disabled, grid#CanvasGrid > button:disabled:not(.flat), .geary-main-window leaflet > leaflet > box.vertical > revealer > components-conversation-actions button:disabled, tabbox > tab button:disabled, notebook > header button.image-button:disabled, .background toolbar box:not(.linked) > button:disabled, .inline-toolbar toolbutton > button:disabled {
   background-color: transparent;
 }
 
-window.background.csd.unified > deck > grid > paned > .sidebar actionbar button:disabled label, .nemo-window.background .toolbar > button:disabled label, .raven .raven-header:not(.top) button.image-button:disabled label, .budgie-panel.background button.flat.launcher:disabled label, .budgie-popover.background button.budgie-menu-launcher:disabled label, .budgie-popover.background > frame > box.vertical > box.vertical > box.horizontal > button.image-button.toggle:disabled label, .budgie-popover.background.budgie-menu list.left-overlay-menu > row.activatable button.menuitem:disabled label, GimpSpinScale > button:disabled label, grid#CanvasGrid > button:disabled:not(.flat) label, .geary-main-window leaflet > leaflet > box.vertical > revealer > components-conversation-actions button:disabled label, tabbox > tab button:disabled label, notebook > header button.image-button:disabled label, .background toolbar box:not(.linked) > button:disabled label, .inline-toolbar toolbutton > button:disabled label, button.flat:disabled label, window.background.csd.unified > deck > grid > paned > .sidebar actionbar button:disabled, .nemo-window.background .toolbar > button:disabled, .raven .raven-header:not(.top) button.image-button:disabled, .budgie-panel.background button.flat.launcher:disabled, .budgie-popover.background button.budgie-menu-launcher:disabled, .budgie-popover.background > frame > box.vertical > box.vertical > box.horizontal > button.image-button.toggle:disabled, .budgie-popover.background.budgie-menu list.left-overlay-menu > row.activatable button.menuitem:disabled, GimpSpinScale > button:disabled, grid#CanvasGrid > button:disabled:not(.flat), .geary-main-window leaflet > leaflet > box.vertical > revealer > components-conversation-actions button:disabled, tabbox > tab button:disabled, notebook > header button.image-button:disabled, .background toolbar box:not(.linked) > button:disabled, .inline-toolbar toolbutton > button:disabled, button.flat:disabled {
+window.background.csd.unified > deck > grid > paned > .sidebar actionbar button:disabled label, .nemo-window.background .toolbar > button:disabled label, .raven .raven-header:not(.top) button.image-button:disabled label, .budgie-panel.background button.flat.launcher:disabled label, .budgie-popover.background button.budgie-menu-launcher:disabled label, .budgie-popover.background > frame > box.vertical > box.vertical > box.horizontal > button.image-button.toggle:disabled label, .budgie-popover.background.budgie-menu list.left-overlay-menu > row.activatable button.menuitem:disabled label, GimpSpinScale > button:disabled label, grid#CanvasGrid > button:disabled:not(.flat) label, .geary-main-window leaflet > leaflet > box.vertical > revealer > components-conversation-actions button:disabled label, tabbox > tab button:disabled label, notebook > header button.image-button:disabled label, .background toolbar box:not(.linked) > button:disabled label, .inline-toolbar toolbutton > button:disabled label, button.flat:disabled label, window.background.csd.unified > deck > grid > paned > .sidebar actionbar button:disabled, .nemo-window.background .toolbar > button:disabled, .raven .raven-header:not(.top) button.image-button:disabled, .budgie-panel.background button.flat.launcher:disabled, .budgie-popover.background button.budgie-menu-launcher:disabled, .budgie-popover.background > frame > box.vertical > box.vertical > box.horizontal > button.image-button.toggle:disabled, .budgie-popover.background.budgie-menu list.left-overlay-menu > row.activatable button.menuitem:disabled, GimpSpinScale > button:disabled, grid#CanvasGrid > button:disabled:not(.flat), .geary-main-window leaflet > leaflet > box.vertical > revealer > components-conversation-actions button:disabled, tabbox > tab button:disabled, notebook > header button.image-button:disabled, .background toolbar box:not(.linked) > button:disabled, .inline-toolbar toolbutton > button:disabled {
   color: rgba(30, 34, 42, 0.45);
 }
 
@@ -1075,48 +1075,70 @@ button.flat.image-button.text-button {
   padding: 4px;
 }
 
-button.flat.image-button.text-button {
-  color: #57647f; /* #1e222a; */
+button.flat.image-button.text-button,
+button.flat.image-button.text-button:focus,
+button.flat,
+button.flat:focus,
+button.image-button,
+button.image-button:focus {
+  color: #57647f;
   border: none;
   background-color: transparent;
   box-shadow: none;
 }
 
-button.flat.image-button.text-button:hover {
-  color: #535f79; /* #090a0c; */
+button.flat.image-button.text-button:hover,
+button.flat.image-button.text-button:focus:hover,
+button.flat:hover,
+button.flat:focus:hover,
+button.image-button:hover,
+button.image-button:focus:hover {
+  color: #535f79;
   background-color: rgba(87, 100, 127, 0.1);
   border: none;
   background-image: none;
   box-shadow: none;
 }
 
-button.flat.image-button.text-button:focus {
-  color: #57647f; /* #1e222a; */
+button.flat.image-button.text-button:hover:active,
+button.flat.image-button.text-button:focus:hover:active,
+button.flat.image-button.text-button:focus:active,
+button.flat.image-button.text-button:active,
+button.flat:hover:active,
+button.flat:focus:hover:active,
+button.flat:focus:active,
+button.flat:active,
+button.image-button:hover:active,
+button.image-button:focus:hover:active,
+button.image-button:focus:active,
+button.image-button:active {
+  color: #535f79;
+  background-color: rgba(87, 100, 127, 0.20);
+  background-image: none;
   border: none;
+}
+
+button.flat.image-button.text-button:hover:checked,
+button.flat.image-button.text-button:focus:hover:checked,
+button.flat.image-button.text-button:focus:checked,
+button.flat.image-button.text-button:checked,
+button.flat:hover:checked,
+button.flat:focus:hover:checked,
+button.flat:focus:checked,
+button.flat:checked,
+button.image-button:hover:checked,
+button.image-button:focus:hover:checked,
+button.image-button:focus:checked,
+button.image-button:checked {
+  color: #535f79;
+  background-color: rgba(87, 100, 127, 0.15);
+  background-image: none;
+  border: none;
+}
+
+button.image-button:disabled {
+  color: rgba(30, 34, 42, 0.45);
   background-color: transparent;
-  box-shadow: none;
-}
-
-button.flat.image-button.text-button:focus:hover {
-  color: #535f79; /* #090a0c; */
-  background-color: rgba(87, 100, 127, 0.1); /*alpha(mix(white,#5271ad,0.75),0.15); */
-  border: none;
-  background-image: none;
-  box-shadow: none;
-}
-
-button.flat.image-button.text-button:hover:active, button.flat.image-button.text-button:focus:hover:active, button.flat.image-button.text-button:focus:active, button.flat.image-button.text-button:active {
-  color: #535f79; /* #1e222a; */
-  background-color: rgba(87, 100, 127, 0.20); /* alpha(mix(white,#5271ad,0.75),0.20); */
-  background-image: none;
-  border: none;
-}
-
-button.flat.image-button.text-button:hover:checked, button.flat.image-button.text-button:focus:hover:checked, button.flat.image-button.text-button:focus:checked, button.flat.image-button.text-button:checked {
-  color: #535f79; /* #1e222a; */
-  background-color: rgba(87, 100, 127, 0.15); /* alpha(mix(white,#5271ad,0.75),0.20); */
-  background-image: none;
-  border: none;
 }
 
 button.close:active, button.close:checked, button.circular:active, button.circular:checked, button.circular.image-button:active, button.circular.image-button:checked, button.circular.flat:active, button.circular.flat:checked, button.image-button.close:active, button.image-button.close:checked {

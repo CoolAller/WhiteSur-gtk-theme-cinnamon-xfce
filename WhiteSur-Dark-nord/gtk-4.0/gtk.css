@@ -1132,44 +1132,36 @@ button:disabled:checked {
   color: alpha(#ffffff,0.55);
 }
 
-
 button separator {
   margin: 4px 1px;
 }
-
 
 button.flat {
   min-height: 24px;
   transition: none;
 }
 
-
 button.flat:hover {
   transition: all 100ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition-duration: 350ms;
 }
 
-
 button.flat:hover:active {
   transition: all 100ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
-
 
 button.flat:checked:hover {
   background-image: none;
 }
 
-
 button.flat.toggle.popup {
   min-width: 20px;
 }
-
 
 button.opaque {
   background-color: mix(#2b303b,#d9dce3,0.2);
   color: #d9dce3;
 }
-
 
 button.image-button {
   min-height: 24px;
@@ -1177,13 +1169,11 @@ button.image-button {
   padding-right: 6px;
 }
 
-
 button.text-button {
   min-height: 24px;
   padding-left: 12px;
   padding-right: 12px;
 }
-
 
 button.text-button.image-button,
 button.image-text-button {
@@ -1192,14 +1182,12 @@ button.image-text-button {
   padding-right: 6px;
 }
 
-
 button.text-button.image-button > box,
 button.text-button.image-button > box > box,
 button.image-text-button > box,
 button.image-text-button > box > box {
   border-spacing: 4px;
 }
-
 
 button.text-button.image-button > box > label,
 button.text-button.image-button > box > box > label,
@@ -1209,13 +1197,11 @@ button.image-text-button > box > box > label {
   padding-right: 2px;
 }
 
-
 button.text-button.image-button label:first-child,
 button.image-text-button label:first-child {
   padding-left: 8px;
   padding-right: 3px;
 }
-
 
 button.text-button.image-button label:last-child,
 button.image-text-button label:last-child {
@@ -1223,13 +1209,11 @@ button.image-text-button label:last-child {
   padding-left: 3px;
 }
 
-
 button.text-button.image-button label:only-child,
 button.image-text-button label:only-child {
   padding-left: 8px;
   padding-right: 8px;
 }
-
 
 button.text-button.image-button.popup,
 button.image-text-button.popup {
@@ -1237,13 +1221,16 @@ button.image-text-button.popup {
   padding-left: 6px;
 }
 
-
 button.flat.image-button.text-button {
   padding: 4px;
 }
 
-
-button.flat.image-button.text-button {
+button.flat.image-button.text-button,
+button.flat.image-button.text-button:focus,
+button.flat,
+button.flat:focus,
+button.image-button,
+button.image-button:focus {
   color: #d9dce3;
   border: none;
   background-color: transparent;
@@ -1251,72 +1238,78 @@ button.flat.image-button.text-button {
   background-clip: padding-box;
 }
 
-
-button.flat.image-button.text-button:hover {
+button.flat.image-button.text-button:hover,
+button.flat.image-button.text-button:focus:hover,
+button.flat:hover,
+button.flat:focus:hover,
+button.image-button:hover,
+button.image-button:focus:hover {
   color: #f8f9fc;
   background-color: rgba(248, 249, 252, 0.1);
   background-image: none;
   box-shadow: none;
 }
 
-
-button.flat.image-button.text-button:focus {
-  color: #d9dce3;
-  border: none;
-  background-color: transparent;
-  box-shadow: none;
-  background-clip: padding-box;
-}
-
-
-button.flat.image-button.text-button:focus:hover {
-  color: #f8f9fc;
-  background-color: rgba(248, 249, 252, 0.1);
-  background-image: none;
-  box-shadow: none;
-}
-
-
-button.flat.image-button.text-button:hover:active, button.flat.image-button.text-button:focus:hover:active, button.flat.image-button.text-button:focus:active, button.flat.image-button.text-button:active {
+button.flat.image-button.text-button:hover:active,
+button.flat.image-button.text-button:focus:hover:active,
+button.flat.image-button.text-button:focus:active,
+button.flat.image-button.text-button:active,
+button.flat:hover:active,
+button.flat:focus:hover:active,
+button.flat:focus:active,
+button.flat:active,
+button.image-button:hover:active,
+button.image-button:focus:hover:active,
+button.image-button:focus:active,
+button.image-button:active {
   background-image: none;
   color: #f8f9fc;
   background-color: rgba(248, 249, 252, 0.20);
 }
 
-
-button.flat.image-button.text-button:hover:checked, button.flat.image-button.text-button:focus:hover:checked, button.flat.image-button.text-button:focus:checked, button.flat.image-button.text-button:checked {
+button.flat.image-button.text-button:hover:checked,
+button.flat.image-button.text-button:focus:hover:checked,
+button.flat.image-button.text-button:focus:checked,
+button.flat.image-button.text-button:checked,
+button.flat:hover:checked,
+button.flat:focus:hover:checked,
+button.flat:focus:checked,
+button.flat:checked,
+button.image-button:hover:checked,
+button.image-button:focus:hover:checked,
+button.image-button:focus:checked,
+button.image-button:checked {
   background-image: none;
   color: #f8f9fc;
   background-color: rgba(248, 249, 252, 0.12); 
 }
 
+button.image-button:disabled {
+  background-color: transparent;
+  color: rgba(217, 220, 227, 0.35);
+}
 
 button.arrow-button {
   padding-left: 9px;
   padding-right: 9px;
 }
 
-
 button.arrow-button > box {
   border-spacing: 4px;
 }
 
-
 button.arrow-button.text-button > box {
   border-spacing: 4px;
 }
-
 
 button.font separator {
   background-color: transparent;
   background-image: none;
 }
 
-
 button.font > box {
   border-spacing: 6px;
 }
-
 
 button.font > box > box > label {
   font-weight: bold;

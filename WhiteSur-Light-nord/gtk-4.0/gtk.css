@@ -1133,17 +1133,14 @@ button:disabled:checked {
   color: alpha(#ffffff,0.55);
 }
 
-
 button separator {
   margin: 4px 1px;
 }
-
 
 button.flat {
   min-height: 24px;
   transition: none;
 }
-
 
 button.flat:hover {
   transition: all 100ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -1155,22 +1152,18 @@ button.flat:hover:active {
   transition: all 100ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-
 button.flat:checked:hover {
   background-image: none;
 }
-
 
 button.flat.toggle.popup {
   min-width: 20px;
 }
 
-
 button.opaque {
   background-color: mix(#f3f4f6,#1e222a,0.2);
   color: #1e222a;
 }
-
 
 button.image-button {
   min-height: 24px;
@@ -1178,13 +1171,11 @@ button.image-button {
   padding-right: 6px;
 }
 
-
 button.text-button {
   min-height: 24px;
   padding-left: 12px;
   padding-right: 12px;
 }
-
 
 button.text-button.image-button,
 button.image-text-button {
@@ -1193,14 +1184,12 @@ button.image-text-button {
   padding-right: 6px;
 }
 
-
 button.text-button.image-button > box,
 button.text-button.image-button > box > box,
 button.image-text-button > box,
 button.image-text-button > box > box {
   border-spacing: 4px;
 }
-
 
 button.text-button.image-button > box > label,
 button.text-button.image-button > box > box > label,
@@ -1210,13 +1199,11 @@ button.image-text-button > box > box > label {
   padding-right: 2px;
 }
 
-
 button.text-button.image-button label:first-child,
 button.image-text-button label:first-child {
   padding-left: 8px;
   padding-right: 3px;
 }
-
 
 button.text-button.image-button label:last-child,
 button.image-text-button label:last-child {
@@ -1224,13 +1211,11 @@ button.image-text-button label:last-child {
   padding-left: 3px;
 }
 
-
 button.text-button.image-button label:only-child,
 button.image-text-button label:only-child {
   padding-left: 8px;
   padding-right: 8px;
 }
-
 
 button.text-button.image-button.popup,
 button.image-text-button.popup {
@@ -1238,88 +1223,97 @@ button.image-text-button.popup {
   padding-left: 6px;
 }
 
-
 button.flat.image-button.text-button {
   padding: 4px;
 }
 
-
-button.flat.image-button.text-button {
-  color: #57647f; /* #1e222a; */
+button.flat.image-button.text-button,
+button.flat.image-button.text-button:focus,
+button.flat,
+button.flat:focus,
+button.image-button,
+button.image-button:focus {
+  color: #57647f;
   border: none;
   background-color: transparent;
   box-shadow: none;
 }
 
-
-button.flat.image-button.text-button:hover {
-  color: #535f79; /* #090a0c; */
+button.flat.image-button.text-button:hover,
+button.flat.image-button.text-button:focus:hover,
+button.flat:hover,
+button.flat:focus:hover,
+button.image-button:hover,
+button.image-button:focus:hover {
+  color: #535f79;
   background-color: rgba(87, 100, 127, 0.1);
   border: none;
   background-image: none;
   box-shadow: none;
 }
 
-
-button.flat.image-button.text-button:focus {
-  color: #57647f; /* #1e222a; */
+button.flat.image-button.text-button:hover:active,
+button.flat.image-button.text-button:focus:hover:active,
+button.flat.image-button.text-button:focus:active,
+button.flat.image-button.text-button:active,
+button.flat:hover:active,
+button.flat:focus:hover:active,
+button.flat:focus:active,
+button.flat:active,
+button.image-button:hover:active,
+button.image-button:focus:hover:active,
+button.image-button:focus:active,
+button.image-button:active {
+  color: #535f79;
+  background-color: rgba(87, 100, 127, 0.20);
+  background-image: none;
   border: none;
+}
+
+button.flat.image-button.text-button:hover:checked,
+button.flat.image-button.text-button:focus:hover:checked,
+button.flat.image-button.text-button:focus:checked,
+button.flat.image-button.text-button:checked,
+button.flat:hover:checked,
+button.flat:focus:hover:checked,
+button.flat:focus:checked,
+button.flat:checked,
+button.image-button:hover:checked,
+button.image-button:focus:hover:checked,
+button.image-button:focus:checked,
+button.image-button:checked {
+  color: #535f79;
+  background-color: rgba(87, 100, 127, 0.15);
+  background-image: none;
+  border: none;
+}
+
+button.image-button:disabled {
+  color: rgba(30, 34, 42, 0.45);
   background-color: transparent;
-  box-shadow: none;
 }
-
-
-button.flat.image-button.text-button:focus:hover {
-  color: #535f79; /* #090a0c; */
-  background-color: rgba(87, 100, 127, 0.1); /*alpha(mix(white,#5271ad,0.75),0.15); */
-  border: none;
-  background-image: none;
-  box-shadow: none;
-}
-
-
-button.flat.image-button.text-button:hover:active, button.flat.image-button.text-button:focus:hover:active, button.flat.image-button.text-button:focus:active, button.flat.image-button.text-button:active {
-  color: #535f79; /* #1e222a; */
-  background-color: rgba(87, 100, 127, 0.20); /* alpha(mix(white,#5271ad,0.75),0.20); */
-  background-image: none;
-  border: none;
-}
-
-
-button.flat.image-button.text-button:hover:checked, button.flat.image-button.text-button:focus:hover:checked, button.flat.image-button.text-button:focus:checked, button.flat.image-button.text-button:checked {
-  color: #535f79; /* #1e222a; */
-  background-color: rgba(87, 100, 127, 0.15); /* alpha(mix(white,#5271ad,0.75),0.20); */
-  background-image: none;
-  border: none;
-}
-
 
 button.arrow-button {
   padding-left: 9px;
   padding-right: 9px;
 }
 
-
 button.arrow-button > box {
   border-spacing: 4px;
 }
 
-
 button.arrow-button.text-button > box {
   border-spacing: 4px;
 }
-
 
 button.font separator {
   background-color: transparent;
   background-image: none;
 }
 
-
 button.font > box {
   border-spacing: 6px;
 }
-
 
 button.font > box > box > label {
   font-weight: bold;
