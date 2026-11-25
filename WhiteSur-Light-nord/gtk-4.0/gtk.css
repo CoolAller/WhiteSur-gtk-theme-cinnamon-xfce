@@ -462,7 +462,7 @@ popover.touch-selection > contents, popover.magnifier > arrow,
 popover.magnifier > contents, .osd {
   color: #2b303b;
   border: none;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.93);
   background-clip: padding-box;
   border-radius: 6px;
 }
@@ -749,8 +749,8 @@ entry:drop(active) {
 }
 
 .osd entry selection:focus-within, .osd entry selection {
-  color: #5271ad;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #5271ad;
 }
 
 
@@ -868,8 +868,7 @@ stacksidebar row.needs-attention > label:dir(rtl), stackswitcher > button.needs-
 
 tabbar tabbox > tab button.tab-close-button, panelstatusbar > menubutton > button,
 panelstatusbar > paneltogglebutton button, datechooser button.circular.day, .scale-popup button, .toolbar > button, splitbutton.suggested-action > button, splitbutton.suggested-action > menubutton > button, splitbutton.destructive-action > button, splitbutton.destructive-action > menubutton > button, splitbutton.opaque > button, splitbutton.opaque > menubutton > button, splitbutton.flat > button,
-splitbutton.flat > menubutton > button, menubutton.suggested-action > button, menubutton.destructive-action > button, menubutton.opaque > button, menubutton.flat > button,
-button.flat {
+splitbutton.flat > menubutton > button, menubutton.suggested-action > button, menubutton.destructive-action > button, menubutton.opaque > button, menubutton.flat > button {
   border: none;
   background-color: transparent;
   box-shadow: none;
@@ -878,8 +877,7 @@ button.flat {
 
 tabbar tabbox > tab button.tab-close-button:hover, panelstatusbar > menubutton > button:hover,
 panelstatusbar > paneltogglebutton button:hover, datechooser button.circular.day:hover, .scale-popup button:hover, .toolbar > button:hover, splitbutton.suggested-action > button:hover, splitbutton.suggested-action > menubutton > button:hover, splitbutton.destructive-action > button:hover, splitbutton.destructive-action > menubutton > button:hover, splitbutton.opaque > button:hover, splitbutton.opaque > menubutton > button:hover, splitbutton.flat > button:hover,
-splitbutton.flat > menubutton > button:hover, menubutton.suggested-action > button:hover, menubutton.destructive-action > button:hover, menubutton.opaque > button:hover, menubutton.flat > button:hover,
-button.flat:hover {
+splitbutton.flat > menubutton > button:hover, menubutton.suggested-action > button:hover, menubutton.destructive-action > button:hover, menubutton.opaque > button:hover, menubutton.flat > button:hover {
   background-color: alpha(currentColor,0.15);
   background-image: none;
   box-shadow: none;
@@ -887,8 +885,7 @@ button.flat:hover {
 
 tabbar tabbox > tab button.tab-close-button:active, panelstatusbar > menubutton > button:active,
 panelstatusbar > paneltogglebutton button:active, datechooser button.circular.day:active, .scale-popup button:active, .toolbar > button:active, splitbutton.suggested-action > button:active, splitbutton.suggested-action > menubutton > button:active, splitbutton.destructive-action > button:active, splitbutton.destructive-action > menubutton > button:active, splitbutton.opaque > button:active, splitbutton.opaque > menubutton > button:active, splitbutton.flat > button:active,
-splitbutton.flat > menubutton > button:active, menubutton.suggested-action > button:active, menubutton.destructive-action > button:active, menubutton.opaque > button:active, menubutton.flat > button:active,
-button.flat:active {
+splitbutton.flat > menubutton > button:active, menubutton.suggested-action > button:active, menubutton.destructive-action > button:active, menubutton.opaque > button:active, menubutton.flat > button:active {
   background-image: none;
   color: #ffffff;
   background-color: alpha(black,0.5);
@@ -899,8 +896,7 @@ panelstatusbar > paneltogglebutton button:checked, datechooser button.circular.d
 splitbutton.flat > menubutton > button:checked, menubutton.suggested-action > button:checked, menubutton.destructive-action > button:checked, menubutton.opaque > button:checked, menubutton.flat > button:checked,
 button.flat:checked, tabbar tabbox > tab button.tab-close-button:selected, panelstatusbar > menubutton > button:selected,
 panelstatusbar > paneltogglebutton button:selected, datechooser button.circular.day:selected, .scale-popup button:selected, .toolbar > button:selected, splitbutton.suggested-action > button:selected, splitbutton.suggested-action > menubutton > button:selected, splitbutton.destructive-action > button:selected, splitbutton.destructive-action > menubutton > button:selected, splitbutton.opaque > button:selected, splitbutton.opaque > menubutton > button:selected, splitbutton.flat > button:selected,
-splitbutton.flat > menubutton > button:selected, menubutton.suggested-action > button:selected, menubutton.destructive-action > button:selected, menubutton.opaque > button:selected, menubutton.flat > button:selected,
-button.flat:selected {
+splitbutton.flat > menubutton > button:selected, menubutton.suggested-action > button:selected, menubutton.destructive-action > button:selected, menubutton.opaque > button:selected, menubutton.flat > button:selected {
   background-image: none;
   color: #ffffff;
   background-color: alpha(black,0.65);
@@ -908,8 +904,7 @@ button.flat:selected {
 
 tabbar tabbox > tab button.tab-close-button:disabled, panelstatusbar > menubutton > button:disabled,
 panelstatusbar > paneltogglebutton button:disabled, datechooser button.circular.day:disabled, .scale-popup button:disabled, .toolbar > button:disabled, splitbutton.suggested-action > button:disabled, splitbutton.suggested-action > menubutton > button:disabled, splitbutton.destructive-action > button:disabled, splitbutton.destructive-action > menubutton > button:disabled, splitbutton.opaque > button:disabled, splitbutton.opaque > menubutton > button:disabled, splitbutton.flat > button:disabled,
-splitbutton.flat > menubutton > button:disabled, menubutton.suggested-action > button:disabled, menubutton.destructive-action > button:disabled, menubutton.opaque > button:disabled, menubutton.flat > button:disabled,
-button.flat:disabled {
+splitbutton.flat > menubutton > button:disabled, menubutton.suggested-action > button:disabled, menubutton.destructive-action > button:disabled, menubutton.opaque > button:disabled, menubutton.flat > button:disabled {
   background-color: transparent;
 }
 
@@ -917,43 +912,35 @@ tabbar tabbox > tab button.tab-close-button:disabled label, panelstatusbar > men
 panelstatusbar > paneltogglebutton button:disabled label, datechooser button.circular.day:disabled label, .scale-popup button:disabled label, .toolbar > button:disabled label, splitbutton.suggested-action > button:disabled label, splitbutton.destructive-action > button:disabled label, splitbutton.opaque > button:disabled label, splitbutton.flat > button:disabled label, menubutton.suggested-action > button:disabled label, menubutton.destructive-action > button:disabled label, menubutton.opaque > button:disabled label, menubutton.flat > button:disabled label,
 button.flat:disabled label, tabbar tabbox > tab button.tab-close-button:disabled, panelstatusbar > menubutton > button:disabled,
 panelstatusbar > paneltogglebutton button:disabled, datechooser button.circular.day:disabled, .scale-popup button:disabled, .toolbar > button:disabled, splitbutton.suggested-action > button:disabled, splitbutton.suggested-action > menubutton > button:disabled, splitbutton.destructive-action > button:disabled, splitbutton.destructive-action > menubutton > button:disabled, splitbutton.opaque > button:disabled, splitbutton.opaque > menubutton > button:disabled, splitbutton.flat > button:disabled,
-splitbutton.flat > menubutton > button:disabled, menubutton.suggested-action > button:disabled, menubutton.destructive-action > button:disabled, menubutton.opaque > button:disabled, menubutton.flat > button:disabled,
-button.flat:disabled {
+splitbutton.flat > menubutton > button:disabled, menubutton.suggested-action > button:disabled, menubutton.destructive-action > button:disabled, menubutton.opaque > button:disabled, menubutton.flat > button:disabled {
   color: rgba(30, 34, 42, 0.45);
 }
-
 
 button.opaque {
   box-shadow: none;
   transition: all 100ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-
 .osd button.opaque:focus:focus-visible {
   outline-color: rgba(255, 255, 255, 0.15);
 }
 
-
 button.opaque:hover {
   background-image: image(alpha(currentColor,0.1));
 }
-
 
 button.keyboard-activating.opaque,
 button.opaque:active {
   background-image: image(rgba(0, 0, 0, 0.2));
 }
 
-
 button.opaque:checked {
   background-image: image(rgba(0, 0, 0, 0.15));
 }
 
-
 button.opaque:checked:hover {
   background-image: image(rgba(0, 0, 0, 0.05));
 }
-
 
 button.opaque:checked.keyboard-activating,
 button.opaque:checked:active {
@@ -985,7 +972,7 @@ row.spin spinbutton > button.image-button.down:hover:not(.flat):not(.raised):not
 button:hover {
   color: #1e222a;
   border-color: rgba(0, 0, 0, 0.12);
-  background-color: mix(#1e222a,#fbfcfd,0.95);
+  background-color: #f1f4f8;
   box-shadow: none;
   background-clip: border-box;
   -gtk-icon-filter: brightness(1.2);
@@ -1020,10 +1007,12 @@ button:focus {
 }
 
 button:focus:hover {
-  color: #090a0c;
+  color: #1e222a;
   background-color: #e9f4f8;
   border-color: rgba(0, 0, 0, 0.12);
   box-shadow: none;
+  background-clip: border-box;
+  -gtk-icon-filter: brightness(1.2);
 }
 
 button:focus:hover:active, button:focus:active, button:focus:hover:checked, button:focus:checked {
@@ -1227,68 +1216,53 @@ button.flat.image-button.text-button {
   padding: 4px;
 }
 
-button.flat.image-button.text-button,
-button.flat.image-button.text-button:focus,
-button.flat,
-button.flat:focus,
 button.image-button,
-button.image-button:focus {
+button.flat {
   color: #57647f;
-  border: none;
   background-color: transparent;
-  box-shadow: none;
+  border: none;
+  box-shadow: none;  
+  background-image: none;
 }
 
-button.flat.image-button.text-button:hover,
-button.flat.image-button.text-button:focus:hover,
-button.flat:hover,
-button.flat:focus:hover,
 button.image-button:hover,
-button.image-button:focus:hover {
+button.flat:hover {
   color: #535f79;
   background-color: rgba(87, 100, 127, 0.1);
-  border: none;
-  background-image: none;
-  box-shadow: none;
 }
 
-button.flat.image-button.text-button:hover:active,
-button.flat.image-button.text-button:focus:hover:active,
-button.flat.image-button.text-button:focus:active,
-button.flat.image-button.text-button:active,
-button.flat:hover:active,
-button.flat:focus:hover:active,
-button.flat:focus:active,
-button.flat:active,
-button.image-button:hover:active,
-button.image-button:focus:hover:active,
-button.image-button:focus:active,
-button.image-button:active {
+button.image-button:focus,
+button.flat:focus {
+  color: #57647f;
+  background-color: transparent;
+}
+
+button.image-button:focus:hover,
+button.flat:focus:hover {
+  color: #535f79;
+  background-color: rgba(87, 100, 127, 0.1);
+}
+
+button.image-button:hover:active, button.image-button:focus:hover:active, button.image-button:focus:active, button.image-button:active,
+button.flat:hover:active, button.flat:focus:hover:active, button.flat:focus:active, button.flat:active {
   color: #535f79;
   background-color: rgba(87, 100, 127, 0.20);
-  background-image: none;
-  border: none;
 }
 
-button.flat.image-button.text-button:hover:checked,
-button.flat.image-button.text-button:focus:hover:checked,
-button.flat.image-button.text-button:focus:checked,
-button.flat.image-button.text-button:checked,
-button.flat:hover:checked,
-button.flat:focus:hover:checked,
-button.flat:focus:checked,
-button.flat:checked,
-button.image-button:hover:checked,
-button.image-button:focus:hover:checked,
-button.image-button:focus:checked,
-button.image-button:checked {
+button.image-button:hover:checked, button.image-button:focus:hover:checked, button.image-button:focus:checked, button.image-button:checked,
+button.flat:hover:checked, button.flat:focus:hover:checked, button.flat:focus:checked, button.flat:checked {
   color: #535f79;
   background-color: rgba(87, 100, 127, 0.15);
-  background-image: none;
-  border: none;
 }
 
-button.image-button:disabled {
+button.image-button:selected,
+button.flat:selected {
+  color: #ffffff;
+  background-color: alpha(black,0.65);
+}
+
+button.image-button:disabled,
+button.flat:disabled {
   color: rgba(30, 34, 42, 0.45);
   background-color: transparent;
 }
@@ -1372,7 +1346,6 @@ button.pill.image-text-button {
   padding-right: 18px;
 }
 
-
 button.card {
   background-color: alpha(currentColor,0.06);
   background-clip: padding-box;
@@ -1381,79 +1354,65 @@ button.card {
   transition: all 100ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-
 button.card:hover {
   background-image: image(alpha(currentColor,0.03));
 }
-
 
 button.card.keyboard-activating,
 button.card:active {
   background-image: image(alpha(currentColor,0.08));
 }
 
-
 button.card:checked {
   background-color: alpha(currentColor,0.06);
   background-image: image(alpha(currentColor,0.1));
 }
 
-
 button.card:checked:hover {
   background-image: image(alpha(currentColor,0.13));
 }
-
 
 button.card:checked.keyboard-activating,
 button.card:checked:active {
   background-image: image(alpha(currentColor,0.19));
 }
 
-
 button.card:checked.has-open-popup {
   background-image: image(alpha(currentColor,0.13));
 }
-
 
 button.card:drop(active) {
   color: #d0846c;
   box-shadow: inset 0 0 0 1px #d0846c;
 }
 
-
 button.accent {
   color: #5271ad;
   background-color: alpha(currentColor,0.15);
 }
 
-
 button.accent:hover {
   background-color: alpha(currentColor,0.25);
 }
-
 
 button.accent.keyboard-activating,
 button.accent:active {
   background-color: alpha(currentColor,0.35);
 }
 
-
 button.accent:checked {
   background-color: #5271ad;
   color: #ffffff;
 }
 
-
 button.accent:checked:hover {
   background-color: mix(#ffffff,#5271ad,0.85);
 }
-
 
 button.accent:checked.keyboard-activating,
 button.accent:checked:active {
   background-color: mix(#ffffff,#5271ad,0.75);
 }
-
 
 button:drop(active) {
   color: #d0846c;
@@ -1461,106 +1420,263 @@ button:drop(active) {
   box-shadow: inset 0 0 0 1px #d0846c;
 }
 
-
-button.osd {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.65);
-  border: none;
-  box-shadow: none;
-}
-
-
 button.osd.image-button {
   padding: 3px;
   min-height: 28px;
   min-width: 28px;
 }
 
-
 button.osd.image-button.remove-button {
   padding: 0;
 }
 
+button.osd,
+button.osd:focus {
+  color: #383f4d;
+  background-color: #fbfcfd;
+  min-height: 24px;
+  min-width: 18px;
+  padding: 0 8px;
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.03), 0 1px 2px 0 rgba(0, 0, 0, 0.01);
+}
 
 button.osd:hover {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.75);
-  box-shadow: none;
+  color: #1e222a;
+  background-color: #f1f4f8;
 }
 
+button.osd:focus:hover {
+  color: #1e222a;
+  background-color: #e9f4f8;
+}
 
 button.osd.keyboard-activating,
+button.osd:focus:active,
+button.osd:focus:hover:active,
 button.osd:active,
+button.osd:focus:checked,
+button.osd:focus:hover:checked,
 button.osd:checked {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.85);
+  color: #ffffff;
+  background-color: #5271ad;
+  border-color: #5271ad;
+  box-shadow: none;
+  background-clip: border-box;
+  transition-duration: 200ms;
 }
-
 
 button.osd:disabled {
-  opacity: 0.35;
+  border-color: rgba(0, 0, 0, 0.12);
+  background-color: alpha(#fbfcfd,0.55);
+  box-shadow: none;
+  background-clip: border-box;
 }
 
-toast button, popover.touch-selection button, popover.magnifier button, menubutton.osd > button, .osd button {
-  color: #2b303b;
+.osd button,
+.osd button:focus,
+toast button,
+toast button:focus,
+popover.touch-selection button,
+popover.touch-selection button:focus,
+popover.magnifier button,
+popover.magnifier button:focus,
+menubutton.osd > button,
+menubutton.osd > button:focus {
+  color: #57647f;
   border-color: rgba(0, 0, 0, 0.08);
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: transparent;
   box-shadow: none;
 }
 
-toast button:hover, popover.touch-selection button:hover, popover.magnifier button:hover, .osd button:hover {
-  color: #2b303b;
+.osd button:hover,
+.osd button:focus:hover,
+toast button:hover,
+toast button:focus:hover,
+popover.touch-selection button:hover,
+popover.touch-selection button:focus:hover,
+popover.magnifier button:hover,
+popover.magnifier button:focus:hover {
+  color: #535f79;
+/*  background-color: rgba(255, 255, 255, 0.16); */
+  background-color: rgba(87, 100, 127, 0.10);
   border-color: rgba(0, 0, 0, 0.08);
-  background-color: rgba(255, 255, 255, 0.16);
-  box-shadow: none;
 }
 
-toast button.keyboard-activating, popover.touch-selection button.keyboard-activating, popover.magnifier button.keyboard-activating, toast button:active, popover.touch-selection button:active, popover.magnifier button:active, toast button:checked, popover.touch-selection button:checked, popover.magnifier button:checked, .osd button.keyboard-activating, .osd button:active, .osd button:checked {
-  color: #ffffff;
+.osd button:active,
+.osd button:focus:active,
+.osd button:focus:hover:active,
+.osd button.keyboard-activating,
+toast button:active,
+toast button:focus:active,
+toast button:focus:hover:active,
+toast button.keyboard-activating,
+popover.touch-selection button:active,
+popover.touch-selection button:focus:active,
+popover.touch-selection button:focus:hover:active,
+popover.touch-selection button.keyboard-activating,
+popover.magnifier button:active,
+popover.magnifier button:focus:active,
+popover.magnifier button:focus:hover:active,
+popover.magnifier button.keyboard-activating {
+  color: #535f79;
+  background-color: rgba(87, 100, 127, 0.17);
   border-color: rgba(0, 0, 0, 0.08);
-  background-color: rgba(255, 255, 255, 0.25);
+  box-shadow: none;
+  background-image: none;
+}
+
+.osd button:checked,
+.osd button:focus:checked,
+.osd button:focus:hover:checked,
+toast button:checked,
+toast button:focus:checked,
+toast button:focus:hover:checked,
+popover.touch-selection button:checked,
+popover.touch-selection button:focus:checked,
+popover.touch-selection button:focus:hover:checked,
+popover.magnifier button:checked,
+popover.magnifier button:focus:checked,
+popover.magnifier button:focus:hover:checked {
+  color: #535f79;
+  background-color: rgba(87, 100, 127, 0.15);
+  border-color: rgba(0, 0, 0, 0.08);
   background-image: none;
   box-shadow: none;
-  background-clip: padding-box;
 }
 
-toast button:disabled, popover.touch-selection button:disabled, popover.magnifier button:disabled, .osd button:disabled {
-  color: rgba(43, 48, 59, 0.35);
+.osd button:disabled,
+toast button:disabled,
+popover.touch-selection button:disabled,
+popover.magnifier button:disabled {
+  color: rgba(218, 218, 218, 0.35);
   border-color: rgba(0, 0, 0, 0.08);
   background-color: rgba(255, 255, 255, 0.03);
   box-shadow: none;
 }
 
-toast button.flat, popover.touch-selection button.flat, popover.magnifier button.flat, .osd button.flat {
+.osd button.flat,
+.osd button.flat:focus,
+.osd button.image-button,
+.osd button.image-button:focus,
+toast button.flat,
+toast button.flat:focus,
+toast button.image-button,
+toast button.image-button:focus,
+popover.touch-selection button.flat,
+popover.touch-selection button.flat:focus,
+popover.touch-selection button.image-button,
+popover.touch-selection button.image-button:focus,
+popover.magnifier button.flat,
+popover.magnifier button.flat:focus,
+popover.magnifier button.image-button,
+popover.magnifier button.image-button:focus {
+  color: #57647f;
   border-color: transparent;
   background-color: transparent;
   background-image: none;
   box-shadow: none;
+}
+
+.osd button.flat:hover,
+.osd button.flat:focus:hover,
+.osd button.image-button:hover,
+.osd button.image-button:focus:hover,
+toast button.flat:hover,
+toast button.flat:focus:hover,
+toast button.image-button:hover,
+toast button.image-button:focus:hover,
+popover.touch-selection button.flat:hover,
+popover.touch-selection button.flat:focus:hover,
+popover.touch-selection button.image-button:hover,
+popover.touch-selection button.image-button:focus:hover,
+popover.magnifier button.flat:hover,
+popover.magnifier button.flat:focus:hover,
+popover.magnifier button.image-button:hover,
+popover.magnifier button.image-button:focus:hover {
+  color: #535f79;
+  background-color: rgba(87, 100, 127, 0.1);
+  border-color: rgba(0, 0, 0, 0.08);
   box-shadow: none;
 }
 
-toast button.flat:hover, popover.touch-selection button.flat:hover, popover.magnifier button.flat:hover, .osd button.flat:hover {
-  color: #2b303b;
+.osd button.flat:active,
+.osd button.flat:focus:active,
+.osd button.flat:focus:hover:active,
+.osd button.image-button:active,
+.osd button.image-button:focus:active,
+.osd button.image-button:focus:hover:active,
+toast button.flat:active,
+toast button.flat:focus:active,
+toast button.flat:focus:hover:active,
+toast button.image-button:active,
+toast button.image-button:focus:active,
+toast button.image-button:focus:hover:active,
+popover.touch-selection button.flat:active,
+popover.touch-selection button.flat:focus:active,
+popover.touch-selection button.flat:focus:hover:active,
+popover.touch-selection button.image-button:active,
+popover.touch-selection button.image-button:focus:active,
+popover.touch-selection button.image-button:focus:hover:active,
+popover.magnifier button.flat:active,
+popover.magnifier button.flat:focus:active,
+popover.magnifier button.flat:focus:hover:active,
+popover.magnifier button.image-button:active,
+popover.magnifier button.image-button:focus:active,
+popover.magnifier button.image-button:focus:hover:active {
+  color: #535f79;
+  background-color: rgba(87, 100, 127, 0.20);
   border-color: rgba(0, 0, 0, 0.08);
-  background-color: rgba(255, 255, 255, 0.16);
-  box-shadow: none;
-}
-
-toast button.flat:disabled, popover.touch-selection button.flat:disabled, popover.magnifier button.flat:disabled, .osd button.flat:disabled {
-  color: rgba(43, 48, 59, 0.35);
-  border-color: rgba(0, 0, 0, 0.08);
-  background-color: rgba(255, 255, 255, 0.03);
-  box-shadow: none;
-  background-image: none;
-}
-
-toast button.flat:active, popover.touch-selection button.flat:active, popover.magnifier button.flat:active, toast button.flat:checked, popover.touch-selection button.flat:checked, popover.magnifier button.flat:checked, .osd button.flat:active, .osd button.flat:checked {
-  color: #ffffff;
-  border-color: rgba(0, 0, 0, 0.08);
-  background-color: rgba(255, 255, 255, 0.25);
   background-image: none;
   box-shadow: none;
   background-clip: padding-box;
+}
+
+.osd button.flat:checked,
+.osd button.flat:focus:checked,
+.osd button.flat:focus:hover:checked,
+.osd button.image-button:checked,
+.osd button.image-button:focus:checked,
+.osd button.image-button:focus:hover:checked,
+toast button.flat:checked,
+toast button.flat:focus:checked,
+toast button.flat:focus:hover:checked,
+toast button.image-button:checked,
+toast button.image-button:focus:checked,
+toast button.image-button:focus:hover:checked,
+popover.touch-selection button.flat:checked,
+popover.touch-selection button.flat:focus:checked,
+popover.touch-selection button.flat:focus:hover:checked,
+popover.touch-selection button.image-button:checked,
+popover.touch-selection button.image-button:focus:checked,
+popover.touch-selection button.image-button:focus:hover:checked,
+popover.magnifier button.flat:checked,
+popover.magnifier button.flat:focus:checked,
+popover.magnifier button.flat:focus:hover:checked,
+popover.magnifier button.image-button:checked,
+popover.magnifier button.image-button:focus:checked,
+popover.magnifier button.image-button:focus:hover:checked {
+  color: #535f79;
+  background-color: rgba(87, 100, 127, 0.15);
+  border-color: rgba(0, 0, 0, 0.08);
+  background-image: none;
+  box-shadow: none;
+}
+
+.osd button.flat:disabled,
+.osd button.image-button:disabled,
+toast button.flat:disabled,
+toast button.image-button:disabled,
+popover.touch-selection button.flat:disabled,
+popover.touch-selection button.image-button:disabled,
+popover.magnifier button.flat:disabled,
+popover.magnifier button.image-button:disabled {
+  color: rgba(30, 34, 42, 0.45);
+  background-color: transparent;
+  border-color: rgba(0, 0, 0, 0.08);
+  box-shadow: none;
+  background-image: none;
 }
 
 .osd .linked:not(.vertical):not(.path-bar) > button:hover:not(:checked):not(:active):not(:only-child), .osd .linked:not(.vertical):not(.path-bar) > button:hover:not(:checked):not(:active) + button:not(:checked):not(:active) {
@@ -2518,7 +2634,7 @@ combobox .linked:not(.vertical) > entry + button.combo:active arrow, .linked:not
   padding: 6px;
   border: none;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.93);
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.15);
 }
 
@@ -9779,6 +9895,56 @@ themeswitcher checkbutton.dark {
   color: white;
   background-color: #1e1e1e;
 }
+
+/********************************
+ * Celluloid (GTK media player) *
+ ********************************/
+
+/* Celluloid: top-bar background (Show Playlist menu) */
+window.background.csd > box.vertical > overlay-split-view > widget.background.end.osd > playlist > toolbarview.undershoot-bottom.undershoot-top > revealer.top-bar > windowhandle > box.vertical > box.vertical > headerbar {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+  border:none;
+} 
+
+/* Celluloid: bottom-bar background (Show Playlist menu) */
+window.background.csd > box.vertical > overlay-split-view > widget.background.end.osd > playlist > toolbarview.undershoot-bottom.undershoot-top > revealer.bottom-bar {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+  border:none;
+}
+
+/* Celluloid: bottom-layer background (Show Playlist menu) */
+window.background.csd > box.vertical > overlay-split-view > widget.background.end.osd {
+  background-color: rgba(255, 255, 255, 0.85);
+  background-image: none;
+  box-shadow: none;
+}
+
+/* Celluloid: center-layer background (Show Playlist menu) */
+window.background.csd > box.vertical > overlay-split-view > widget.background.end.osd > playlist > toolbarview.undershoot-bottom.undershoot-top > scrolledwindow > viewport > list.navigation-sidebar {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+}
+
+/* Celluloid: bottom-bar-icon background (Show Playlist menu) */
+window.background.csd > box.vertical > overlay-split-view > widget.background.end.osd > playlist > toolbarview.undershoot-bottom.undershoot-top > revealer.top-bar > windowhandle > box.vertical > box.vertical > headerbar > windowhandle > box > widget {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+}
+
+/* Celluloid: top-bar-loupe-icon (Show Playlist menu) */
+window.background.csd > box.vertical > overlay-split-view > widget.background.end.osd > playlist > toolbarview.undershoot-bottom.undershoot-top > revealer.top-bar > windowhandle > box.vertical > box.vertical > headerbar > windowhandle > box > widget > box.end.horizontal > button.image-button.toggle > image {
+  -gtk-icon-style: symbolic;
+  color: #535f79;
+  background-image: none;
+  box-shadow: none;
+}
+
 
 @define-color theme_bg_color #f3f4f6;
 @define-color theme_fg_color #1e222a;

@@ -796,8 +796,8 @@ entry:drop(active):focus, entry:drop(active) {
 }
 
 .osd entry selection:focus, .osd entry selection {
-  color: #5271ad;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #5271ad;
 }
 
 entry progress {
@@ -878,7 +878,7 @@ window.background > grid.horizontal > toolbar.vertical > toolbutton > button.fla
   padding: 4px; 
 }
 
-window.background.csd.unified > deck > grid > paned > .sidebar actionbar button, .nemo-window.background .toolbar > button, .raven .raven-header:not(.top) button.image-button, .budgie-panel.background button.flat.launcher, .budgie-popover.background button.budgie-menu-launcher, .budgie-popover.background > frame > box.vertical > box.vertical > box.horizontal > button.image-button.toggle, .budgie-popover.background.budgie-menu list.left-overlay-menu > row.activatable button.menuitem, GimpSpinScale > button, grid#CanvasGrid > button:not(.flat), .geary-main-window leaflet > leaflet > box.vertical > revealer > components-conversation-actions button, tabbox > tab button, notebook > header button.image-button, .background toolbar box:not(.linked) > button, .inline-toolbar toolbutton > button, button.flat {
+window.background.csd.unified > deck > grid > paned > .sidebar actionbar button, .nemo-window.background .toolbar > button, .raven .raven-header:not(.top) button.image-button, .budgie-panel.background button.flat.launcher, .budgie-popover.background button.budgie-menu-launcher, .budgie-popover.background > frame > box.vertical > box.vertical > box.horizontal > button.image-button.toggle, .budgie-popover.background.budgie-menu list.left-overlay-menu > row.activatable button.menuitem, GimpSpinScale > button, grid#CanvasGrid > button:not(.flat), .geary-main-window leaflet > leaflet > box.vertical > revealer > components-conversation-actions button, tabbox > tab button, notebook > header button.image-button, .background toolbar box:not(.linked) > button, .inline-toolbar toolbutton > button {
   border: none;
   background-color: transparent;
   box-shadow: none;
@@ -939,7 +939,6 @@ button:hover {
   border-color: rgba(0, 0, 0, 0.12);
   background-color: #f1f4f8;
   box-shadow: none;
-  /* -gtk-icon-effect: highlight; */
 }
 
 button:active, button:checked {
@@ -963,7 +962,6 @@ button:focus:hover {
   background-color: #e9f4f8;
   border-color: rgba(0, 0, 0, 0.12);
   box-shadow: none;
-  /* -gtk-icon-effect: highlight; */
 }
 
 button:focus:hover:active, button:focus:active, button:focus:hover:checked, button:focus:checked {
@@ -1066,7 +1064,8 @@ button.text-button.image-button label:only-child {
   padding-right: 8px;
 }
 
-button.text-button.image-button.popup {
+button.text-button.image-button.popup,
+button.image-text-button.popup {
   padding-right: 6px;
   padding-left: 6px;
 }
@@ -1075,68 +1074,53 @@ button.flat.image-button.text-button {
   padding: 4px;
 }
 
-button.flat.image-button.text-button,
-button.flat.image-button.text-button:focus,
-button.flat,
-button.flat:focus,
 button.image-button,
-button.image-button:focus {
+button.flat {
   color: #57647f;
-  border: none;
   background-color: transparent;
-  box-shadow: none;
+  border: none;
+  box-shadow: none;  
+  background-image: none;
 }
 
-button.flat.image-button.text-button:hover,
-button.flat.image-button.text-button:focus:hover,
-button.flat:hover,
-button.flat:focus:hover,
 button.image-button:hover,
-button.image-button:focus:hover {
+button.flat:hover {
   color: #535f79;
   background-color: rgba(87, 100, 127, 0.1);
-  border: none;
-  background-image: none;
-  box-shadow: none;
 }
 
-button.flat.image-button.text-button:hover:active,
-button.flat.image-button.text-button:focus:hover:active,
-button.flat.image-button.text-button:focus:active,
-button.flat.image-button.text-button:active,
-button.flat:hover:active,
-button.flat:focus:hover:active,
-button.flat:focus:active,
-button.flat:active,
-button.image-button:hover:active,
-button.image-button:focus:hover:active,
-button.image-button:focus:active,
-button.image-button:active {
+button.image-button:focus,
+button.flat:focus {
+  color: #57647f;
+  background-color: transparent;
+}
+
+button.image-button:focus:hover,
+button.flat:focus:hover {
+  color: #535f79;
+  background-color: rgba(87, 100, 127, 0.1);
+}
+
+button.image-button:hover:active, button.image-button:focus:hover:active, button.image-button:focus:active, button.image-button:active,
+button.flat:hover:active, button.flat:focus:hover:active, button.flat:focus:active, button.flat:active {
   color: #535f79;
   background-color: rgba(87, 100, 127, 0.20);
-  background-image: none;
-  border: none;
 }
 
-button.flat.image-button.text-button:hover:checked,
-button.flat.image-button.text-button:focus:hover:checked,
-button.flat.image-button.text-button:focus:checked,
-button.flat.image-button.text-button:checked,
-button.flat:hover:checked,
-button.flat:focus:hover:checked,
-button.flat:focus:checked,
-button.flat:checked,
-button.image-button:hover:checked,
-button.image-button:focus:hover:checked,
-button.image-button:focus:checked,
-button.image-button:checked {
+button.image-button:hover:checked, button.image-button:focus:hover:checked, button.image-button:focus:checked, button.image-button:checked,
+button.flat:hover:checked, button.flat:focus:hover:checked, button.flat:focus:checked, button.flat:checked {
   color: #535f79;
   background-color: rgba(87, 100, 127, 0.15);
-  background-image: none;
-  border: none;
 }
 
-button.image-button:disabled {
+button.image-button:selected,
+button.flat:selected {
+  color: #ffffff;
+  background-color: alpha(black,0.65);
+}
+
+button.image-button:disabled,
+button.flat:disabled {
   color: rgba(30, 34, 42, 0.45);
   background-color: transparent;
 }
@@ -3044,7 +3028,7 @@ menu {
 .background.csd > menu, .background.popup > menu {
   border: none;
   border-radius: 12px;
-  background-color: rgba(251, 252, 253, 0.96);
+  background-color: rgba(251, 252, 253, 0.94);
 }
 
 menu > separator {
@@ -11277,6 +11261,10 @@ window.budgie-switcher-window flowboxchild {
   font-weight: 400;
 }
 
+/********************
+ * Xfce Whiskermenu *
+ ********************/
+
 window#whiskermenu-window {
   border-radius: 12px;
   background-color: transparent;
@@ -11341,6 +11329,10 @@ window#whiskermenu-window .title-area > .commands-area > button.flat.command-but
   background-color: rgba(0, 0, 0, 0.25);
   color: #1e222a;
 }
+
+/***************
+ * Xfce Thunar *
+ ***************/
 
 window.background.thunar > grid.horizontal > paned.horizontal > paned.horizontal > grid.horizontal > paned.horizontal > notebook treeview.view:selected {
   color: #ffffff;
