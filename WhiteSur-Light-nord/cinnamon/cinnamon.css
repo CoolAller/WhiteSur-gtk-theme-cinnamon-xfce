@@ -1966,6 +1966,8 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .menu-favorites-button {
   padding: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
   border: none;
   border-radius: 6px;
 }
