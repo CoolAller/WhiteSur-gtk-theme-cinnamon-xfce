@@ -1,4 +1,4 @@
-<p align="justify"> <b> ## I'm maintaining and updating this theme to ensure compatibility with the latest versions of the Cinnamon and XFCE desktop environments. You may occasionally notice improvements, fixes, and refinements. Thank you for your support! </b> </p>
+<p align="justify"> <b> I'm maintaining and updating this theme to ensure compatibility with the latest versions of the Cinnamon and XFCE desktop environments. You may occasionally notice improvements, fixes, and refinements. Thank you for your support! </b> </p>
 
 <h1 align="center"> WhiteSur GTK Theme for Cinnamon and XFCE <br>
 (Nord Color Scheme) </h1>
