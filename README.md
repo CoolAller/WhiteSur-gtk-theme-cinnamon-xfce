@@ -1,7 +1,7 @@
 <p align="justify"> <b> ## I'm maintaining and updating this theme to ensure compatibility with the latest versions of the Cinnamon and XFCE desktop environments. You may occasionally notice improvements, fixes, and refinements. Thank you for your support! </b> </p>
 
-<h1 align="center"> WhiteSur GTK Theme for Cinnamon and XFCE </h1>
-<h1 align="center"> (Nord Color Scheme) </h1>
+<h1 align="center"> WhiteSur GTK Theme for Cinnamon and XFCE <br>
+(Nord Color Scheme) </h1>
 
 <p align="center"> <img src="https://github.com/vinceliuice/WhiteSur-gtk-theme/blob/pictures/pictures/macbook.png"/> </p>
 
