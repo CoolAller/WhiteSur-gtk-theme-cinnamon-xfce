@@ -180,6 +180,7 @@ stage {
 #menu-search-entry:focus, .notification StEntry:focus, .menu #notification StEntry:focus, .popup-menu #notification StEntry:focus, #notification StEntry:focus, #menu-search-entry:hover, .notification StEntry:hover, .menu #notification StEntry:hover, .popup-menu #notification StEntry:hover, #notification StEntry:hover, #appmenu-search-entry:focus, #appmenu-search-entry:hover {
   color: #d3d7df;
   border: 2px solid #5271ad !important;
+  border-radius: 6px;
   background-color: rgba(255, 255, 255, 0.05);
 }
 
